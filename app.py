@@ -248,15 +248,26 @@ def render_sidebar() -> tuple[bool, bool, list]:
 
     st.sidebar.divider()
     run_blocked = cost_total > BUDGET_BLOCK_USD
+    data_dir_missing = not DATA_DIR.exists() or not JDS_CSV.exists()
     force = st.sidebar.checkbox("↻ 강제 재실행", value=False, key="force_rerun")
     run_clicked = st.sidebar.button(
         "▶ 파이프라인 실행",
         type="primary",
         use_container_width=True,
-        disabled=run_blocked or not PIPELINE_AVAILABLE,
-        help="비용이 $2.50 을 초과하면 실행이 차단됩니다." if run_blocked else None,
+        disabled=run_blocked or not PIPELINE_AVAILABLE or data_dir_missing,
+        help=(
+            "비용이 $2.50 을 초과하면 실행이 차단됩니다." if run_blocked
+            else "원본 데이터(task02_data/)가 배포 환경에 없습니다. 사전 베이크된 artifacts 만 조회 가능."
+            if data_dir_missing else None
+        ),
     )
 
+    if data_dir_missing:
+        st.sidebar.info(
+            "📦 **사전 베이크 모드**\n\n"
+            "이 배포본은 미리 분석된 결과(800건 이력서)를 표시합니다.\n\n"
+            "신규 데이터로 분석을 돌리려면 로컬에서 `python pipeline.py` 실행 후 `artifacts/` 를 커밋해주세요."
+        )
     if not PIPELINE_AVAILABLE:
         st.sidebar.error(f"⚠️ pipeline 모듈 로드 실패 — 데모 모드 (artifacts 만 조회 가능).\n\n{PIPELINE_ERROR}")
     if not PII_AVAILABLE:
