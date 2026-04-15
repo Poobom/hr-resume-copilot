@@ -59,13 +59,13 @@ FLAG_ICONS = {
 }
 
 FLAG_HUMAN = {
-    "LOW_APPLICANTS_ABS": "지원자 < 20명",
-    "LOW_DOC_PASS_ABS": "서류통과율 < 15%",
-    "ZERO_HIRED": "합격자 0명",
-    "LOW_APPLICANTS_REL": "클러스터 평균 50% 미만",
-    "LOW_DOC_PASS_REL": "클러스터 평균 대비 낮은 통과율",
-    "UNDER_ATTRACTED": "잠재 대비 지원 저조",
-    "OVER_ATTRACTED": "부적합 지원 과다",
+    "LOW_APPLICANTS_ABS": "6개월 동안 지원자가 20명도 안 됨",
+    "LOW_DOC_PASS_ABS": "지원자 중 15%도 서류 통과 못 함",
+    "ZERO_HIRED": "최종 합격자가 한 명도 없음",
+    "LOW_APPLICANTS_REL": "비슷한 직군 공고 평균보다 절반도 안 되는 지원",
+    "LOW_DOC_PASS_REL": "비슷한 직군 공고보다 서류 통과율이 낮음",
+    "UNDER_ATTRACTED": "이력서에 적합한 사람은 많은데 실제 지원이 적음",
+    "OVER_ATTRACTED": "안 맞는 지원자가 많이 몰림 (공고가 너무 광범위할 수 있음)",
 }
 
 # ---------------------------------------------------------------------------
@@ -249,29 +249,34 @@ def render_sidebar() -> tuple[bool, bool, list]:
     st.sidebar.divider()
     run_blocked = cost_total > BUDGET_BLOCK_USD
     data_dir_missing = not DATA_DIR.exists() or not JDS_CSV.exists()
-    force = st.sidebar.checkbox("↻ 강제 재실행", value=False, key="force_rerun")
+    force = st.sidebar.checkbox(
+        "캐시 무시하고 처음부터 다시 분석",
+        value=False,
+        key="force_rerun",
+        help="이전에 분석한 결과를 무시하고 모든 이력서를 처음부터 다시 처리합니다. 비용·시간 더 듭니다.",
+    )
     run_clicked = st.sidebar.button(
-        "▶ 파이프라인 실행",
+        "🔄 새로운 데이터로 분석하기",
         type="primary",
         use_container_width=True,
         disabled=run_blocked or not PIPELINE_AVAILABLE or data_dir_missing,
         help=(
-            "비용이 $2.50 을 초과하면 실행이 차단됩니다." if run_blocked
-            else "원본 데이터(task02_data/)가 배포 환경에 없습니다. 사전 베이크된 artifacts 만 조회 가능."
-            if data_dir_missing else None
+            "이번 달 분석 비용이 한도($2.50)에 도달하여 안전을 위해 자동 정지됐습니다." if run_blocked
+            else "원본 이력서 데이터가 이 환경에 없어요. 미리 분석해둔 결과만 볼 수 있습니다."
+            if data_dir_missing else "이력서·채용공고·채용 단계 데이터를 다시 읽어 분석합니다."
         ),
     )
 
     if data_dir_missing:
         st.sidebar.info(
-            "📦 **사전 베이크 모드**\n\n"
-            "이 배포본은 미리 분석된 결과(800건 이력서)를 표시합니다.\n\n"
-            "신규 데이터로 분석을 돌리려면 로컬에서 `python pipeline.py` 실행 후 `artifacts/` 를 커밋해주세요."
+            "📦 **미리 분석해둔 결과를 보고 있어요**\n\n"
+            "이 화면은 운영팀이 미리 분석한 800건의 이력서 결과를 보여줍니다.\n\n"
+            "새 이력서를 추가하려면 운영팀에 요청해 다시 분석 후 갱신해야 합니다."
         )
     if not PIPELINE_AVAILABLE:
-        st.sidebar.error(f"⚠️ pipeline 모듈 로드 실패 — 데모 모드 (artifacts 만 조회 가능).\n\n{PIPELINE_ERROR}")
+        st.sidebar.error(f"⚠️ 분석 엔진 로드 실패 — 결과 조회만 가능합니다.\n\n{PIPELINE_ERROR}")
     if not PII_AVAILABLE:
-        st.sidebar.warning(f"⚠️ `src.pii` 미사용 가능 — PII 가드가 제한됩니다.\n\n{PII_ERROR}")
+        st.sidebar.warning(f"⚠️ 개인정보 보호 모듈 일부 비활성 — 화면 표시는 안전하지만 추가 점검 필요.\n\n{PII_ERROR}")
 
     return run_clicked, force, uploaded or []
 
@@ -281,10 +286,10 @@ def render_sidebar() -> tuple[bool, bool, list]:
 # ---------------------------------------------------------------------------
 def execute_pipeline(force: bool) -> None:
     if not PIPELINE_AVAILABLE or run_pipeline is None:
-        st.error("pipeline 모듈을 불러올 수 없어 실행 불가.")
+        st.error("분석 엔진을 불러올 수 없어 새로운 분석을 돌릴 수 없습니다.")
         return
-    status = st.status("파이프라인 실행 중…", expanded=True)
-    stage_names = {1: "추출", 2: "분류", 3: "JD 진단", 4: "수요-공급", 5: "Notion Export"}
+    status = st.status("분석 진행 중…", expanded=True)
+    stage_names = {1: "이력서 읽기", 2: "공고에 매칭", 3: "공고별 진단", 4: "후보군 분석", 5: "리포트 생성"}
 
     def on_step(idx: int, label: str, info: dict) -> None:
         with status:
@@ -319,9 +324,9 @@ def render_dashboard(bundle: dict, jds: list[dict]) -> None:
 
     c1, c2, c3, c4 = st.columns(4)
     c1.metric("총 이력서", f"{total_res:,}")
-    c2.metric("추출 성공률", f"{rate * 100:.1f}%")
-    c3.metric("플래그된 JD", f"{flagged}")
-    c4.metric("누적 비용", f"${cost_total:.3f}")
+    c2.metric("이력서 읽기 성공률", f"{rate * 100:.1f}%")
+    c3.metric("점검 필요한 채용공고", f"{flagged}")
+    c4.metric("누적 분석 비용", f"${cost_total:.3f}")
 
     st.divider()
 
@@ -336,11 +341,11 @@ def render_dashboard(bundle: dict, jds: list[dict]) -> None:
             lf = d.get("layered_flags") or {}
             # 가장 심각한 레이어 우선
             if lf.get("absolute"):
-                jd_flag_map[jid] = "Layer A (절대)"
+                jd_flag_map[jid] = "기준 1: 절대 수치"
             elif lf.get("cluster_relative"):
-                jd_flag_map[jid] = "Layer B (상대)"
+                jd_flag_map[jid] = "기준 2: 비슷한 직군 비교"
             elif lf.get("supply_demand"):
-                jd_flag_map[jid] = "Layer C (수요-공급)"
+                jd_flag_map[jid] = "기준 3: 적합 후보 vs 실제 지원"
             else:
                 jd_flag_map[jid] = "기타"
 
@@ -362,14 +367,14 @@ def render_dashboard(bundle: dict, jds: list[dict]) -> None:
 
     col_chart, col_top = st.columns([3, 2])
     with col_chart:
-        st.markdown("### JD별 분류된 이력서 수")
+        st.markdown("### 채용공고별 받은 이력서 수")
         if chart_rows and PLOTLY_AVAILABLE:
             df_chart = pd.DataFrame(chart_rows)
             color_map = {
                 "정상": "#2ca02c",
-                "Layer A (절대)": "#d62728",
-                "Layer B (상대)": "#ff7f0e",
-                "Layer C (수요-공급)": "#ffbb33",
+                "기준 1: 절대 수치": "#d62728",
+                "기준 2: 비슷한 직군 비교": "#ff7f0e",
+                "기준 3: 적합 후보 vs 실제 지원": "#ffbb33",
                 "기타": "#888888",
             }
             fig = px.bar(
@@ -385,10 +390,10 @@ def render_dashboard(bundle: dict, jds: list[dict]) -> None:
         elif chart_rows:
             st.bar_chart(pd.DataFrame(chart_rows).set_index("JD")["지원자 수"])
         else:
-            st.info("분류 결과가 아직 없습니다.")
+            st.info("아직 매칭된 이력서가 없습니다.")
 
     with col_top:
-        st.markdown("### 🚨 Top-3 문제 JD")
+        st.markdown("### 🚨 가장 시급한 채용공고 TOP 3")
         ranked = []
         for d in diagnosis:
             if d.get("is_healthy", True):
@@ -398,7 +403,7 @@ def render_dashboard(bundle: dict, jds: list[dict]) -> None:
             ranked.append((total_flags, d))
         ranked.sort(key=lambda x: -x[0])
         if not ranked:
-            st.success("모든 JD 가 정상입니다.")
+            st.success("점검이 필요한 채용공고가 없습니다. 모두 정상입니다.")
         for n, d in ranked[:3]:
             title = d.get("title", d.get("jd_id", "-"))
             lf = d.get("layered_flags") or {}
@@ -416,7 +421,7 @@ def render_classification(bundle: dict, jds: list[dict]) -> None:
     extracted = bundle.get("extracted") or []
     ext_by_id = {e.get("resume_id"): e for e in extracted}
 
-    with st.expander("ℹ️ Confidence 점수는 어떻게 산출되나요?"):
+    with st.expander("ℹ️ '적합도' 점수는 어떻게 계산되나요?"):
         st.markdown(
             "- **산출**: 이력서 ↔ JD 임베딩(`text-embedding-3-small`) 간 **코사인 유사도** (0~1).\n"
             "- **구간 해석**:\n"
@@ -428,7 +433,7 @@ def render_classification(bundle: dict, jds: list[dict]) -> None:
         )
 
     if not classified:
-        st.info("분류 결과가 없습니다. 좌측 `▶ 파이프라인 실행` 을 눌러주세요.")
+        st.info("아직 분석된 결과가 없어요. 왼쪽 사이드바의 **🔄 새로운 데이터로 분석하기** 버튼을 눌러주세요.")
         return
 
     jd_options = [("전체", None)] + [(f"{jd['jd_id']} — {jd.get('title', '')}", jd["jd_id"]) for jd in jds]
@@ -448,23 +453,23 @@ def render_classification(bundle: dict, jds: list[dict]) -> None:
             "ID": c.get("resume_id", "-"),
             "경력": first_career_hint(masked, 40),
             "기술": skill_snippet(masked, 100),
-            "Confidence": round(conf, 3),
-            "JD": c.get("assigned_jd", "-"),
-            "재판정": "🔁 LLM" if path == "llm_tiebreak" else "",
+            "적합도": round(conf, 3),
+            "공고": c.get("assigned_jd", "-"),
+            "AI 재판정": "🔁 정밀 검증" if path == "llm_tiebreak" else "",
         })
 
-    st.caption(f"필터 결과: **{len(rows)}** 건")
+    st.caption(f"검색 결과: **{len(rows)}**건")
     if not rows:
-        st.info("해당 조건에 맞는 이력서가 없습니다.")
+        st.info("이 조건에 맞는 이력서가 없습니다.")
         return
 
     df = pd.DataFrame(rows)
     render_safe_df(
         df,
         column_config={
-            "Confidence": st.column_config.ProgressColumn(
-                "Confidence",
-                help="임베딩 코사인 유사도",
+            "적합도": st.column_config.ProgressColumn(
+                "적합도",
+                help="이력서 내용과 채용공고 요구사항의 일치 정도 (0~1)",
                 format="%.3f",
                 min_value=0.0,
                 max_value=1.0,
@@ -488,7 +493,7 @@ def render_bottleneck(bundle: dict, jds: list[dict]) -> None:
         )
 
     if not diagnosis:
-        st.info("진단 결과가 없습니다.")
+        st.info("아직 진단 결과가 없습니다.")
         return
 
     labels = [f"{d.get('jd_id')} — {d.get('title', '')}" for d in diagnosis]
@@ -502,7 +507,7 @@ def render_bottleneck(bundle: dict, jds: list[dict]) -> None:
     hired = int(ev_a.get("hired", 0) or 0)
     doc_pass = int(round(applicants * doc_rate))
 
-    st.markdown("### 📉 3단계 Funnel")
+    st.markdown("### 📉 채용 3단계 흐름")
     max_val = max(applicants, 1)
     def bar(val: int, label: str) -> str:
         w = int(40 * val / max_val) if max_val > 0 else 0
@@ -515,7 +520,7 @@ def render_bottleneck(bundle: dict, jds: list[dict]) -> None:
     st.divider()
 
     # Layer flags (3 columns)
-    st.markdown("### 🚦 플래그")
+    st.markdown("### 🚦 점검 결과")
     lf = d.get("layered_flags") or {}
     ev = d.get("evidence") or {}
     col_a, col_b, col_c = st.columns(3)
@@ -537,23 +542,23 @@ def render_bottleneck(bundle: dict, jds: list[dict]) -> None:
     st.divider()
 
     if d.get("is_healthy", True):
-        st.success("모든 레이어가 정상입니다.")
+        st.success("3가지 점검 기준 모두 정상입니다.")
         return
 
     # LLM output
     if d.get("root_cause_hypothesis"):
-        st.markdown("### 💡 Root Cause 가설")
+        st.markdown("### 💡 추정 원인")
         st.info(d["root_cause_hypothesis"])
 
     chain = d.get("evidence_chain") or []
     if chain:
-        st.markdown("### 🔗 Evidence Chain")
+        st.markdown("### 🔗 판단 근거")
         for step in chain:
             st.markdown(f"- {step}")
 
     quotes = d.get("suspected_quotes") or []
     if quotes:
-        st.markdown("### 🔍 의심 문구")
+        st.markdown("### 🔍 고치면 좋을 표현")
         for q in quotes:
             if isinstance(q, dict):
                 st.markdown(f"> {q.get('quote', '')}")
@@ -564,7 +569,7 @@ def render_bottleneck(bundle: dict, jds: list[dict]) -> None:
 
     edits = d.get("suggested_edits") or []
     if edits:
-        st.markdown("### ✏️ 수정 제안")
+        st.markdown("### ✏️ 채용공고 수정안")
         for i, e in enumerate(edits, 1):
             if isinstance(e, dict):
                 with st.container(border=True):
@@ -583,7 +588,7 @@ def render_bottleneck(bundle: dict, jds: list[dict]) -> None:
 
     refs = d.get("reference_examples") or []
     if refs:
-        with st.expander(f"참고한 헬시 JD ({len(refs)}개)"):
+        with st.expander(f"참고한 잘 된 채용공고 ({len(refs)}개)"):
             for ref in refs:
                 st.markdown(f"**{ref.get('jd_id')} — {ref.get('title', '')}**")
                 st.caption(ref.get("description", ""))
@@ -608,7 +613,7 @@ def render_gap(bundle: dict, jds: list[dict]) -> None:
         )
 
     if not gap_table:
-        st.info("비교 데이터가 없습니다.")
+        st.info("아직 비교 데이터가 준비되지 않았습니다.")
         return
 
     # Horizontal bar: per JD 2 bars (잠재 / 실제)
@@ -619,7 +624,7 @@ def render_gap(bundle: dict, jds: list[dict]) -> None:
     ])
     df_long["label"] = df_long["jd_id"] + " — " + df_long["title"].astype(str)
 
-    st.markdown("### 📊 잠재 후보 vs 실제 지원자")
+    st.markdown("### 📊 적합 후보 수 vs 실제 지원자 수")
     if PLOTLY_AVAILABLE:
         fig = px.bar(
             df_long,
@@ -637,7 +642,7 @@ def render_gap(bundle: dict, jds: list[dict]) -> None:
         st.bar_chart(df_long.pivot_table(index="label", columns="metric", values="value"))
 
     # Gap table
-    st.markdown("### 📋 상세 테이블")
+    st.markdown("### 📋 채용공고별 상세 표")
     display = df_gap[["jd_id", "title", "potential_fit", "actual_applicants", "fit_ratio", "attraction_status"]].rename(
         columns={
             "jd_id": "JD",
@@ -654,11 +659,11 @@ def render_gap(bundle: dict, jds: list[dict]) -> None:
     under_options = [row["jd_id"] for row in gap_table if row.get("attraction_status") == "UNDER_ATTRACTED"]
     if under_options:
         st.divider()
-        st.markdown("### 🔎 UNDER_ATTRACTED JD 의 잠재 후보들은 어디로 지원했나?")
+        st.markdown("### 🔎 적합 후보들은 실제로 어느 채용공고에 지원했나?")
         sel = st.selectbox("JD 선택", under_options, key="drift_jd")
         dist = drift.get(sel, [])
         if not dist:
-            st.info("분포 데이터가 없습니다.")
+            st.info("이 공고에 대한 분포 데이터가 없습니다.")
         else:
             df_dist = pd.DataFrame(dist)
             jd_title_map = {jd["jd_id"]: jd.get("title", jd["jd_id"]) for jd in jds}
@@ -676,21 +681,21 @@ def render_gap(bundle: dict, jds: list[dict]) -> None:
 # 탭 5: PII 정책
 # ---------------------------------------------------------------------------
 def render_pii(bundle: dict) -> None:
-    st.markdown("### 📄 PII 정책 문서")
+    st.markdown("### 📄 개인정보 처리 정책 문서")
     if PII_POLICY_MD.exists():
         txt = _load_text(PII_POLICY_MD) or ""
         st.markdown(txt)
     else:
-        st.warning("📝 `pii_policy.md` 문서 미완성 — 배포 전 작성 필요.")
+        st.warning("📝 개인정보 정책 문서가 아직 작성되지 않았습니다.")
 
     st.divider()
-    st.markdown("### 🧪 마스킹 감사 (Masking Audit)")
-    st.caption("실제 화면에 노출되는 `masked_text` 샘플 5건 — 원본 PII 가 마스킹 토큰으로 치환됐는지 확인합니다.")
+    st.markdown("### 🧪 개인정보 처리 확인")
+    st.caption("화면에 표시되는 이력서 텍스트 5건 샘플 — 원본의 이름·연락처 등이 [MASK_*] 토큰으로 가려졌는지 직접 확인하세요.")
 
     extracted = bundle.get("extracted") or []
     ok_rows = [e for e in extracted if e.get("ok") and e.get("masked_text")]
     if not ok_rows:
-        st.info("표시할 추출 결과가 없습니다.")
+        st.info("표시할 이력서가 없습니다.")
         return
 
     rng = random.Random(42)
@@ -708,9 +713,9 @@ def render_pii(bundle: dict) -> None:
         with st.expander(f"📄 {rid} · {fmt}"):
             st.code(masked + (" …" if len(s.get("masked_text") or "") > 150 else ""), language="text")
             if counts:
-                st.caption("격리된 PII 필드 (카운트만): " + ", ".join(f"{k}={v}" for k, v in counts.items()))
+                st.caption("따로 격리된 개인정보 항목 (개수만 표시): " + ", ".join(f"{k}={v}" for k, v in counts.items()))
             else:
-                st.caption("격리된 PII 필드: 없음")
+                st.caption("따로 격리된 개인정보 항목: 없음")
 
 
 # ---------------------------------------------------------------------------
@@ -724,7 +729,7 @@ def render_download(bundle: dict) -> None:
     report = bundle.get("report_md") or ""
 
     st.markdown("### ⬇️ 산출물 다운로드")
-    st.caption(f"Run ID: `{run_id}`")
+    st.caption(f"분석 회차: `{run_id}`")
 
     c1, c2 = st.columns(2)
 
@@ -754,7 +759,7 @@ def render_download(bundle: dict) -> None:
             disabled=not csv_bytes,
         )
         st.download_button(
-            "📄 Notion Markdown",
+            "📄 Notion용 보고서 (Markdown)",
             data=report or "리포트 미생성.",
             file_name=f"notion_report_{run_id}.md",
             mime="text/markdown",
@@ -780,7 +785,7 @@ def render_download(bundle: dict) -> None:
         )
 
     if report:
-        with st.expander("📖 Notion Markdown 미리보기"):
+        with st.expander("📖 Notion용 보고서 미리보기"):
             st.markdown(report)
 
 
@@ -803,24 +808,24 @@ def main() -> None:
     jds = load_jds()
 
     st.title("📋 HR Resume Copilot")
-    st.caption("이력서 800건을 JD 12개로 분류하고, 지원자 병목 JD 를 funnel 지표 기반으로 진단합니다.")
+    st.caption("이력서 800건을 채용공고 12개에 자동 매칭하고, 어떤 공고가 지원자를 충분히 끌어오지 못하는지 채용 단계별 데이터로 분석합니다.")
 
     if not bundle:
         st.info(
-            "아직 파이프라인 실행 전입니다. 좌측 **▶ 파이프라인 실행** 버튼을 눌러주세요.\n\n"
-            "이미 실행된 artifacts 가 있다면 `artifacts/` 하위 최신 run 이 자동 로드됩니다."
+            "아직 분석된 데이터가 없어요. 왼쪽 사이드바의 **🔄 새로운 데이터로 분석하기** 버튼을 눌러주세요.\n\n"
+            "이전에 분석한 결과가 저장되어 있다면 자동으로 불러옵니다."
         )
         return
 
-    st.caption(f"📂 Run: `{bundle.get('run_id')}` · 최종 수정: "
+    st.caption(f"📂 분석 회차: `{bundle.get('run_id')}` · 마지막 갱신: "
                f"{datetime.fromtimestamp(Path(bundle['run_dir']).stat().st_mtime).isoformat(timespec='seconds')}")
 
     tabs = st.tabs([
         "📊 대시보드",
         "📄 이력서 분류",
-        "🔍 JD 병목 분석",
-        "⚖️ 수요-공급 갭",
-        "🔒 PII 정책",
+        "🔍 채용공고 진단",
+        "⚖️ 적합 후보 vs 실제 지원",
+        "🔒 개인정보 정책",
         "⬇️ 다운로드",
     ])
     with tabs[0]:
