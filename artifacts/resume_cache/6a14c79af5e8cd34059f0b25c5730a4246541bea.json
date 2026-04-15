@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0050",
+  "sha1": "6a14c79af5e8cd34059f0b25c5730a4246541bea",
+  "format": "pdf",
+  "raw_text_length": 811,
+  "masked_text": "RESUME\nName: Sarah Yang\nDOB: 1991 (age 35)\nGender: Male\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Singapore\nApplying for: QA Engineer (JD008)\nEDUCATION\n- ETH Zurich, B.S. in Economics (GPA 3.51/4.0)\nEXPERIENCE\n- LGnnnn (2024.03 - 2025.02)\nRole: Tech Lead\n- nnnnnnn (2025.03 - 2026.02)\nRole: Senior Engineer\nPROJECTS\n- Automated performance testing with JMeter-based load pipeline.\n- Standardized game QA process with regression sheets and bug triage rules.\n- Built Playwright E2E framework, reduced regression testing from 3 days manual to 2 hours\nautomated.\nSKILLS\n- Game QA, Test Automation, Bug Report, Selenium\nSUMMARY\nI am a QA Engineer with 2 years of experience, specializing in Game QA-based systems. I th\nrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

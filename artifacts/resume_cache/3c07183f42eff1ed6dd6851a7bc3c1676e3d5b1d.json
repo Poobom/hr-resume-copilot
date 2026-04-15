@@ -1,0 +1,23 @@
+{
+  "resume_id": "resume_0205",
+  "sha1": "3c07183f42eff1ed6dd6851a7bc3c1676e3d5b1d",
+  "format": "pdf",
+  "raw_text_length": 671,
+  "masked_text": "[MASK_NAME]\n이름: [MASK_NAME]  \n생년월일: 1992년생 ([FILTERED])  \n[FILTERED]  \n연락처: [MASK_PHONE]  \n이메일: 한수9680@kakao.com  \n거주지: [MASK_ADDR]  \n\n지원 포지션: 게임 클라이언트 프로그래머 (JD006)  \n[MASK_NAME]\n- [FILTERED] 졸 (GPA 4.25/4.5)  \n[MASK_NAME]\n- 삼성SDS (2019.03 ~ 2022.02)  \n직책: 시니어 엔지니어  \n- 스마트게임즈 (2021.03 ~ 2024.02)  \n직책: 매니저  \n- 카카오 (2023.03 ~ 2025.02)  \n직책: 주니어 엔지니어  \n\n주요 프로젝트  \n- 모바일 RPG 클라이언트 최적화, 로우레벨 기기 프레임 28fps → 58fps 개선.  \n- UE5 기반으로 운용되는 프로젝트 클라이언트 개발, 캐릭터 커스터마이징 시스템 구축.  \n- 삼성전자 멀티플레이 시스템 구축, 서버 권역 기반 리틀리케이션 설계.  \n\n보유 기술  \n- C++, 최적화, 게임 클라이언트  \n[MASK_NAME]\n저는 4년차 게임 클라이언트 프로그래머로서 실무에서 꾸준히 성과를 만들어왔습니다. 특히 C++ 기반 시스템 설계와 운영에 강점이 있으며, 최근에는 대규모 트래픽 환경에서의 안정적 서비스 운영에 관심을 갖고 있습니다. 동료들과의 협업을 통해 더 나은 제품을 만드는 일에 보람을 느낍니다.",
+  "pii_fields_separated": {
+    "education": [
+      "건국대학교 산업공학과"
+    ],
+    "age": [
+      "만 34세"
+    ],
+    "gender": [
+      "성별: 남"
+    ],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "vision",
+  "ok": true,
+  "error": null
+}

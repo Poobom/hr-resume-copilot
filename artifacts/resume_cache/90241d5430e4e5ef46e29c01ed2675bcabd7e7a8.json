@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0360",
+  "sha1": "90241d5430e4e5ef46e29c01ed2675bcabd7e7a8",
+  "format": "pdf",
+  "raw_text_length": 888,
+  "masked_text": "RESUME\nName: Andrew Anderson\nDOB: 1990 (age 36)\nGender: Female\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Toronto, Canada\nApplying for: Game Client Programmer (JD006)\nEDUCATION\n- Tsinghua University, B.S. in Artificial Intelligence (GPA 3.78/4.0)\nEXPERIENCE\n- Uber (2022.03 - 2025.02)\nRole: Manager\n- Samsung Research America (2023.03 - 2025.02)\nRole: Senior Engineer\n- nnn (2024.03 - 2026.02)\nRole: Tech Lead\nPROJECTS\n- Optimized mobile RPG client for low-end devices, from 28fps to 58fps.\n- Developed UE5 open-world client, built character customization system.\n- Implemented server-authoritative multiplayer combat replication.\nSKILLS\n- Game Client, Unreal Engine, C++\nSUMMARY\nI am a Game Client Programmer with 4 years of experience, specializing in Game Client-base\nd systems. I thrive on delivering measurable impact through cross-functional collaboration\n.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

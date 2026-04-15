@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0385",
+  "sha1": "2188fe607898cde40be52d22b4f094f5a26deef2",
+  "format": "pdf",
+  "raw_text_length": 793,
+  "masked_text": "RESUME\nName: Robert Cho\nDOB: 1995 (age 31)\nGender: Male\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Toronto, Canada\nApplying for: Security Engineer (JD012)\nEDUCATION\n- University of Michigan, B.S. in Artificial Intelligence (GPA 3.65/4.0)\nEXPERIENCE\n- Microsoft (2024.03 - 2026.02)\nRole: Manager\n- nn (2025.03 - 2026.02)\nRole: Manager\nPROJECTS\n- Built SIEM system with 80 detection rules at 91% accuracy.\n- Led ISMS certification project covering 102 controls.\n- Conducted pentesting and vulnerability reporting across company services.\nSKILLS\n- Pentesting, Cloud Security, Security Audit\nSUMMARY\nI am a Security Engineer with 2 years of experience, specializing in Pentesting-based syst\nems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

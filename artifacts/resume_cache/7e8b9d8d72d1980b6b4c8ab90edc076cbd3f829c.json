@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0231",
+  "sha1": "7e8b9d8d72d1980b6b4c8ab90edc076cbd3f829c",
+  "format": "pdf",
+  "raw_text_length": 954,
+  "masked_text": "RESUME\nName: Joseph Thomas\nDOB: 1985 (age 41)\nGender: Male\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: San Jose, CA\nApplying for: Backend Engineer (JD001)\nEDUCATION\n- Georgia Tech, B.S. in Industrial Engineering (GPA 3.97/4.0)\n- University of Illinois Urbana-Champaign, M.S. in Industrial Engineering\nEXPERIENCE\n- KT (2022.03 - 2023.02)\nRole: Senior Engineer\n- Netflix (2023.03 - 2025.02)\nRole: Senior Engineer\n- nnnnnn (2024.03 - 2026.02)\nRole: Manager\nPROJECTS\n- Redesigned order API serving 30M DAU. Spring Boot + Kafka async pipeline reduced P95 lat\nency from 420ms to 120ms.\n- Introduced Redis cache layer achieving 94% hit rate, reduced DB load by 60%.\n- Led MSA migration, split monolith into 8 domain services with gRPC.\nSKILLS\n- AWS, Java, Kafka\nSUMMARY\nI am a Backend Engineer with 4 years of experience, specializing in AWS-based systems. I t\nhrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

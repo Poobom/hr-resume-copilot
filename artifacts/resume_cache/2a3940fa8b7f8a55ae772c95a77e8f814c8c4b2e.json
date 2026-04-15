@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0248",
+  "sha1": "2a3940fa8b7f8a55ae772c95a77e8f814c8c4b2e",
+  "format": "docx",
+  "raw_text_length": 863,
+  "masked_text": "RESUME\nName: Isabella Taylor\nDOB: 1997 (age 29)\nGender: Male\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seoul, Mapo-gu\nApplying for: QA Engineer (JD008)\nEDUCATION\n- Georgia Tech, B.S. in Design (GPA 3.8/4.0)\nEXPERIENCE\n- Adobe (2021.03 - 2024.02)\n  Role: Tech Lead\n- 야놀자 (2022.03 - 2024.02)\n  Role: Senior Engineer\n- Oracle (2023.03 - 2025.02)\n  Role: Tech Lead\nPROJECTS\n- Built Playwright E2E framework, reduced regression testing from 3 days manual to 2 hours automated.\n- Automated performance testing with JMeter-based load pipeline.\n- Standardized game QA process with regression sheets and bug triage rules.\nSKILLS\n- Bug Report, Game QA, Test Automation\nSUMMARY\nI am a QA Engineer with 5 years of experience, specializing in Bug Report-based systems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "python-docx",
+  "ok": true,
+  "error": null
+}

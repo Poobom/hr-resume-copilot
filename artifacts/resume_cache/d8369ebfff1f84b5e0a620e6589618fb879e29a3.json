@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0465",
+  "sha1": "d8369ebfff1f84b5e0a620e6589618fb879e29a3",
+  "format": "docx",
+  "raw_text_length": 811,
+  "masked_text": "RESUME\nName: William Taylor\nDOB: 1996 (age 30)\nGender: Female\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Toronto, Canada\nApplying for: QA Engineer (JD008)\nEDUCATION\n- University of Tokyo, B.S. in Artificial Intelligence (GPA 3.05/4.0)\nEXPERIENCE\n- Airbnb (2026.03 - 2026.02)\n  Role: Software Engineer\nPROJECTS\n- Automated performance testing with JMeter-based load pipeline.\n- Standardized game QA process with regression sheets and bug triage rules.\n- Built Playwright E2E framework, reduced regression testing from 3 days manual to 2 hours automated.\nSKILLS\n- Bug Report, Game QA, Selenium, Test Automation\nSUMMARY\nI am a QA Engineer with 0 years of experience, specializing in Bug Report-based systems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "python-docx",
+  "ok": true,
+  "error": null
+}

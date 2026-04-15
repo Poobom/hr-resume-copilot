@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0541",
+  "sha1": "95d6fa49af46100b7eed57c7ec4c6da3cfef7d3e",
+  "format": "pdf",
+  "raw_text_length": 765,
+  "masked_text": "RESUME\nName: Richard Davis\nDOB: 1986 (age 40)\nGender: Female\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seongnam-si, Bundang-gu\nApplying for: Machine Learning Engineer (JD004)\nEDUCATION\n- Peking University, B.S. in Artificial Intelligence (GPA 3.2/4.0)\nEXPERIENCE\n- IBM (2025.03 - 2026.02)\nRole: Senior Engineer\nPROJECTS\n- Fine-tuned ViT image classifier to 92.4% accuracy.\n- Improved recommender CTR by 12% via feature engineering and A/B testing.\n- Built internal RAG chatbot with LangChain + Pinecone, 84% answer accuracy.\nSKILLS\n- RAG, Python, PyTorch\nSUMMARY\nI am a Machine Learning Engineer with 1 years of experience, specializing in RAG-based sys\ntems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

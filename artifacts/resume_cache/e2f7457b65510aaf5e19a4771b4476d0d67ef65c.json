@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0269",
+  "sha1": "e2f7457b65510aaf5e19a4771b4476d0d67ef65c",
+  "format": "docx",
+  "raw_text_length": 905,
+  "masked_text": "RESUME\nName: Mason Davis\nDOB: 1998 (age 28)\nGender: Female\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Toronto, Canada\nApplying for: Backend Engineer (JD001)\nEDUCATION\n- Cornell University, B.S. in Design (GPA 3.74/4.0)\n- UC Berkeley, M.S. in Design\nEXPERIENCE\n- 마켓컬리 (2021.03 - 2022.02)\n  Role: Manager\n- SK텔레콤 (2022.03 - 2025.02)\n  Role: Senior Engineer\n- KT (2023.03 - 2025.02)\n  Role: Tech Lead\nPROJECTS\n- Introduced Redis cache layer achieving 94% hit rate, reduced DB load by 60%.\n- Redesigned order API serving 30M DAU. Spring Boot + Kafka async pipeline reduced P95 latency from 420ms to 120ms.\n- Led MSA migration, split monolith into 8 domain services with gRPC.\nSKILLS\n- AWS, MySQL, Microservices\nSUMMARY\nI am a Backend Engineer with 5 years of experience, specializing in AWS-based systems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "python-docx",
+  "ok": true,
+  "error": null
+}

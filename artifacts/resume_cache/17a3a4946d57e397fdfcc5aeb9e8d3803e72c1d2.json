@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0598",
+  "sha1": "17a3a4946d57e397fdfcc5aeb9e8d3803e72c1d2",
+  "format": "pdf",
+  "raw_text_length": 824,
+  "masked_text": "RESUME\nName: Robert Park\nDOB: 1995 (age 31)\nGender: Female\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seoul, Mapo-gu\nApplying for: Backend Engineer (JD001)\nEDUCATION\n- Cornell University, B.S. in Software Engineering (GPA 3.93/4.0)\nEXPERIENCE\n- SKnnn (2025.03 - 2026.02)\nRole: Senior Engineer\nPROJECTS\n- Redesigned order API serving 30M DAU. Spring Boot + Kafka async pipeline reduced P95 lat\nency from 420ms to 120ms.\n- Led MSA migration, split monolith into 8 domain services with gRPC.\n- Introduced Redis cache layer achieving 94% hit rate, reduced DB load by 60%.\nSKILLS\n- Spring Boot, Kafka, MySQL, Microservices\nSUMMARY\nI am a Backend Engineer with 1 years of experience, specializing in Spring Boot-based syst\nems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

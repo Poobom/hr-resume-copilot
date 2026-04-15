@@ -1,0 +1,21 @@
+{
+  "resume_id": "resume_0432",
+  "sha1": "43c4cdf8d4574a329907c99562c9354aaae0014c",
+  "format": "docx",
+  "raw_text_length": 585,
+  "masked_text": "[MASK_NAME]\n이름: [MASK_NAME]\n생년월일: 1998년생 ([FILTERED])\n[FILTERED]\n연락처: [MASK_PHONE]\n이메일: 조재원5850@naver.com\n거주지: [MASK_ADDR]\n지원 포지션: QA 엔지니어 (JD008)\n■ 학력\n- POSTECH 통계학과 학사 (GPA 3.99/4.5)\n■ 경력\n- 크래프톤 (2023.03 ~ 2026.02)\n  직책: 매니저\n- LG유플러스 (2024.03 ~ 2025.02)\n  직책: 매니저\n■ 주요 프로젝트\n- 게임 QA 프로세스 표준화. 리그레션 시트 및 버그 트리아지 룰 수립.\n- 성능 테스트 자동화. JMeter 기반 부하 테스트 파이프라인 구축.\n- Playwright 기반 E2E 테스트 프레임워크 구축. 회귀 테스트 수동 3일 → 자동 2시간.\n■ 보유 기술\n- 테스트 자동화, 버그 리포트, Selenium\n■ 자기소개\n저는 3년차 QA 엔지니어로서 실무에서 꾸준히 성과를 만들어왔습니다. 특히 테스트 자동화 기반 시스템 설계와 운영에 강점이 있으며, 최근에는 대규모 트래픽 환경에서의 안정적 서비스 운영에 관심을 갖고 있습니다. 동료들과의 협업을 통해 더 나은 제품을 만드는 일에 보람을 느낍니다.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [
+      "만 28세"
+    ],
+    "gender": [
+      "성별: 남"
+    ],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "python-docx",
+  "ok": true,
+  "error": null
+}

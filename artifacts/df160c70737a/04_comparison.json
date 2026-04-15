@@ -1,0 +1,237 @@
+{
+  "gap_table": [
+    {
+      "jd_id": "JD009",
+      "title": "프로덕트 매니저",
+      "potential_fit": 53,
+      "actual_applicants": 330,
+      "fit_ratio": 0.161,
+      "attraction_status": "UNDER_ATTRACTED"
+    },
+    {
+      "jd_id": "JD012",
+      "title": "보안 엔지니어",
+      "potential_fit": 35,
+      "actual_applicants": 205,
+      "fit_ratio": 0.171,
+      "attraction_status": "UNDER_ATTRACTED"
+    },
+    {
+      "jd_id": "JD008",
+      "title": "QA 엔지니어",
+      "potential_fit": 99,
+      "actual_applicants": 572,
+      "fit_ratio": 0.173,
+      "attraction_status": "UNDER_ATTRACTED"
+    },
+    {
+      "jd_id": "JD006",
+      "title": "게임 클라이언트 프로그래머",
+      "potential_fit": 73,
+      "actual_applicants": 389,
+      "fit_ratio": 0.188,
+      "attraction_status": "UNDER_ATTRACTED"
+    },
+    {
+      "jd_id": "JD002",
+      "title": "프론트엔드 엔지니어",
+      "potential_fit": 135,
+      "actual_applicants": 706,
+      "fit_ratio": 0.191,
+      "attraction_status": "UNDER_ATTRACTED"
+    },
+    {
+      "jd_id": "JD001",
+      "title": "백엔드 엔지니어",
+      "potential_fit": 213,
+      "actual_applicants": 1107,
+      "fit_ratio": 0.192,
+      "attraction_status": "UNDER_ATTRACTED"
+    },
+    {
+      "jd_id": "JD005",
+      "title": "DevOps 엔지니어",
+      "potential_fit": 10,
+      "actual_applicants": 49,
+      "fit_ratio": 0.204,
+      "attraction_status": "UNDER_ATTRACTED"
+    },
+    {
+      "jd_id": "JD007",
+      "title": "게임 서버 프로그래머",
+      "potential_fit": 20,
+      "actual_applicants": 94,
+      "fit_ratio": 0.213,
+      "attraction_status": "UNDER_ATTRACTED"
+    },
+    {
+      "jd_id": "JD010",
+      "title": "UX 디자이너",
+      "potential_fit": 50,
+      "actual_applicants": 224,
+      "fit_ratio": 0.223,
+      "attraction_status": "UNDER_ATTRACTED"
+    },
+    {
+      "jd_id": "JD004",
+      "title": "머신러닝 엔지니어",
+      "potential_fit": 51,
+      "actual_applicants": 117,
+      "fit_ratio": 0.436,
+      "attraction_status": "UNDER_ATTRACTED"
+    },
+    {
+      "jd_id": "JD003",
+      "title": "데이터 엔지니어",
+      "potential_fit": 223,
+      "actual_applicants": 426,
+      "fit_ratio": 0.523,
+      "attraction_status": "NORMAL"
+    },
+    {
+      "jd_id": "JD011",
+      "title": "사업개발 매니저",
+      "potential_fit": 57,
+      "actual_applicants": 74,
+      "fit_ratio": 0.77,
+      "attraction_status": "NORMAL"
+    }
+  ],
+  "drift_distributions": {
+    "JD009": [
+      {
+        "assigned_jd": "JD009",
+        "count": 51,
+        "percentage": 96.23
+      },
+      {
+        "assigned_jd": "JD011",
+        "count": 1,
+        "percentage": 1.89
+      },
+      {
+        "assigned_jd": "JD010",
+        "count": 1,
+        "percentage": 1.89
+      }
+    ],
+    "JD012": [
+      {
+        "assigned_jd": "JD012",
+        "count": 35,
+        "percentage": 100.0
+      }
+    ],
+    "JD008": [
+      {
+        "assigned_jd": "JD008",
+        "count": 99,
+        "percentage": 100.0
+      }
+    ],
+    "JD006": [
+      {
+        "assigned_jd": "JD006",
+        "count": 73,
+        "percentage": 100.0
+      }
+    ],
+    "JD002": [
+      {
+        "assigned_jd": "JD002",
+        "count": 135,
+        "percentage": 100.0
+      }
+    ],
+    "JD001": [
+      {
+        "assigned_jd": "JD001",
+        "count": 212,
+        "percentage": 99.53
+      },
+      {
+        "assigned_jd": "JD007",
+        "count": 1,
+        "percentage": 0.47
+      }
+    ],
+    "JD005": [
+      {
+        "assigned_jd": "JD005",
+        "count": 10,
+        "percentage": 100.0
+      }
+    ],
+    "JD007": [
+      {
+        "assigned_jd": "JD007",
+        "count": 18,
+        "percentage": 90.0
+      },
+      {
+        "assigned_jd": "JD006",
+        "count": 2,
+        "percentage": 10.0
+      }
+    ],
+    "JD010": [
+      {
+        "assigned_jd": "JD010",
+        "count": 45,
+        "percentage": 90.0
+      },
+      {
+        "assigned_jd": "JD002",
+        "count": 5,
+        "percentage": 10.0
+      }
+    ],
+    "JD004": [
+      {
+        "assigned_jd": "JD004",
+        "count": 34,
+        "percentage": 66.67
+      },
+      {
+        "assigned_jd": "JD001",
+        "count": 5,
+        "percentage": 9.8
+      },
+      {
+        "assigned_jd": "JD002",
+        "count": 3,
+        "percentage": 5.88
+      },
+      {
+        "assigned_jd": "JD011",
+        "count": 3,
+        "percentage": 5.88
+      },
+      {
+        "assigned_jd": "JD006",
+        "count": 2,
+        "percentage": 3.92
+      },
+      {
+        "assigned_jd": "JD009",
+        "count": 1,
+        "percentage": 1.96
+      },
+      {
+        "assigned_jd": "JD012",
+        "count": 1,
+        "percentage": 1.96
+      },
+      {
+        "assigned_jd": "JD010",
+        "count": 1,
+        "percentage": 1.96
+      },
+      {
+        "assigned_jd": "JD003",
+        "count": 1,
+        "percentage": 1.96
+      }
+    ]
+  }
+}

@@ -1,0 +1,2098 @@
+{
+  "total_cost_usd": 0.136042,
+  "by_step": {
+    "extract_vision": {
+      "calls": 18,
+      "tokens_in": 664002,
+      "tokens_out": 6655,
+      "cost": 0.10359329999999999,
+      "model": "gpt-4o-mini"
+    },
+    "classify_resume_embed": {
+      "calls": 7,
+      "tokens_in": 352112,
+      "tokens_out": 0,
+      "cost": 0.00704224,
+      "model": "text-embedding-3-small"
+    },
+    "classify_jd_embed": {
+      "calls": 1,
+      "tokens_in": 696,
+      "tokens_out": 0,
+      "cost": 1.392e-05,
+      "model": "text-embedding-3-small"
+    },
+    "classify_tiebreak": {
+      "calls": 219,
+      "tokens_in": 102520,
+      "tokens_out": 10992,
+      "cost": 0.021973200000000012,
+      "model": "gpt-4o-mini"
+    },
+    "diagnose_jd": {
+      "calls": 12,
+      "tokens_in": 5496,
+      "tokens_out": 4325,
+      "cost": 0.0034193999999999995,
+      "model": "gpt-4o-mini"
+    }
+  },
+  "records": [
+    {
+      "step": "extract_vision",
+      "model": "gpt-4o-mini",
+      "tokens_in": 36889,
+      "tokens_out": 400,
+      "cost": 0.005773349999999999,
+      "timestamp": "2026-04-15T05:09:42Z"
+    },
+    {
+      "step": "extract_vision",
+      "model": "gpt-4o-mini",
+      "tokens_in": 36889,
+      "tokens_out": 404,
+      "cost": 0.005775749999999999,
+      "timestamp": "2026-04-15T05:09:51Z"
+    },
+    {
+      "step": "extract_vision",
+      "model": "gpt-4o-mini",
+      "tokens_in": 36889,
+      "tokens_out": 405,
+      "cost": 0.0057763499999999995,
+      "timestamp": "2026-04-15T05:10:01Z"
+    },
+    {
+      "step": "extract_vision",
+      "model": "gpt-4o-mini",
+      "tokens_in": 36889,
+      "tokens_out": 372,
+      "cost": 0.005756549999999999,
+      "timestamp": "2026-04-15T05:10:12Z"
+    },
+    {
+      "step": "extract_vision",
+      "model": "gpt-4o-mini",
+      "tokens_in": 36889,
+      "tokens_out": 276,
+      "cost": 0.0056989499999999995,
+      "timestamp": "2026-04-15T05:10:22Z"
+    },
+    {
+      "step": "extract_vision",
+      "model": "gpt-4o-mini",
+      "tokens_in": 36889,
+      "tokens_out": 376,
+      "cost": 0.00575895,
+      "timestamp": "2026-04-15T05:10:30Z"
+    },
+    {
+      "step": "extract_vision",
+      "model": "gpt-4o-mini",
+      "tokens_in": 36889,
+      "tokens_out": 383,
+      "cost": 0.00576315,
+      "timestamp": "2026-04-15T05:10:40Z"
+    },
+    {
+      "step": "extract_vision",
+      "model": "gpt-4o-mini",
+      "tokens_in": 36889,
+      "tokens_out": 384,
+      "cost": 0.005763749999999999,
+      "timestamp": "2026-04-15T05:10:48Z"
+    },
+    {
+      "step": "extract_vision",
+      "model": "gpt-4o-mini",
+      "tokens_in": 36889,
+      "tokens_out": 351,
+      "cost": 0.005743949999999999,
+      "timestamp": "2026-04-15T05:10:56Z"
+    },
+    {
+      "step": "extract_vision",
+      "model": "gpt-4o-mini",
+      "tokens_in": 36889,
+      "tokens_out": 327,
+      "cost": 0.005729549999999999,
+      "timestamp": "2026-04-15T05:11:03Z"
+    },
+    {
+      "step": "extract_vision",
+      "model": "gpt-4o-mini",
+      "tokens_in": 36889,
+      "tokens_out": 358,
+      "cost": 0.00574815,
+      "timestamp": "2026-04-15T05:11:13Z"
+    },
+    {
+      "step": "extract_vision",
+      "model": "gpt-4o-mini",
+      "tokens_in": 36889,
+      "tokens_out": 381,
+      "cost": 0.00576195,
+      "timestamp": "2026-04-15T05:11:22Z"
+    },
+    {
+      "step": "extract_vision",
+      "model": "gpt-4o-mini",
+      "tokens_in": 36889,
+      "tokens_out": 387,
+      "cost": 0.0057655499999999995,
+      "timestamp": "2026-04-15T05:11:34Z"
+    },
+    {
+      "step": "extract_vision",
+      "model": "gpt-4o-mini",
+      "tokens_in": 36889,
+      "tokens_out": 363,
+      "cost": 0.00575115,
+      "timestamp": "2026-04-15T05:11:41Z"
+    },
+    {
+      "step": "extract_vision",
+      "model": "gpt-4o-mini",
+      "tokens_in": 36889,
+      "tokens_out": 414,
+      "cost": 0.005781749999999999,
+      "timestamp": "2026-04-15T05:11:47Z"
+    },
+    {
+      "step": "extract_vision",
+      "model": "gpt-4o-mini",
+      "tokens_in": 36889,
+      "tokens_out": 361,
+      "cost": 0.00574995,
+      "timestamp": "2026-04-15T05:11:55Z"
+    },
+    {
+      "step": "extract_vision",
+      "model": "gpt-4o-mini",
+      "tokens_in": 36889,
+      "tokens_out": 383,
+      "cost": 0.00576315,
+      "timestamp": "2026-04-15T05:12:03Z"
+    },
+    {
+      "step": "extract_vision",
+      "model": "gpt-4o-mini",
+      "tokens_in": 36889,
+      "tokens_out": 330,
+      "cost": 0.00573135,
+      "timestamp": "2026-04-15T05:12:10Z"
+    },
+    {
+      "step": "classify_resume_embed",
+      "model": "text-embedding-3-small",
+      "tokens_in": 56792,
+      "tokens_out": 0,
+      "cost": 0.00113584,
+      "timestamp": "2026-04-15T05:12:11Z"
+    },
+    {
+      "step": "classify_resume_embed",
+      "model": "text-embedding-3-small",
+      "tokens_in": 55955,
+      "tokens_out": 0,
+      "cost": 0.0011191,
+      "timestamp": "2026-04-15T05:12:13Z"
+    },
+    {
+      "step": "classify_resume_embed",
+      "model": "text-embedding-3-small",
+      "tokens_in": 58369,
+      "tokens_out": 0,
+      "cost": 0.0011673800000000002,
+      "timestamp": "2026-04-15T05:12:13Z"
+    },
+    {
+      "step": "classify_resume_embed",
+      "model": "text-embedding-3-small",
+      "tokens_in": 53478,
+      "tokens_out": 0,
+      "cost": 0.00106956,
+      "timestamp": "2026-04-15T05:12:15Z"
+    },
+    {
+      "step": "classify_resume_embed",
+      "model": "text-embedding-3-small",
+      "tokens_in": 56422,
+      "tokens_out": 0,
+      "cost": 0.00112844,
+      "timestamp": "2026-04-15T05:12:15Z"
+    },
+    {
+      "step": "classify_resume_embed",
+      "model": "text-embedding-3-small",
+      "tokens_in": 55539,
+      "tokens_out": 0,
+      "cost": 0.00111078,
+      "timestamp": "2026-04-15T05:12:16Z"
+    },
+    {
+      "step": "classify_resume_embed",
+      "model": "text-embedding-3-small",
+      "tokens_in": 15557,
+      "tokens_out": 0,
+      "cost": 0.00031114,
+      "timestamp": "2026-04-15T05:12:17Z"
+    },
+    {
+      "step": "classify_jd_embed",
+      "model": "text-embedding-3-small",
+      "tokens_in": 696,
+      "tokens_out": 0,
+      "cost": 1.392e-05,
+      "timestamp": "2026-04-15T05:12:18Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 392,
+      "tokens_out": 43,
+      "cost": 8.46e-05,
+      "timestamp": "2026-04-15T05:12:19Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 364,
+      "tokens_out": 40,
+      "cost": 7.86e-05,
+      "timestamp": "2026-04-15T05:12:20Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 424,
+      "tokens_out": 49,
+      "cost": 9.3e-05,
+      "timestamp": "2026-04-15T05:12:21Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 407,
+      "tokens_out": 51,
+      "cost": 9.164999999999999e-05,
+      "timestamp": "2026-04-15T05:12:22Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 551,
+      "tokens_out": 49,
+      "cost": 0.00011204999999999999,
+      "timestamp": "2026-04-15T05:12:24Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 578,
+      "tokens_out": 59,
+      "cost": 0.00012209999999999999,
+      "timestamp": "2026-04-15T05:12:25Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 579,
+      "tokens_out": 63,
+      "cost": 0.00012465,
+      "timestamp": "2026-04-15T05:12:27Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 553,
+      "tokens_out": 51,
+      "cost": 0.00011355,
+      "timestamp": "2026-04-15T05:12:28Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 411,
+      "tokens_out": 43,
+      "cost": 8.745e-05,
+      "timestamp": "2026-04-15T05:12:29Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 548,
+      "tokens_out": 63,
+      "cost": 0.00012,
+      "timestamp": "2026-04-15T05:12:31Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 431,
+      "tokens_out": 33,
+      "cost": 8.444999999999999e-05,
+      "timestamp": "2026-04-15T05:12:32Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 523,
+      "tokens_out": 59,
+      "cost": 0.00011384999999999999,
+      "timestamp": "2026-04-15T05:12:34Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 535,
+      "tokens_out": 52,
+      "cost": 0.00011145,
+      "timestamp": "2026-04-15T05:12:35Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 391,
+      "tokens_out": 40,
+      "cost": 8.265e-05,
+      "timestamp": "2026-04-15T05:12:36Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 528,
+      "tokens_out": 41,
+      "cost": 0.0001038,
+      "timestamp": "2026-04-15T05:12:38Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 415,
+      "tokens_out": 51,
+      "cost": 9.285e-05,
+      "timestamp": "2026-04-15T05:12:39Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 550,
+      "tokens_out": 62,
+      "cost": 0.00011969999999999998,
+      "timestamp": "2026-04-15T05:12:40Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 377,
+      "tokens_out": 31,
+      "cost": 7.515e-05,
+      "timestamp": "2026-04-15T05:12:41Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 569,
+      "tokens_out": 62,
+      "cost": 0.00012254999999999997,
+      "timestamp": "2026-04-15T05:12:43Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 591,
+      "tokens_out": 56,
+      "cost": 0.00012225,
+      "timestamp": "2026-04-15T05:12:44Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 538,
+      "tokens_out": 50,
+      "cost": 0.00011070000000000001,
+      "timestamp": "2026-04-15T05:12:46Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 399,
+      "tokens_out": 45,
+      "cost": 8.685e-05,
+      "timestamp": "2026-04-15T05:12:47Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 414,
+      "tokens_out": 48,
+      "cost": 9.089999999999999e-05,
+      "timestamp": "2026-04-15T05:12:48Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 404,
+      "tokens_out": 50,
+      "cost": 9.059999999999999e-05,
+      "timestamp": "2026-04-15T05:12:49Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 424,
+      "tokens_out": 53,
+      "cost": 9.539999999999999e-05,
+      "timestamp": "2026-04-15T05:12:51Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 421,
+      "tokens_out": 54,
+      "cost": 9.554999999999999e-05,
+      "timestamp": "2026-04-15T05:12:52Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 405,
+      "tokens_out": 40,
+      "cost": 8.475e-05,
+      "timestamp": "2026-04-15T05:12:54Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 428,
+      "tokens_out": 38,
+      "cost": 8.7e-05,
+      "timestamp": "2026-04-15T05:12:55Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 514,
+      "tokens_out": 44,
+      "cost": 0.0001035,
+      "timestamp": "2026-04-15T05:12:56Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 450,
+      "tokens_out": 53,
+      "cost": 9.93e-05,
+      "timestamp": "2026-04-15T05:12:57Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 517,
+      "tokens_out": 48,
+      "cost": 0.00010635,
+      "timestamp": "2026-04-15T05:12:59Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 405,
+      "tokens_out": 39,
+      "cost": 8.415e-05,
+      "timestamp": "2026-04-15T05:13:00Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 544,
+      "tokens_out": 44,
+      "cost": 0.000108,
+      "timestamp": "2026-04-15T05:13:01Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 422,
+      "tokens_out": 41,
+      "cost": 8.79e-05,
+      "timestamp": "2026-04-15T05:13:02Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 436,
+      "tokens_out": 54,
+      "cost": 9.779999999999998e-05,
+      "timestamp": "2026-04-15T05:13:04Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 432,
+      "tokens_out": 40,
+      "cost": 8.88e-05,
+      "timestamp": "2026-04-15T05:13:05Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 528,
+      "tokens_out": 52,
+      "cost": 0.0001104,
+      "timestamp": "2026-04-15T05:13:06Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 540,
+      "tokens_out": 50,
+      "cost": 0.000111,
+      "timestamp": "2026-04-15T05:13:08Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 413,
+      "tokens_out": 51,
+      "cost": 9.255e-05,
+      "timestamp": "2026-04-15T05:13:09Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 582,
+      "tokens_out": 60,
+      "cost": 0.0001233,
+      "timestamp": "2026-04-15T05:13:10Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 426,
+      "tokens_out": 41,
+      "cost": 8.85e-05,
+      "timestamp": "2026-04-15T05:13:11Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 415,
+      "tokens_out": 45,
+      "cost": 8.925e-05,
+      "timestamp": "2026-04-15T05:13:13Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 407,
+      "tokens_out": 43,
+      "cost": 8.685e-05,
+      "timestamp": "2026-04-15T05:13:14Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 385,
+      "tokens_out": 37,
+      "cost": 7.995e-05,
+      "timestamp": "2026-04-15T05:13:15Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 590,
+      "tokens_out": 53,
+      "cost": 0.0001203,
+      "timestamp": "2026-04-15T05:13:17Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 522,
+      "tokens_out": 54,
+      "cost": 0.0001107,
+      "timestamp": "2026-04-15T05:13:18Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 397,
+      "tokens_out": 46,
+      "cost": 8.714999999999999e-05,
+      "timestamp": "2026-04-15T05:13:19Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 576,
+      "tokens_out": 64,
+      "cost": 0.00012479999999999997,
+      "timestamp": "2026-04-15T05:13:21Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 547,
+      "tokens_out": 54,
+      "cost": 0.00011444999999999999,
+      "timestamp": "2026-04-15T05:13:23Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 520,
+      "tokens_out": 50,
+      "cost": 0.000108,
+      "timestamp": "2026-04-15T05:13:24Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 413,
+      "tokens_out": 55,
+      "cost": 9.494999999999999e-05,
+      "timestamp": "2026-04-15T05:13:26Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 410,
+      "tokens_out": 49,
+      "cost": 9.09e-05,
+      "timestamp": "2026-04-15T05:13:27Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 402,
+      "tokens_out": 41,
+      "cost": 8.489999999999999e-05,
+      "timestamp": "2026-04-15T05:13:28Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 424,
+      "tokens_out": 52,
+      "cost": 9.48e-05,
+      "timestamp": "2026-04-15T05:13:30Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 602,
+      "tokens_out": 52,
+      "cost": 0.0001215,
+      "timestamp": "2026-04-15T05:13:31Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 577,
+      "tokens_out": 53,
+      "cost": 0.00011834999999999999,
+      "timestamp": "2026-04-15T05:13:33Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 437,
+      "tokens_out": 56,
+      "cost": 9.915000000000001e-05,
+      "timestamp": "2026-04-15T05:13:34Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 414,
+      "tokens_out": 36,
+      "cost": 8.369999999999999e-05,
+      "timestamp": "2026-04-15T05:13:35Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 391,
+      "tokens_out": 48,
+      "cost": 8.744999999999998e-05,
+      "timestamp": "2026-04-15T05:13:36Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 532,
+      "tokens_out": 58,
+      "cost": 0.0001146,
+      "timestamp": "2026-04-15T05:13:38Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 399,
+      "tokens_out": 45,
+      "cost": 8.685e-05,
+      "timestamp": "2026-04-15T05:13:39Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 456,
+      "tokens_out": 52,
+      "cost": 9.96e-05,
+      "timestamp": "2026-04-15T05:13:41Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 583,
+      "tokens_out": 55,
+      "cost": 0.00012045,
+      "timestamp": "2026-04-15T05:13:43Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 472,
+      "tokens_out": 45,
+      "cost": 9.779999999999999e-05,
+      "timestamp": "2026-04-15T05:13:44Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 419,
+      "tokens_out": 41,
+      "cost": 8.744999999999998e-05,
+      "timestamp": "2026-04-15T05:13:45Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 452,
+      "tokens_out": 54,
+      "cost": 0.00010019999999999998,
+      "timestamp": "2026-04-15T05:13:47Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 448,
+      "tokens_out": 40,
+      "cost": 9.120000000000001e-05,
+      "timestamp": "2026-04-15T05:13:48Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 434,
+      "tokens_out": 48,
+      "cost": 9.389999999999999e-05,
+      "timestamp": "2026-04-15T05:13:49Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 397,
+      "tokens_out": 48,
+      "cost": 8.834999999999999e-05,
+      "timestamp": "2026-04-15T05:13:51Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 579,
+      "tokens_out": 60,
+      "cost": 0.00012285,
+      "timestamp": "2026-04-15T05:13:52Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 576,
+      "tokens_out": 50,
+      "cost": 0.0001164,
+      "timestamp": "2026-04-15T05:13:54Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 520,
+      "tokens_out": 62,
+      "cost": 0.0001152,
+      "timestamp": "2026-04-15T05:13:55Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 421,
+      "tokens_out": 52,
+      "cost": 9.434999999999999e-05,
+      "timestamp": "2026-04-15T05:13:56Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 385,
+      "tokens_out": 55,
+      "cost": 9.075e-05,
+      "timestamp": "2026-04-15T05:13:58Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 574,
+      "tokens_out": 59,
+      "cost": 0.0001215,
+      "timestamp": "2026-04-15T05:13:59Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 404,
+      "tokens_out": 37,
+      "cost": 8.28e-05,
+      "timestamp": "2026-04-15T05:14:00Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 415,
+      "tokens_out": 87,
+      "cost": 0.00011444999999999999,
+      "timestamp": "2026-04-15T05:14:03Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 449,
+      "tokens_out": 56,
+      "cost": 0.00010094999999999999,
+      "timestamp": "2026-04-15T05:14:04Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 386,
+      "tokens_out": 42,
+      "cost": 8.31e-05,
+      "timestamp": "2026-04-15T05:14:05Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 514,
+      "tokens_out": 38,
+      "cost": 9.989999999999999e-05,
+      "timestamp": "2026-04-15T05:14:06Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 574,
+      "tokens_out": 54,
+      "cost": 0.0001185,
+      "timestamp": "2026-04-15T05:14:07Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 440,
+      "tokens_out": 51,
+      "cost": 9.659999999999999e-05,
+      "timestamp": "2026-04-15T05:14:09Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 392,
+      "tokens_out": 41,
+      "cost": 8.34e-05,
+      "timestamp": "2026-04-15T05:14:10Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 405,
+      "tokens_out": 53,
+      "cost": 9.255e-05,
+      "timestamp": "2026-04-15T05:14:12Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 438,
+      "tokens_out": 54,
+      "cost": 9.81e-05,
+      "timestamp": "2026-04-15T05:14:13Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 446,
+      "tokens_out": 53,
+      "cost": 9.869999999999999e-05,
+      "timestamp": "2026-04-15T05:14:14Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 438,
+      "tokens_out": 37,
+      "cost": 8.790000000000001e-05,
+      "timestamp": "2026-04-15T05:14:16Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 435,
+      "tokens_out": 44,
+      "cost": 9.165e-05,
+      "timestamp": "2026-04-15T05:14:17Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 576,
+      "tokens_out": 62,
+      "cost": 0.0001236,
+      "timestamp": "2026-04-15T05:14:18Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 429,
+      "tokens_out": 41,
+      "cost": 8.895e-05,
+      "timestamp": "2026-04-15T05:14:20Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 450,
+      "tokens_out": 49,
+      "cost": 9.690000000000001e-05,
+      "timestamp": "2026-04-15T05:14:21Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 562,
+      "tokens_out": 55,
+      "cost": 0.00011729999999999999,
+      "timestamp": "2026-04-15T05:14:22Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 577,
+      "tokens_out": 59,
+      "cost": 0.00012194999999999998,
+      "timestamp": "2026-04-15T05:14:24Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 402,
+      "tokens_out": 51,
+      "cost": 9.089999999999999e-05,
+      "timestamp": "2026-04-15T05:14:25Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 584,
+      "tokens_out": 54,
+      "cost": 0.00012,
+      "timestamp": "2026-04-15T05:14:27Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 543,
+      "tokens_out": 49,
+      "cost": 0.00011085,
+      "timestamp": "2026-04-15T05:14:28Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 556,
+      "tokens_out": 53,
+      "cost": 0.0001152,
+      "timestamp": "2026-04-15T05:14:29Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 448,
+      "tokens_out": 53,
+      "cost": 9.9e-05,
+      "timestamp": "2026-04-15T05:14:31Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 553,
+      "tokens_out": 57,
+      "cost": 0.00011715,
+      "timestamp": "2026-04-15T05:14:33Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 546,
+      "tokens_out": 56,
+      "cost": 0.0001155,
+      "timestamp": "2026-04-15T05:14:34Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 421,
+      "tokens_out": 52,
+      "cost": 9.434999999999999e-05,
+      "timestamp": "2026-04-15T05:14:35Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 407,
+      "tokens_out": 43,
+      "cost": 8.685e-05,
+      "timestamp": "2026-04-15T05:14:37Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 515,
+      "tokens_out": 43,
+      "cost": 0.00010305,
+      "timestamp": "2026-04-15T05:14:38Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 453,
+      "tokens_out": 56,
+      "cost": 0.00010155000000000002,
+      "timestamp": "2026-04-15T05:14:40Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 450,
+      "tokens_out": 53,
+      "cost": 9.93e-05,
+      "timestamp": "2026-04-15T05:14:41Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 535,
+      "tokens_out": 52,
+      "cost": 0.00011145,
+      "timestamp": "2026-04-15T05:14:42Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 531,
+      "tokens_out": 49,
+      "cost": 0.00010904999999999998,
+      "timestamp": "2026-04-15T05:14:44Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 421,
+      "tokens_out": 53,
+      "cost": 9.494999999999999e-05,
+      "timestamp": "2026-04-15T05:14:45Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 490,
+      "tokens_out": 50,
+      "cost": 0.0001035,
+      "timestamp": "2026-04-15T05:14:46Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 511,
+      "tokens_out": 57,
+      "cost": 0.00011085,
+      "timestamp": "2026-04-15T05:14:48Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 401,
+      "tokens_out": 50,
+      "cost": 9.015000000000001e-05,
+      "timestamp": "2026-04-15T05:14:49Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 446,
+      "tokens_out": 54,
+      "cost": 9.929999999999999e-05,
+      "timestamp": "2026-04-15T05:14:51Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 408,
+      "tokens_out": 50,
+      "cost": 9.12e-05,
+      "timestamp": "2026-04-15T05:14:52Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 535,
+      "tokens_out": 55,
+      "cost": 0.00011325,
+      "timestamp": "2026-04-15T05:14:54Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 599,
+      "tokens_out": 62,
+      "cost": 0.00012704999999999997,
+      "timestamp": "2026-04-15T05:14:55Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 421,
+      "tokens_out": 54,
+      "cost": 9.554999999999999e-05,
+      "timestamp": "2026-04-15T05:14:57Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 412,
+      "tokens_out": 57,
+      "cost": 9.6e-05,
+      "timestamp": "2026-04-15T05:14:59Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 403,
+      "tokens_out": 53,
+      "cost": 9.225e-05,
+      "timestamp": "2026-04-15T05:15:00Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 443,
+      "tokens_out": 51,
+      "cost": 9.705e-05,
+      "timestamp": "2026-04-15T05:15:01Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 455,
+      "tokens_out": 52,
+      "cost": 9.945e-05,
+      "timestamp": "2026-04-15T05:15:03Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 444,
+      "tokens_out": 54,
+      "cost": 9.9e-05,
+      "timestamp": "2026-04-15T05:15:04Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 450,
+      "tokens_out": 46,
+      "cost": 9.51e-05,
+      "timestamp": "2026-04-15T05:15:05Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 408,
+      "tokens_out": 55,
+      "cost": 9.419999999999999e-05,
+      "timestamp": "2026-04-15T05:15:06Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 430,
+      "tokens_out": 44,
+      "cost": 9.09e-05,
+      "timestamp": "2026-04-15T05:15:08Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 428,
+      "tokens_out": 50,
+      "cost": 9.42e-05,
+      "timestamp": "2026-04-15T05:15:09Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 526,
+      "tokens_out": 39,
+      "cost": 0.00010229999999999998,
+      "timestamp": "2026-04-15T05:15:11Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 441,
+      "tokens_out": 46,
+      "cost": 9.374999999999999e-05,
+      "timestamp": "2026-04-15T05:15:12Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 424,
+      "tokens_out": 53,
+      "cost": 9.539999999999999e-05,
+      "timestamp": "2026-04-15T05:15:13Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 444,
+      "tokens_out": 59,
+      "cost": 0.000102,
+      "timestamp": "2026-04-15T05:15:15Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 444,
+      "tokens_out": 73,
+      "cost": 0.00011039999999999999,
+      "timestamp": "2026-04-15T05:15:17Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 575,
+      "tokens_out": 63,
+      "cost": 0.00012405,
+      "timestamp": "2026-04-15T05:15:19Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 426,
+      "tokens_out": 56,
+      "cost": 9.75e-05,
+      "timestamp": "2026-04-15T05:15:21Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 563,
+      "tokens_out": 56,
+      "cost": 0.00011805000000000001,
+      "timestamp": "2026-04-15T05:15:22Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 449,
+      "tokens_out": 47,
+      "cost": 9.554999999999999e-05,
+      "timestamp": "2026-04-15T05:15:23Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 416,
+      "tokens_out": 52,
+      "cost": 9.36e-05,
+      "timestamp": "2026-04-15T05:15:24Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 379,
+      "tokens_out": 49,
+      "cost": 8.625e-05,
+      "timestamp": "2026-04-15T05:15:26Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 532,
+      "tokens_out": 54,
+      "cost": 0.00011219999999999999,
+      "timestamp": "2026-04-15T05:15:27Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 523,
+      "tokens_out": 55,
+      "cost": 0.00011145,
+      "timestamp": "2026-04-15T05:15:29Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 389,
+      "tokens_out": 44,
+      "cost": 8.475e-05,
+      "timestamp": "2026-04-15T05:15:30Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 406,
+      "tokens_out": 44,
+      "cost": 8.73e-05,
+      "timestamp": "2026-04-15T05:15:32Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 568,
+      "tokens_out": 58,
+      "cost": 0.00012,
+      "timestamp": "2026-04-15T05:15:33Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 413,
+      "tokens_out": 53,
+      "cost": 9.375e-05,
+      "timestamp": "2026-04-15T05:15:34Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 457,
+      "tokens_out": 41,
+      "cost": 9.314999999999999e-05,
+      "timestamp": "2026-04-15T05:15:36Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 386,
+      "tokens_out": 51,
+      "cost": 8.85e-05,
+      "timestamp": "2026-04-15T05:15:37Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 442,
+      "tokens_out": 49,
+      "cost": 9.57e-05,
+      "timestamp": "2026-04-15T05:15:38Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 527,
+      "tokens_out": 58,
+      "cost": 0.00011384999999999999,
+      "timestamp": "2026-04-15T05:15:40Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 408,
+      "tokens_out": 45,
+      "cost": 8.819999999999999e-05,
+      "timestamp": "2026-04-15T05:15:41Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 546,
+      "tokens_out": 54,
+      "cost": 0.00011429999999999999,
+      "timestamp": "2026-04-15T05:15:42Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 573,
+      "tokens_out": 53,
+      "cost": 0.00011775,
+      "timestamp": "2026-04-15T05:15:44Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 514,
+      "tokens_out": 52,
+      "cost": 0.0001083,
+      "timestamp": "2026-04-15T05:15:45Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 559,
+      "tokens_out": 61,
+      "cost": 0.00012044999999999999,
+      "timestamp": "2026-04-15T05:15:47Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 526,
+      "tokens_out": 51,
+      "cost": 0.00010949999999999999,
+      "timestamp": "2026-04-15T05:15:48Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 426,
+      "tokens_out": 46,
+      "cost": 9.15e-05,
+      "timestamp": "2026-04-15T05:15:51Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 447,
+      "tokens_out": 53,
+      "cost": 9.884999999999999e-05,
+      "timestamp": "2026-04-15T05:15:53Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 368,
+      "tokens_out": 44,
+      "cost": 8.159999999999999e-05,
+      "timestamp": "2026-04-15T05:15:54Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 443,
+      "tokens_out": 48,
+      "cost": 9.525e-05,
+      "timestamp": "2026-04-15T05:15:56Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 443,
+      "tokens_out": 47,
+      "cost": 9.465000000000001e-05,
+      "timestamp": "2026-04-15T05:15:57Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 449,
+      "tokens_out": 40,
+      "cost": 9.135e-05,
+      "timestamp": "2026-04-15T05:15:58Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 507,
+      "tokens_out": 59,
+      "cost": 0.00011144999999999998,
+      "timestamp": "2026-04-15T05:16:00Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 408,
+      "tokens_out": 45,
+      "cost": 8.819999999999999e-05,
+      "timestamp": "2026-04-15T05:16:01Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 401,
+      "tokens_out": 39,
+      "cost": 8.355e-05,
+      "timestamp": "2026-04-15T05:16:02Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 521,
+      "tokens_out": 53,
+      "cost": 0.00010994999999999999,
+      "timestamp": "2026-04-15T05:16:04Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 405,
+      "tokens_out": 43,
+      "cost": 8.655e-05,
+      "timestamp": "2026-04-15T05:16:05Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 395,
+      "tokens_out": 34,
+      "cost": 7.965000000000001e-05,
+      "timestamp": "2026-04-15T05:16:06Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 574,
+      "tokens_out": 55,
+      "cost": 0.0001191,
+      "timestamp": "2026-04-15T05:16:08Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 544,
+      "tokens_out": 59,
+      "cost": 0.000117,
+      "timestamp": "2026-04-15T05:16:09Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 530,
+      "tokens_out": 47,
+      "cost": 0.0001077,
+      "timestamp": "2026-04-15T05:16:10Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 419,
+      "tokens_out": 53,
+      "cost": 9.465e-05,
+      "timestamp": "2026-04-15T05:16:12Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 451,
+      "tokens_out": 55,
+      "cost": 0.00010065,
+      "timestamp": "2026-04-15T05:16:13Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 421,
+      "tokens_out": 39,
+      "cost": 8.655e-05,
+      "timestamp": "2026-04-15T05:16:15Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 442,
+      "tokens_out": 41,
+      "cost": 9.089999999999999e-05,
+      "timestamp": "2026-04-15T05:16:16Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 428,
+      "tokens_out": 34,
+      "cost": 8.46e-05,
+      "timestamp": "2026-04-15T05:16:18Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 393,
+      "tokens_out": 51,
+      "cost": 8.955e-05,
+      "timestamp": "2026-04-15T05:16:19Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 400,
+      "tokens_out": 44,
+      "cost": 8.64e-05,
+      "timestamp": "2026-04-15T05:16:20Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 396,
+      "tokens_out": 48,
+      "cost": 8.819999999999999e-05,
+      "timestamp": "2026-04-15T05:16:21Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 392,
+      "tokens_out": 41,
+      "cost": 8.34e-05,
+      "timestamp": "2026-04-15T05:16:23Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 588,
+      "tokens_out": 54,
+      "cost": 0.00012059999999999999,
+      "timestamp": "2026-04-15T05:16:27Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 538,
+      "tokens_out": 53,
+      "cost": 0.0001125,
+      "timestamp": "2026-04-15T05:16:29Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 431,
+      "tokens_out": 52,
+      "cost": 9.585e-05,
+      "timestamp": "2026-04-15T05:16:30Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 410,
+      "tokens_out": 45,
+      "cost": 8.85e-05,
+      "timestamp": "2026-04-15T05:16:31Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 598,
+      "tokens_out": 48,
+      "cost": 0.0001185,
+      "timestamp": "2026-04-15T05:16:33Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 403,
+      "tokens_out": 55,
+      "cost": 9.345e-05,
+      "timestamp": "2026-04-15T05:16:34Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 575,
+      "tokens_out": 54,
+      "cost": 0.00011865000000000001,
+      "timestamp": "2026-04-15T05:16:36Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 575,
+      "tokens_out": 57,
+      "cost": 0.00012044999999999999,
+      "timestamp": "2026-04-15T05:16:37Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 428,
+      "tokens_out": 45,
+      "cost": 9.120000000000001e-05,
+      "timestamp": "2026-04-15T05:16:38Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 414,
+      "tokens_out": 46,
+      "cost": 8.969999999999998e-05,
+      "timestamp": "2026-04-15T05:16:40Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 520,
+      "tokens_out": 41,
+      "cost": 0.0001026,
+      "timestamp": "2026-04-15T05:16:41Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 445,
+      "tokens_out": 57,
+      "cost": 0.00010094999999999999,
+      "timestamp": "2026-04-15T05:16:42Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 413,
+      "tokens_out": 40,
+      "cost": 8.594999999999999e-05,
+      "timestamp": "2026-04-15T05:16:44Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 407,
+      "tokens_out": 46,
+      "cost": 8.864999999999999e-05,
+      "timestamp": "2026-04-15T05:16:45Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 363,
+      "tokens_out": 51,
+      "cost": 8.505e-05,
+      "timestamp": "2026-04-15T05:16:47Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 515,
+      "tokens_out": 55,
+      "cost": 0.00011025,
+      "timestamp": "2026-04-15T05:16:49Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 392,
+      "tokens_out": 39,
+      "cost": 8.219999999999999e-05,
+      "timestamp": "2026-04-15T05:16:51Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 531,
+      "tokens_out": 48,
+      "cost": 0.00010845,
+      "timestamp": "2026-04-15T05:16:52Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 445,
+      "tokens_out": 57,
+      "cost": 0.00010094999999999999,
+      "timestamp": "2026-04-15T05:16:53Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 438,
+      "tokens_out": 52,
+      "cost": 9.690000000000001e-05,
+      "timestamp": "2026-04-15T05:16:55Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 531,
+      "tokens_out": 52,
+      "cost": 0.00011085,
+      "timestamp": "2026-04-15T05:16:56Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 416,
+      "tokens_out": 41,
+      "cost": 8.7e-05,
+      "timestamp": "2026-04-15T05:16:57Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 514,
+      "tokens_out": 53,
+      "cost": 0.00010889999999999999,
+      "timestamp": "2026-04-15T05:16:58Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 417,
+      "tokens_out": 43,
+      "cost": 8.834999999999999e-05,
+      "timestamp": "2026-04-15T05:17:00Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 416,
+      "tokens_out": 43,
+      "cost": 8.82e-05,
+      "timestamp": "2026-04-15T05:17:01Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 368,
+      "tokens_out": 51,
+      "cost": 8.58e-05,
+      "timestamp": "2026-04-15T05:17:03Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 442,
+      "tokens_out": 39,
+      "cost": 8.969999999999998e-05,
+      "timestamp": "2026-04-15T05:17:04Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 577,
+      "tokens_out": 64,
+      "cost": 0.00012495,
+      "timestamp": "2026-04-15T05:17:05Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 414,
+      "tokens_out": 43,
+      "cost": 8.79e-05,
+      "timestamp": "2026-04-15T05:17:07Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 403,
+      "tokens_out": 51,
+      "cost": 9.104999999999999e-05,
+      "timestamp": "2026-04-15T05:17:08Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 409,
+      "tokens_out": 49,
+      "cost": 9.075e-05,
+      "timestamp": "2026-04-15T05:17:10Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 441,
+      "tokens_out": 50,
+      "cost": 9.614999999999999e-05,
+      "timestamp": "2026-04-15T05:17:11Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 404,
+      "tokens_out": 50,
+      "cost": 9.059999999999999e-05,
+      "timestamp": "2026-04-15T05:17:13Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 575,
+      "tokens_out": 56,
+      "cost": 0.00011985,
+      "timestamp": "2026-04-15T05:17:14Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 534,
+      "tokens_out": 52,
+      "cost": 0.0001113,
+      "timestamp": "2026-04-15T05:17:16Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 574,
+      "tokens_out": 57,
+      "cost": 0.00012029999999999998,
+      "timestamp": "2026-04-15T05:17:17Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 539,
+      "tokens_out": 58,
+      "cost": 0.00011564999999999999,
+      "timestamp": "2026-04-15T05:17:19Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 405,
+      "tokens_out": 44,
+      "cost": 8.715e-05,
+      "timestamp": "2026-04-15T05:17:21Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 541,
+      "tokens_out": 50,
+      "cost": 0.00011114999999999999,
+      "timestamp": "2026-04-15T05:17:22Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 526,
+      "tokens_out": 59,
+      "cost": 0.00011429999999999999,
+      "timestamp": "2026-04-15T05:17:24Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 487,
+      "tokens_out": 62,
+      "cost": 0.00011025,
+      "timestamp": "2026-04-15T05:17:25Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 445,
+      "tokens_out": 54,
+      "cost": 9.915000000000001e-05,
+      "timestamp": "2026-04-15T05:17:27Z"
+    },
+    {
+      "step": "classify_tiebreak",
+      "model": "gpt-4o-mini",
+      "tokens_in": 440,
+      "tokens_out": 56,
+      "cost": 9.96e-05,
+      "timestamp": "2026-04-15T05:17:28Z"
+    },
+    {
+      "step": "diagnose_jd",
+      "model": "gpt-4o-mini",
+      "tokens_in": 475,
+      "tokens_out": 375,
+      "cost": 0.00029625,
+      "timestamp": "2026-04-15T05:17:36Z"
+    },
+    {
+      "step": "diagnose_jd",
+      "model": "gpt-4o-mini",
+      "tokens_in": 459,
+      "tokens_out": 313,
+      "cost": 0.00025665,
+      "timestamp": "2026-04-15T05:17:41Z"
+    },
+    {
+      "step": "diagnose_jd",
+      "model": "gpt-4o-mini",
+      "tokens_in": 443,
+      "tokens_out": 285,
+      "cost": 0.00023745,
+      "timestamp": "2026-04-15T05:17:47Z"
+    },
+    {
+      "step": "diagnose_jd",
+      "model": "gpt-4o-mini",
+      "tokens_in": 465,
+      "tokens_out": 395,
+      "cost": 0.00030675,
+      "timestamp": "2026-04-15T05:17:55Z"
+    },
+    {
+      "step": "diagnose_jd",
+      "model": "gpt-4o-mini",
+      "tokens_in": 465,
+      "tokens_out": 394,
+      "cost": 0.00030615,
+      "timestamp": "2026-04-15T05:18:02Z"
+    },
+    {
+      "step": "diagnose_jd",
+      "model": "gpt-4o-mini",
+      "tokens_in": 459,
+      "tokens_out": 330,
+      "cost": 0.00026685,
+      "timestamp": "2026-04-15T05:18:07Z"
+    },
+    {
+      "step": "diagnose_jd",
+      "model": "gpt-4o-mini",
+      "tokens_in": 455,
+      "tokens_out": 265,
+      "cost": 0.00022725,
+      "timestamp": "2026-04-15T05:18:12Z"
+    },
+    {
+      "step": "diagnose_jd",
+      "model": "gpt-4o-mini",
+      "tokens_in": 447,
+      "tokens_out": 387,
+      "cost": 0.00029925,
+      "timestamp": "2026-04-15T05:18:19Z"
+    },
+    {
+      "step": "diagnose_jd",
+      "model": "gpt-4o-mini",
+      "tokens_in": 459,
+      "tokens_out": 339,
+      "cost": 0.00027225,
+      "timestamp": "2026-04-15T05:18:25Z"
+    },
+    {
+      "step": "diagnose_jd",
+      "model": "gpt-4o-mini",
+      "tokens_in": 458,
+      "tokens_out": 248,
+      "cost": 0.0002175,
+      "timestamp": "2026-04-15T05:18:30Z"
+    },
+    {
+      "step": "diagnose_jd",
+      "model": "gpt-4o-mini",
+      "tokens_in": 450,
+      "tokens_out": 632,
+      "cost": 0.00044669999999999996,
+      "timestamp": "2026-04-15T05:18:42Z"
+    },
+    {
+      "step": "diagnose_jd",
+      "model": "gpt-4o-mini",
+      "tokens_in": 461,
+      "tokens_out": 362,
+      "cost": 0.00028634999999999994,
+      "timestamp": "2026-04-15T05:18:50Z"
+    }
+  ]
+}

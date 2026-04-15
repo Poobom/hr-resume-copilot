@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0209",
+  "sha1": "31ef3bc042c1de3daf8ef20cfcb48170c451cef1",
+  "format": "pdf",
+  "raw_text_length": 910,
+  "masked_text": "RESUME\nName: David Gonzalez\nDOB: 1993 (age 33)\nGender: Female\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Toronto, Canada\nApplying for: UX Designer (JD010)\nEDUCATION\n- Stanford University, B.S. in Economics (GPA 3.14/4.0)\n- Purdue University, M.S. in Economics\nEXPERIENCE\n- Apple (2019.03 - 2020.02)\nRole: Manager\n- nnn (2021.03 - 2023.02)\nRole: Senior Engineer\n- Samsung Research America (2023.03 - 2025.02)\nRole: Tech Lead\nPROJECTS\n- Led full app redesign, user NPS improved from 34 to 58.\n- Redesigned design system with Atomic structure, cut design QA time by 70%.\n- Conducted 40+ UX research sessions, insights informed product roadmap.\nSKILLS\n- Design System, Interaction Design, UX Research, Figma\nSUMMARY\nI am a UX Designer with 7 years of experience, specializing in Design System-based systems\n. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

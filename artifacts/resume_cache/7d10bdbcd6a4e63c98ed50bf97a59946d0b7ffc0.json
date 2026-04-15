@@ -1,0 +1,23 @@
+{
+  "resume_id": "resume_0681",
+  "sha1": "7d10bdbcd6a4e63c98ed50bf97a59946d0b7ffc0",
+  "format": "pdf",
+  "raw_text_length": 605,
+  "masked_text": "[MASK_NAME]\n이름: [MASK_NAME]  \n생년월일: 1998년생 ([FILTERED])  \n[FILTERED]  \n연락처: [MASK_PHONE]  \n이메일: 심수용3398@yahoo.com  \n거주지: [MASK_ADDR]  \n\n지원 포지션: UX 디자이너 (JD010)  \n[MASK_NAME]\n- [FILTERED] 학생 (GPA 3.39/4.5)  \n[MASK_NAME]\n- 토스 (2024.03 ~ 2025.02)  \n직책: 테크 리드  \n- LG유플러스 (2025.03 ~ 2026.02)  \n직책: 시니어 엔지니어  \n\n주요 프로젝트  \n- B2C 웹 전체 리뉴얼 디자인 리드, 사용자 NPS 34 → 58 상승.  \n- UX 리서치 40개 진행 및 인사이트를 제품 로드맵에 반영.  \n- 디자인 시스템 Atomic 구조체 재설계, 디자인 QA 시간 70% 단축.  \n\n보유 기술  \n- 인터랙션 디자인, Figma, UX 리서치  \n[MASK_NAME]\n저는 건설사 UX 디자이너로서 실무에서 기준에 성과를 만들어왔습니다. 특히 인터랙션 디자인 기반 시스템 설계와 운영에 강점이 있으며, 최근에는 대규모 트래픽 환경에서의 안정적 서비스 운영에 관심을 갖고 있습니다. 동료들과의 협업을 통해 더 나은 제품을 만드는 일에 보람을 느낍니다.",
+  "pii_fields_separated": {
+    "education": [
+      "중단대학교 통계학과"
+    ],
+    "age": [
+      "만 28세"
+    ],
+    "gender": [
+      "성별: 남"
+    ],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "vision",
+  "ok": true,
+  "error": null
+}

@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0516",
+  "sha1": "0fb8d084ede9802eee7ecbfc64d086c336d25ed7",
+  "format": "docx",
+  "raw_text_length": 867,
+  "masked_text": "RESUME\nName: Robert Martin\nDOB: 1986 (age 40)\nGender: Male\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seoul, Gangnam-gu\nApplying for: Game Client Programmer (JD006)\nEDUCATION\n- ETH Zurich, B.S. in Industrial Engineering (GPA 3.84/4.0)\nEXPERIENCE\n- Dropbox (2019.03 - 2022.02)\n  Role: Software Engineer\n- Adobe (2021.03 - 2022.02)\n  Role: Manager\n- KT (2023.03 - 2024.02)\n  Role: Manager\nPROJECTS\n- Developed UE5 open-world client, built character customization system.\n- Optimized mobile RPG client for low-end devices, from 28fps to 58fps.\n- Implemented server-authoritative multiplayer combat replication.\nSKILLS\n- C++, Game Client, Optimization, Unreal Engine\nSUMMARY\nI am a Game Client Programmer with 7 years of experience, specializing in C++-based systems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "python-docx",
+  "ok": true,
+  "error": null
+}

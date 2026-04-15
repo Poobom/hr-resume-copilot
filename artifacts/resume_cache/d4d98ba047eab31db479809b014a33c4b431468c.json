@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0090",
+  "sha1": "d4d98ba047eab31db479809b014a33c4b431468c",
+  "format": "pdf",
+  "raw_text_length": 809,
+  "masked_text": "RESUME\nName: James Moore\nDOB: 1992 (age 34)\nGender: Female\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seoul, Gangnam-gu\nApplying for: Product Manager (JD009)\nEDUCATION\n- University of Illinois Urbana-Champaign, B.S. in Design (GPA 3.81/4.0)\nEXPERIENCE\n- nnnn (2020.03 - 2021.02)\nRole: Software Engineer\n- nnSDS (2022.03 - 2025.02)\nRole: Tech Lead\n- nnnnnn (2024.03 - 2026.02)\nRole: Manager\nPROJECTS\n- Built A/B test framework, drove 40+ experiments annually.\n- Launched subscription product, reached 450k MAU in 3 months.\n- Led checkout redesign, improved conversion from 62% to 74%.\nSKILLS\n- Scrum, Metrics, PM\nSUMMARY\nI am a Product Manager with 6 years of experience, specializing in Scrum-based systems. I\nthrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

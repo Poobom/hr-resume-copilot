@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0776",
+  "sha1": "25feb9b19bbb1207c105ca52c57ea2888d6cdca9",
+  "format": "docx",
+  "raw_text_length": 812,
+  "masked_text": "RESUME\nName: Sophia Martin\nDOB: 1994 (age 32)\nGender: Male\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seattle, WA\nApplying for: Product Manager (JD009)\nEDUCATION\n- University of Waterloo, B.S. in Electrical Engineering (GPA 3.38/4.0)\nEXPERIENCE\n- 삼성전자 (2018.03 - 2019.02)\n  Role: Tech Lead\n- Microsoft (2020.03 - 2023.02)\n  Role: Manager\n- 젠지 이스포츠 (2022.03 - 2025.02)\n  Role: Tech Lead\nPROJECTS\n- Launched subscription product, reached 450k MAU in 3 months.\n- Led checkout redesign, improved conversion from 62% to 74%.\n- Built A/B test framework, drove 40+ experiments annually.\nSKILLS\n- Roadmap, Scrum, Metrics\nSUMMARY\nI am a Product Manager with 8 years of experience, specializing in Roadmap-based systems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "python-docx",
+  "ok": true,
+  "error": null
+}

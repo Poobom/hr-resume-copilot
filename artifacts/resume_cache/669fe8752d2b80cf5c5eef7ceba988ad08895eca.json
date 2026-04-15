@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0078",
+  "sha1": "669fe8752d2b80cf5c5eef7ceba988ad08895eca",
+  "format": "docx",
+  "raw_text_length": 858,
+  "masked_text": "RESUME\nName: John Moore\nDOB: 2000 (age 26)\nGender: Female\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seoul, Gangnam-gu\nApplying for: QA Engineer (JD008)\nEDUCATION\n- MIT, B.S. in Mathematics (GPA 3.63/4.0)\nEXPERIENCE\n- 네이버 (2020.03 - 2022.02)\n  Role: Software Engineer\n- Tesla (2022.03 - 2024.02)\n  Role: Senior Engineer\n- 삼성전자 (2024.03 - 2026.02)\n  Role: Senior Engineer\nPROJECTS\n- Built Playwright E2E framework, reduced regression testing from 3 days manual to 2 hours automated.\n- Automated performance testing with JMeter-based load pipeline.\n- Standardized game QA process with regression sheets and bug triage rules.\nSKILLS\n- Selenium, Game QA, Bug Report\nSUMMARY\nI am a QA Engineer with 6 years of experience, specializing in Selenium-based systems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "python-docx",
+  "ok": true,
+  "error": null
+}

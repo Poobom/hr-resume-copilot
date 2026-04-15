@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0007",
+  "sha1": "a33a58bcdd3592f4ea415e30961fcb4c82692b32",
+  "format": "pdf",
+  "raw_text_length": 833,
+  "masked_text": "RESUME\nName: Thomas Rodriguez\nDOB: 1997 (age 29)\nGender: Male\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seoul, Mapo-gu\nApplying for: Frontend Engineer (JD002)\nEDUCATION\n- NUS, B.S. in Industrial Engineering (GPA 3.09/4.0)\nEXPERIENCE\n- nnn (2023.03 - 2024.02)\nRole: Software Engineer\n- nnnnnn (2024.03 - 2025.02)\nRole: Manager\nPROJECTS\n- Built Next.js admin console from scratch. SSR/ISR reduced LCP from 4.2s to 1.8s.\n- Migrated state management to React Query, reducing bundle size by 32%.\n- Built 40+ design system components with Storybook and Chromatic visual regression.\nSKILLS\n- TypeScript, State Management, React\nSUMMARY\nI am a Frontend Engineer with 3 years of experience, specializing in TypeScript-based syst\nems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

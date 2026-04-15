@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0175",
+  "sha1": "067e20155e06d3ce9c1b8325157a5fdd6762d6e1",
+  "format": "docx",
+  "raw_text_length": 822,
+  "masked_text": "RESUME\nName: Sophia Brown\nDOB: 1986 (age 40)\nGender: Male\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seoul, Gangnam-gu\nApplying for: Backend Engineer (JD001)\nEDUCATION\n- University of Illinois Urbana-Champaign, B.S. in Mathematics (GPA 3.85/4.0)\nEXPERIENCE\n- Nvidia (2025.03 - 2026.02)\n  Role: Tech Lead\nPROJECTS\n- Led MSA migration, split monolith into 8 domain services with gRPC.\n- Introduced Redis cache layer achieving 94% hit rate, reduced DB load by 60%.\n- Redesigned order API serving 30M DAU. Spring Boot + Kafka async pipeline reduced P95 latency from 420ms to 120ms.\nSKILLS\n- MySQL, Spring Boot, Redis, Kafka\nSUMMARY\nI am a Backend Engineer with 1 years of experience, specializing in MySQL-based systems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "python-docx",
+  "ok": true,
+  "error": null
+}

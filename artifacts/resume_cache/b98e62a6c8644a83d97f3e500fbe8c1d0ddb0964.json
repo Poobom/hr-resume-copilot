@@ -1,0 +1,23 @@
+{
+  "resume_id": "resume_0342",
+  "sha1": "b98e62a6c8644a83d97f3e500fbe8c1d0ddb0964",
+  "format": "hwp",
+  "raw_text_length": 651,
+  "masked_text": "[MASK_NAME]\n이름: [MASK_NAME]\n생년월일: 1992년생 ([FILTERED])\n[FILTERED]\n연락처: [MASK_PHONE]\n이메일: 윤우진8850@naver.com\n거주지: [MASK_ADDR]\n\n지원 포지션: 머신러닝 엔지니어 (JD004)\n\n■ 학력\n- [FILTERED] 학사 (GPA 4.15/4.5)\n\n■ 경력\n- 현대자동차 (2022.03 ~ 2024.02)\n  직책: 테크 리드\n- 무신사 (2023.03 ~ 2024.02)\n  직책: 주니어 엔지니어\n- 하이퍼커넥트 (2024.03 ~ 2026.02)\n  직책: 주니어 엔지니어\n\n■ 주요 프로젝트\n- 추천 시스템 CTR 12% 개선. Feature engineering 및 A/B 테스트 주도.\n- 이미지 분류 모델 ViT 기반 파인튜닝, 정확도 92.4%.\n- 사내 RAG 챗봇 개발. LangChain + Pinecone 기반, 정답률 84%.\n\n■ 보유 기술\n- LLM, Python, PyTorch, RAG, MLOps\n\n■ 자기소개\n저는 4년차 머신러닝 엔지니어로서 실무에서 꾸준히 성과를 만들어왔습니다. 특히 LLM 기반 시스템 설계와 운영에 강점이 있으며, 최근에는 대규모 트래픽 환경에서의 안정적 서비스 운영에 관심을 갖고 있습니다. 동료들과의 협업을 통해 더 나은 제품을 만드는 일에 보람을 느낍니다.",
+  "pii_fields_separated": {
+    "education": [
+      "서울시립대학교 인공지능학과"
+    ],
+    "age": [
+      "만 34세"
+    ],
+    "gender": [
+      "성별: 여"
+    ],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "hwpx-zip",
+  "ok": true,
+  "error": null
+}

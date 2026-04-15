@@ -1,0 +1,23 @@
+{
+  "resume_id": "resume_0378",
+  "sha1": "4796cdbed0a187e2b9ef21ee01f1ef2019f02da9",
+  "format": "pdf",
+  "raw_text_length": 571,
+  "masked_text": "[MASK_NAME]\n이름: [MASK_NAME]\n생년월일: 2000년생 ([FILTERED])\n[FILTERED]\n연락처: [MASK_PHONE]\n이메일: 하태준2737@naver.com\n거주지: [MASK_ADDR]\n지원 포지션: 게임 클라이언트 프로그래머 (JD006)\n■ 학력\n- [FILTERED] 학사 (GPA 3.19/4.5)\n■ 경력\n- KT (2025.03 ~ 2026.02)\n직책: 매니저\n■ 주요 프로젝트\n- UE5 기반 오픈월드 프로젝트 클라이언트 개발. 캐릭터 커스터마이징 시스템 구현.\n- 모바일 RPG 클라이언트 최적화. 로우엔드 기기 프레임 28fps → 58fps 개선.\n- 실시간 멀티플레이어 전투 시스템 구현. 서버 권위 기반 리플리케이션 설계.\n■ 보유 기술\n- 게임 클라이언트, Unreal Engine, 최적화, C++\n■ 자기소개\n저는 1년차 게임 클라이언트 프로그래머로서 실무에서 꾸준히 성과를 만들어왔습니다. 특히 게임 클라이언트 기반 시스템 설계와 운영에 강점이 있으며, 최근에는 대규모\n트래픽 환경에서의 안정적 서비스 운영에 관심을 갖고 있습니다. 동료들과의 협업을 통해 더 나은 제품을 만드는 일에 보람을 느낍니다.",
+  "pii_fields_separated": {
+    "education": [
+      "서울시립대학교 정보통신공학과"
+    ],
+    "age": [
+      "만 26세"
+    ],
+    "gender": [
+      "성별: 남"
+    ],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

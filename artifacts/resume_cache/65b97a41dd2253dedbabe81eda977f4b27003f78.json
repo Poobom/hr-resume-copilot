@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0674",
+  "sha1": "65b97a41dd2253dedbabe81eda977f4b27003f78",
+  "format": "docx",
+  "raw_text_length": 838,
+  "masked_text": "RESUME\nName: Olivia Yang\nDOB: 1998 (age 28)\nGender: Male\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seoul, Mapo-gu\nApplying for: UX Designer (JD010)\nEDUCATION\n- UC Berkeley, B.S. in Design (GPA 3.99/4.0)\nEXPERIENCE\n- 라인플러스 (2020.03 - 2021.02)\n  Role: Software Engineer\n- Dropbox (2022.03 - 2025.02)\n  Role: Manager\n- IBM (2024.03 - 2026.02)\n  Role: Manager\nPROJECTS\n- Led full app redesign, user NPS improved from 34 to 58.\n- Conducted 40+ UX research sessions, insights informed product roadmap.\n- Redesigned design system with Atomic structure, cut design QA time by 70%.\nSKILLS\n- Design System, Interaction Design, Figma, UX Research\nSUMMARY\nI am a UX Designer with 6 years of experience, specializing in Design System-based systems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "python-docx",
+  "ok": true,
+  "error": null
+}

@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0407",
+  "sha1": "60155d827282e6100be08bbb7a59e78a0ab41f7c",
+  "format": "pdf",
+  "raw_text_length": 875,
+  "masked_text": "RESUME\nName: Ashley Choi\nDOB: 1998 (age 28)\nGender: Male\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Toronto, Canada\nApplying for: Business Development Manager (JD011)\nEDUCATION\n- NUS, B.S. in Computer Science (GPA 3.85/4.0)\nEXPERIENCE\n- nnnn (2018.03 - 2021.02)\nRole: Software Engineer\n- Intel (2020.03 - 2023.02)\nRole: Senior Engineer\n- NHN (2022.03 - 2025.02)\nRole: Senior Engineer\nPROJECTS\n- Led new IP licensing negotiations, expanded to 8 countries.\n- Closed partnerships with 3 global publishers, contributing $10M annual revenue.\n- Developed market entry strategy, led SEA launch project.\nSKILLS\n- Strategy, Partnership, Negotiation, Market Analysis\nSUMMARY\nI am a Business Development Manager with 8 years of experience, specializing in Strategy-b\nased systems. I thrive on delivering measurable impact through cross-functional collaborat\nion.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0173",
+  "sha1": "06a8ecb3f4c5a83eafa4b616a4958ee18ad5b25c",
+  "format": "pdf",
+  "raw_text_length": 903,
+  "masked_text": "RESUME\nName: Thomas Lee\nDOB: 2001 (age 25)\nGender: Female\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Singapore\nApplying for: Backend Engineer (JD001)\nEDUCATION\n- University of Tokyo, B.S. in Computer Science (GPA 3.49/4.0)\n- University of Illinois Urbana-Champaign, M.S. in Computer Science\nEXPERIENCE\n- nnnnnn (2023.03 - 2026.02)\nRole: Senior Engineer\n- nnnnnn (2024.03 - 2026.02)\nRole: Senior Engineer\nPROJECTS\n- Introduced Redis cache layer achieving 94% hit rate, reduced DB load by 60%.\n- Led MSA migration, split monolith into 8 domain services with gRPC.\n- Redesigned order API serving 30M DAU. Spring Boot + Kafka async pipeline reduced P95 lat\nency from 420ms to 120ms.\nSKILLS\n- Kafka, MySQL, AWS\nSUMMARY\nI am a Backend Engineer with 3 years of experience, specializing in Kafka-based systems. I\nthrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

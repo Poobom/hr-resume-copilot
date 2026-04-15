@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0548",
+  "sha1": "6eadef0d8ca8cd075035261aa2e556d95c1060dc",
+  "format": "docx",
+  "raw_text_length": 856,
+  "masked_text": "RESUME\nName: John Martin\nDOB: 1985 (age 41)\nGender: Male\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seattle, WA\nApplying for: Game Client Programmer (JD006)\nEDUCATION\n- Stanford University, B.S. in Artificial Intelligence (GPA 3.4/4.0)\nEXPERIENCE\n- 네이버 (2020.03 - 2021.02)\n  Role: Manager\n- Apple (2022.03 - 2025.02)\n  Role: Senior Engineer\n- 라이엇게임즈 코리아 (2024.03 - 2026.02)\n  Role: Tech Lead\nPROJECTS\n- Optimized mobile RPG client for low-end devices, from 28fps to 58fps.\n- Developed UE5 open-world client, built character customization system.\n- Implemented server-authoritative multiplayer combat replication.\nSKILLS\n- C++, Game Client, Optimization\nSUMMARY\nI am a Game Client Programmer with 6 years of experience, specializing in C++-based systems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "python-docx",
+  "ok": true,
+  "error": null
+}

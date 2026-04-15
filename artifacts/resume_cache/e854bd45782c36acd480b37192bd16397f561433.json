@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0406",
+  "sha1": "e854bd45782c36acd480b37192bd16397f561433",
+  "format": "docx",
+  "raw_text_length": 922,
+  "masked_text": "RESUME\nName: Robert Jung\nDOB: 1996 (age 30)\nGender: Female\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seattle, WA\nApplying for: Backend Engineer (JD001)\nEDUCATION\n- Cornell University, B.S. in Computer Science (GPA 3.56/4.0)\nEXPERIENCE\n- 마켓컬리 (2022.03 - 2024.02)\n  Role: Tech Lead\n- Dropbox (2023.03 - 2025.02)\n  Role: Software Engineer\n- 하이퍼커넥트 (2024.03 - 2025.02)\n  Role: Software Engineer\nPROJECTS\n- Introduced Redis cache layer achieving 94% hit rate, reduced DB load by 60%.\n- Led MSA migration, split monolith into 8 domain services with gRPC.\n- Redesigned order API serving 30M DAU. Spring Boot + Kafka async pipeline reduced P95 latency from 420ms to 120ms.\nSKILLS\n- Spring Boot, Java, Redis, Microservices\nSUMMARY\nI am a Backend Engineer with 4 years of experience, specializing in Spring Boot-based systems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "python-docx",
+  "ok": true,
+  "error": null
+}

@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0297",
+  "sha1": "e7e606790d41daae5f184334b7ccfee4efdbd07d",
+  "format": "docx",
+  "raw_text_length": 900,
+  "masked_text": "RESUME\nName: Noah Jung\nDOB: 1993 (age 33)\nGender: Male\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seattle, WA\nApplying for: Backend Engineer (JD001)\nEDUCATION\n- University of Michigan, B.S. in Computer Science (GPA 3.67/4.0)\nEXPERIENCE\n- 카카오게임즈 (2019.03 - 2021.02)\n  Role: Manager\n- 비바리퍼블리카 (2021.03 - 2023.02)\n  Role: Manager\n- Dropbox (2023.03 - 2025.02)\n  Role: Tech Lead\nPROJECTS\n- Led MSA migration, split monolith into 8 domain services with gRPC.\n- Redesigned order API serving 30M DAU. Spring Boot + Kafka async pipeline reduced P95 latency from 420ms to 120ms.\n- Introduced Redis cache layer achieving 94% hit rate, reduced DB load by 60%.\nSKILLS\n- Spring Boot, MySQL, Java, Microservices\nSUMMARY\nI am a Backend Engineer with 7 years of experience, specializing in Spring Boot-based systems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "python-docx",
+  "ok": true,
+  "error": null
+}

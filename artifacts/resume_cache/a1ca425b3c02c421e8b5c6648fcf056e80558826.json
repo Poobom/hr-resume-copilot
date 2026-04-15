@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0386",
+  "sha1": "a1ca425b3c02c421e8b5c6648fcf056e80558826",
+  "format": "docx",
+  "raw_text_length": 794,
+  "masked_text": "RESUME\nName: Kevin Smith\nDOB: 1994 (age 32)\nGender: Male\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seoul, Gangnam-gu\nApplying for: Security Engineer (JD012)\nEDUCATION\n- University of Toronto, B.S. in Computer Science (GPA 3.69/4.0)\nEXPERIENCE\n- Uber (2023.03 - 2024.02)\n  Role: Manager\n- 무신사 (2024.03 - 2025.02)\n  Role: Senior Engineer\nPROJECTS\n- Led ISMS certification project covering 102 controls.\n- Conducted pentesting and vulnerability reporting across company services.\n- Built SIEM system with 80 detection rules at 91% accuracy.\nSKILLS\n- Cloud Security, ISMS, Security Audit\nSUMMARY\nI am a Security Engineer with 3 years of experience, specializing in Cloud Security-based systems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "python-docx",
+  "ok": true,
+  "error": null
+}

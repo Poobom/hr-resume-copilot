@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0158",
+  "sha1": "7189b5fd9320a2141f802b52f1f8a0b6a919e6d4",
+  "format": "docx",
+  "raw_text_length": 874,
+  "masked_text": "RESUME\nName: Mason Choi\nDOB: 1994 (age 32)\nGender: Male\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: San Jose, CA\nApplying for: Frontend Engineer (JD002)\nEDUCATION\n- Carnegie Mellon University, B.S. in Statistics (GPA 3.75/4.0)\nEXPERIENCE\n- Salesforce (2020.03 - 2023.02)\n  Role: Tech Lead\n- SAP (2022.03 - 2023.02)\n  Role: Manager\n- Spotify (2024.03 - 2026.02)\n  Role: Senior Engineer\nPROJECTS\n- Migrated state management to React Query, reducing bundle size by 32%.\n- Built 40+ design system components with Storybook and Chromatic visual regression.\n- Built Next.js admin console from scratch. SSR/ISR reduced LCP from 4.2s to 1.8s.\nSKILLS\n- TypeScript, React, Next.js\nSUMMARY\nI am a Frontend Engineer with 6 years of experience, specializing in TypeScript-based systems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "python-docx",
+  "ok": true,
+  "error": null
+}

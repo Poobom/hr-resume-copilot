@@ -1,0 +1,23 @@
+{
+  "resume_id": "resume_0584",
+  "sha1": "c695f38743803b4f7f2eee185e21c34bc84884ca",
+  "format": "pdf",
+  "raw_text_length": 753,
+  "masked_text": "[MASK_NAME]\n이름: [MASK_NAME]  \n생년월일: 1996년생 ([FILTERED])  \n[FILTERED]  \n연락처: [MASK_PHONE]  \n이메일: 고주완7497@naver.com  \n거주지: [MASK_ADDR]  \n\n지원 포지션: 백엔드 엔지니어 (JD001)  \n\n■ 학력  \n- [FILTERED] (GPA 3.7/4.5)  \n\n■ 경력  \n- LG유플러스 (2020.03 ~ 2021.02)  \n직책: 주니어 엔지니어  \n- 카카오 (2022.03 ~ 2025.02)  \n직책: 시니어 엔지니어  \n- 배달의 민족 (2020.03 ~ 2026.02)  \n직책: 시니어 엔지니어  \n\n■ 주요 프로젝트  \n- Redis 캐시 레이어 도입 및 히트율 94% 달성. DB 부하 60% 감소.  \n- MSA 전환 프로젝트 리드. 모놀리식 서비스 8개 마이크로 서비스로 분리, gRPC 통신 도입.  \n- 연 3000만 DAU 서비스의 주요 프로젝트. Spring Boot + Kafka 기반 비.  \n동기 파이프라인을 최적화하여 응답 시간 P95 420ms → 120ms 개선.  \n\n■ 보유 기술  \n- Java, Spring Boot, Kafka, Redis, MySQL  \n\n■ 자기소개  \n저는 6년차 백엔드 엔지니어로서 실무에서 꾸준히 성과를 만들어왔습니다. 특히 Java 기반 시스템 설계에 강점이 있으며, 최근에는 대규모 트래픽 환경에서의 안정적 서비스에 관심을 갖고 있습니다. 동료들과의 협업을 통해 더 나은 제품을 만드는 일에 보람을 느낍니다.",
+  "pii_fields_separated": {
+    "education": [
+      "한양대학교 산업디자인학과 졸업"
+    ],
+    "age": [
+      "만 30세"
+    ],
+    "gender": [
+      "성별: 남"
+    ],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "vision",
+  "ok": true,
+  "error": null
+}

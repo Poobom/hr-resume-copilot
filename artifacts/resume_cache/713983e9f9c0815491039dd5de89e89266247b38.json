@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0531",
+  "sha1": "713983e9f9c0815491039dd5de89e89266247b38",
+  "format": "docx",
+  "raw_text_length": 824,
+  "masked_text": "RESUME\nName: Chloe Kim\nDOB: 1995 (age 31)\nGender: Male\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seoul, Mapo-gu\nApplying for: Backend Engineer (JD001)\nEDUCATION\n- Stanford University, B.S. in Electrical Engineering (GPA 3.21/4.0)\nEXPERIENCE\n- Tesla (2023.03 - 2026.02)\n  Role: Manager\n- IBM (2024.03 - 2025.02)\n  Role: Manager\nPROJECTS\n- Introduced Redis cache layer achieving 94% hit rate, reduced DB load by 60%.\n- Led MSA migration, split monolith into 8 domain services with gRPC.\n- Redesigned order API serving 30M DAU. Spring Boot + Kafka async pipeline reduced P95 latency from 420ms to 120ms.\nSKILLS\n- Java, AWS, MySQL\nSUMMARY\nI am a Backend Engineer with 3 years of experience, specializing in Java-based systems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "python-docx",
+  "ok": true,
+  "error": null
+}

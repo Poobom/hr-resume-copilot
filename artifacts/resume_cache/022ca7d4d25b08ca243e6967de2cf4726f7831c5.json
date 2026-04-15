@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0388",
+  "sha1": "022ca7d4d25b08ca243e6967de2cf4726f7831c5",
+  "format": "pdf",
+  "raw_text_length": 840,
+  "masked_text": "RESUME\nName: Michael Thomas\nDOB: 2000 (age 26)\nGender: Male\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: San Jose, CA\nApplying for: Game Server Programmer (JD007)\nEDUCATION\n- Tsinghua University, B.S. in Artificial Intelligence (GPA 3.82/4.0)\nEXPERIENCE\n- nn (2021.03 - 2022.02)\nRole: Senior Engineer\n- Salesforce (2022.03 - 2023.02)\nRole: Software Engineer\n- nnnn (2023.03 - 2026.02)\nRole: Tech Lead\nPROJECTS\n- Redesigned matchmaking with Elo-based algorithm, improved match quality by 18%.\n- MMORPG server development, validated for 50k concurrent sessions.\n- Rebuilt game log pipeline on Kafka.\nSKILLS\n- C++, Game Server, Network\nSUMMARY\nI am a Game Server Programmer with 5 years of experience, specializing in C++-based system\ns. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

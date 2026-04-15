@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0720",
+  "sha1": "475bb05dc67603fcefa460334f466d027b28e35a",
+  "format": "pdf",
+  "raw_text_length": 829,
+  "masked_text": "RESUME\nName: Robert Yang\nDOB: 1985 (age 41)\nGender: Female\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seongnam-si, Bundang-gu\nApplying for: Product Manager (JD009)\nEDUCATION\n- University of Illinois Urbana-Champaign, B.S. in Business Administration (GPA 3.23/4.0)\nEXPERIENCE\n- nnSDS (2020.03 - 2022.02)\nRole: Tech Lead\n- nnnnn (2022.03 - 2024.02)\nRole: Manager\n- IBM (2024.03 - 2026.02)\nRole: Tech Lead\nPROJECTS\n- Launched subscription product, reached 450k MAU in 3 months.\n- Led checkout redesign, improved conversion from 62% to 74%.\n- Built A/B test framework, drove 40+ experiments annually.\nSKILLS\n- A/B Test, PM, Roadmap\nSUMMARY\nI am a Product Manager with 6 years of experience, specializing in A/B Test-based systems.\nI thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

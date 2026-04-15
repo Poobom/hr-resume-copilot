@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0653",
+  "sha1": "05374fd15112eab750f4fe05f8e8aac6106ebfe7",
+  "format": "pdf",
+  "raw_text_length": 881,
+  "masked_text": "RESUME\nName: Chloe Johnson\nDOB: 1991 (age 35)\nGender: Female\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seoul, Gangnam-gu\nApplying for: Frontend Engineer (JD002)\nEDUCATION\n- University of Waterloo, B.S. in Economics (GPA 3.82/4.0)\n- ETH Zurich, M.S. in Economics\nEXPERIENCE\n- Microsoft (2023.03 - 2024.02)\nRole: Senior Engineer\n- nnnnn (2024.03 - 2026.02)\nRole: Software Engineer\nPROJECTS\n- Migrated state management to React Query, reducing bundle size by 32%.\n- Built Next.js admin console from scratch. SSR/ISR reduced LCP from 4.2s to 1.8s.\n- Built 40+ design system components with Storybook and Chromatic visual regression.\nSKILLS\n- Next.js, TypeScript, Web Performance\nSUMMARY\nI am a Frontend Engineer with 3 years of experience, specializing in Next.js-based systems\n. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

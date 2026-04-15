@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0619",
+  "sha1": "ec7c1263b34437dc85eb7d5559a694baf36f1372",
+  "format": "pdf",
+  "raw_text_length": 928,
+  "masked_text": "RESUME\nName: Kevin Brown\nDOB: 2001 (age 25)\nGender: Male\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: San Jose, CA\nApplying for: Backend Engineer (JD001)\nEDUCATION\n- Purdue University, B.S. in Mathematics (GPA 3.6/4.0)\n- Cornell University, M.S. in Mathematics\nEXPERIENCE\n- Google (2020.03 - 2023.02)\nRole: Software Engineer\n- nnnnnn (2022.03 - 2025.02)\nRole: Manager\n- nn (2024.03 - 2026.02)\nRole: Tech Lead\nPROJECTS\n- Redesigned order API serving 30M DAU. Spring Boot + Kafka async pipeline reduced P95 lat\nency from 420ms to 120ms.\n- Introduced Redis cache layer achieving 94% hit rate, reduced DB load by 60%.\n- Led MSA migration, split monolith into 8 domain services with gRPC.\nSKILLS\n- Java, Kafka, MySQL, Microservices, AWS\nSUMMARY\nI am a Backend Engineer with 6 years of experience, specializing in Java-based systems. I\nthrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0149",
+  "sha1": "a5dc151e5a1edc4d40a6c4673e8ab0a88861e783",
+  "format": "pdf",
+  "raw_text_length": 813,
+  "masked_text": "RESUME\nName: Amanda Thomas\nDOB: 1993 (age 33)\nGender: Female\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seattle, WA\nApplying for: Machine Learning Engineer (JD004)\nEDUCATION\n- MIT, B.S. in Computer Science (GPA 3.16/4.0)\nEXPERIENCE\n- Samsung Research America (2024.03 - 2026.02)\nRole: Tech Lead\n- nn nnnn (2025.03 - 2026.02)\nRole: Senior Engineer\nPROJECTS\n- Improved recommender CTR by 12% via feature engineering and A/B testing.\n- Built internal RAG chatbot with LangChain + Pinecone, 84% answer accuracy.\n- Fine-tuned ViT image classifier to 92.4% accuracy.\nSKILLS\n- Python, MLOps, LLM, RAG, PyTorch\nSUMMARY\nI am a Machine Learning Engineer with 2 years of experience, specializing in Python-based\nsystems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

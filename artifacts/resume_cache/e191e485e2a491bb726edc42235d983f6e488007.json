@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0192",
+  "sha1": "e191e485e2a491bb726edc42235d983f6e488007",
+  "format": "pdf",
+  "raw_text_length": 805,
+  "masked_text": "RESUME\nName: Emily Martinez\nDOB: 1985 (age 41)\nGender: Female\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Singapore\nApplying for: DevOps Engineer (JD005)\nEDUCATION\n- University of Michigan, B.S. in Data Science (GPA 3.25/4.0)\nEXPERIENCE\n- Uber (2024.03 - 2025.02)\nRole: Manager\n- nnnnnn (2025.03 - 2026.02)\nRole: Tech Lead\nPROJECTS\n- Built Prometheus + Grafana stack, reduced MTTR from 45min to 8min.\n- Operated multi-cluster EKS with ArgoCD GitOps pipeline.\n- IaC-fied AWS infrastructure with Terraform, reducing setup time from 3 days to 2 hours.\nSKILLS\n- Monitoring, Kubernetes, Terraform, CI/CD\nSUMMARY\nI am a DevOps Engineer with 2 years of experience, specializing in Monitoring-based system\ns. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

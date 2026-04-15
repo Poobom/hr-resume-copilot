@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0680",
+  "sha1": "1e6b90ea9815d928268d2ce63b04673645cf1ead",
+  "format": "pdf",
+  "raw_text_length": 864,
+  "masked_text": "RESUME\nName: Ethan Jones\nDOB: 1985 (age 41)\nGender: Male\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seongnam-si, Bundang-gu\nApplying for: Game Client Programmer (JD006)\nEDUCATION\n- NUS, B.S. in Business Administration (GPA 3.88/4.0)\nEXPERIENCE\n- nnn (2022.03 - 2024.02)\nRole: Tech Lead\n- nnnn (2023.03 - 2024.02)\nRole: Tech Lead\n- Amazon (2024.03 - 2026.02)\nRole: Tech Lead\nPROJECTS\n- Implemented server-authoritative multiplayer combat replication.\n- Optimized mobile RPG client for low-end devices, from 28fps to 58fps.\n- Developed UE5 open-world client, built character customization system.\nSKILLS\n- Optimization, Game Client, C++, Unreal Engine\nSUMMARY\nI am a Game Client Programmer with 4 years of experience, specializing in Optimization-bas\ned systems. I thrive on delivering measurable impact through cross-functional collaboratio\nn.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0272",
+  "sha1": "94a25277d8189df928d16b95a6ab3ff6186f3bd0",
+  "format": "pdf",
+  "raw_text_length": 774,
+  "masked_text": "RESUME\nName: Lucas Martin\nDOB: 1996 (age 30)\nGender: Female\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seattle, WA\nApplying for: Product Manager (JD009)\nEDUCATION\n- University of Washington, B.S. in Design (GPA 3.19/4.0)\nEXPERIENCE\n- nnnn (2023.03 - 2026.02)\nRole: Senior Engineer\n- Spotify (2024.03 - 2026.02)\nRole: Software Engineer\nPROJECTS\n- Launched subscription product, reached 450k MAU in 3 months.\n- Led checkout redesign, improved conversion from 62% to 74%.\n- Built A/B test framework, drove 40+ experiments annually.\nSKILLS\n- A/B Test, Metrics, Roadmap, Scrum\nSUMMARY\nI am a Product Manager with 3 years of experience, specializing in A/B Test-based systems.\nI thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

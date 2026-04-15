@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0751",
+  "sha1": "3526602defdc7b3731cf88308824898449653559",
+  "format": "pdf",
+  "raw_text_length": 961,
+  "masked_text": "RESUME\nName: Andrew Anderson\nDOB: 2000 (age 26)\nGender: Female\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seoul, Mapo-gu\nApplying for: Backend Engineer (JD001)\nEDUCATION\n- University of Illinois Urbana-Champaign, B.S. in Economics (GPA 3.68/4.0)\n- University of Waterloo, M.S. in Economics\nEXPERIENCE\n- Amazon (2020.03 - 2021.02)\nRole: Manager\n- nnn (2022.03 - 2024.02)\nRole: Software Engineer\n- nnnn (2024.03 - 2026.02)\nRole: Manager\nPROJECTS\n- Led MSA migration, split monolith into 8 domain services with gRPC.\n- Redesigned order API serving 30M DAU. Spring Boot + Kafka async pipeline reduced P95 lat\nency from 420ms to 120ms.\n- Introduced Redis cache layer achieving 94% hit rate, reduced DB load by 60%.\nSKILLS\n- Redis, MySQL, Microservices, Java, AWS\nSUMMARY\nI am a Backend Engineer with 6 years of experience, specializing in Redis-based systems. I\nthrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

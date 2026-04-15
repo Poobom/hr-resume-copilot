@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0511",
+  "sha1": "c6f65e38f46184ba237f8cadf17f0c940eaeb7a9",
+  "format": "docx",
+  "raw_text_length": 811,
+  "masked_text": "RESUME\nName: William Gonzalez\nDOB: 1997 (age 29)\nGender: Male\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Toronto, Canada\nApplying for: Backend Engineer (JD001)\nEDUCATION\n- University of Toronto, B.S. in Economics (GPA 3.03/4.0)\nEXPERIENCE\n- Tesla (2025.03 - 2026.02)\n  Role: Software Engineer\nPROJECTS\n- Led MSA migration, split monolith into 8 domain services with gRPC.\n- Redesigned order API serving 30M DAU. Spring Boot + Kafka async pipeline reduced P95 latency from 420ms to 120ms.\n- Introduced Redis cache layer achieving 94% hit rate, reduced DB load by 60%.\nSKILLS\n- Kafka, Java, Redis, MySQL, AWS\nSUMMARY\nI am a Backend Engineer with 1 years of experience, specializing in Kafka-based systems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "python-docx",
+  "ok": true,
+  "error": null
+}

@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0181",
+  "sha1": "548115c7d142e62f58cad891e4d7a7d208743ce2",
+  "format": "hwp",
+  "raw_text_length": 870,
+  "masked_text": "RESUME\n\nName: Isabella Taylor\nDOB: 1994 (age 32)\nGender: Male\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: San Jose, CA\n\nApplying for: Product Manager (JD009)\n\nEDUCATION\n- NUS, B.S. in Industrial Engineering (GPA 3.92/4.0)\n- UC Berkeley, M.S. in Industrial Engineering\n\nEXPERIENCE\n- 비바리퍼블리카 (2021.03 - 2023.02)\n  Role: Manager\n- Intel (2022.03 - 2024.02)\n  Role: Senior Engineer\n- Google (2023.03 - 2025.02)\n  Role: Software Engineer\n\nPROJECTS\n- Led checkout redesign, improved conversion from 62% to 74%.\n- Launched subscription product, reached 450k MAU in 3 months.\n- Built A/B test framework, drove 40+ experiments annually.\n\nSKILLS\n- A/B Test, Metrics, Scrum\n\nSUMMARY\nI am a Product Manager with 5 years of experience, specializing in A/B Test-based systems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "hwpx-zip",
+  "ok": true,
+  "error": null
+}

@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0624",
+  "sha1": "a6c1b205cad706d3f3e53c48b506f99bc531423a",
+  "format": "pdf",
+  "raw_text_length": 901,
+  "masked_text": "RESUME\nName: Sophia Anderson\nDOB: 1985 (age 41)\nGender: Male\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seoul, Gangnam-gu\nApplying for: Backend Engineer (JD001)\nEDUCATION\n- NUS, B.S. in Software Engineering (GPA 3.85/4.0)\nEXPERIENCE\n- nnSDS (2019.03 - 2022.02)\nRole: Senior Engineer\n- Meta (2021.03 - 2024.02)\nRole: Senior Engineer\n- nnn (2023.03 - 2025.02)\nRole: Senior Engineer\nPROJECTS\n- Led MSA migration, split monolith into 8 domain services with gRPC.\n- Redesigned order API serving 30M DAU. Spring Boot + Kafka async pipeline reduced P95 lat\nency from 420ms to 120ms.\n- Introduced Redis cache layer achieving 94% hit rate, reduced DB load by 60%.\nSKILLS\n- AWS, Microservices, Kafka, Redis\nSUMMARY\nI am a Backend Engineer with 7 years of experience, specializing in AWS-based systems. I t\nhrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

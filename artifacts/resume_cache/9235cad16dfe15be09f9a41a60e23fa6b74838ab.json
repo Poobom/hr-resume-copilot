@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0586",
+  "sha1": "9235cad16dfe15be09f9a41a60e23fa6b74838ab",
+  "format": "docx",
+  "raw_text_length": 828,
+  "masked_text": "RESUME\nName: Sarah Gonzalez\nDOB: 1999 (age 27)\nGender: Male\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Singapore\nApplying for: Product Manager (JD009)\nEDUCATION\n- Carnegie Mellon University, B.S. in Computer Science (GPA 3.85/4.0)\nEXPERIENCE\n- Spotify (2020.03 - 2021.02)\n  Role: Senior Engineer\n- 현대자동차 (2022.03 - 2025.02)\n  Role: Software Engineer\n- 토스 (2024.03 - 2026.02)\n  Role: Manager\nPROJECTS\n- Led checkout redesign, improved conversion from 62% to 74%.\n- Built A/B test framework, drove 40+ experiments annually.\n- Launched subscription product, reached 450k MAU in 3 months.\nSKILLS\n- Metrics, A/B Test, PM, Roadmap\nSUMMARY\nI am a Product Manager with 6 years of experience, specializing in Metrics-based systems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "python-docx",
+  "ok": true,
+  "error": null
+}

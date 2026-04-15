@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0227",
+  "sha1": "e67b1d470f2195a165f110350ed49672a13c9953",
+  "format": "pdf",
+  "raw_text_length": 886,
+  "masked_text": "RESUME\nName: Robert Choi\nDOB: 2000 (age 26)\nGender: Male\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Singapore\nApplying for: Product Manager (JD009)\nEDUCATION\n- University of Illinois Urbana-Champaign, B.S. in Business Administration (GPA 3.53/4.0)\n- UC Berkeley, M.S. in Business Administration\nEXPERIENCE\n- nnnn (2022.03 - 2023.02)\nRole: Tech Lead\n- nn (2023.03 - 2025.02)\nRole: Software Engineer\n- Amazon (2024.03 - 2026.02)\nRole: Tech Lead\nPROJECTS\n- Built A/B test framework, drove 40+ experiments annually.\n- Launched subscription product, reached 450k MAU in 3 months.\n- Led checkout redesign, improved conversion from 62% to 74%.\nSKILLS\n- Metrics, PM, Scrum, Roadmap, A/B Test\nSUMMARY\nI am a Product Manager with 4 years of experience, specializing in Metrics-based systems.\nI thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

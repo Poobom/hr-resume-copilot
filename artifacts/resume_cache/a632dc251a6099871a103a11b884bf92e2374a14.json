@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0754",
+  "sha1": "a632dc251a6099871a103a11b884bf92e2374a14",
+  "format": "pdf",
+  "raw_text_length": 897,
+  "masked_text": "RESUME\nName: Lucas Brown\nDOB: 1992 (age 34)\nGender: Male\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seoul, Mapo-gu\nApplying for: Game Server Programmer (JD007)\nEDUCATION\n- UC Berkeley, B.S. in Industrial Engineering (GPA 3.92/4.0)\n- Carnegie Mellon University, M.S. in Industrial Engineering\nEXPERIENCE\n- Samsung Research America (2020.03 - 2021.02)\nRole: Manager\n- KT (2022.03 - 2023.02)\nRole: Tech Lead\n- nn (2024.03 - 2025.02)\nRole: Manager\nPROJECTS\n- MMORPG server development, validated for 50k concurrent sessions.\n- Rebuilt game log pipeline on Kafka.\n- Redesigned matchmaking with Elo-based algorithm, improved match quality by 18%.\nSKILLS\n- C++, Network, Game Server, DB Optimization\nSUMMARY\nI am a Game Server Programmer with 6 years of experience, specializing in C++-based system\ns. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

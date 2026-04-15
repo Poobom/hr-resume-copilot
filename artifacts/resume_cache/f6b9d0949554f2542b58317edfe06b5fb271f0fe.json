@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0654",
+  "sha1": "f6b9d0949554f2542b58317edfe06b5fb271f0fe",
+  "format": "docx",
+  "raw_text_length": 916,
+  "masked_text": "RESUME\nName: Robert Martin\nDOB: 1994 (age 32)\nGender: Female\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seongnam-si, Bundang-gu\nApplying for: Frontend Engineer (JD002)\nEDUCATION\n- University of Michigan, B.S. in Electrical Engineering (GPA 3.83/4.0)\n- University of Tokyo, M.S. in Electrical Engineering\nEXPERIENCE\n- Microsoft (2023.03 - 2025.02)\n  Role: Senior Engineer\n- Spotify (2024.03 - 2026.02)\n  Role: Manager\nPROJECTS\n- Migrated state management to React Query, reducing bundle size by 32%.\n- Built Next.js admin console from scratch. SSR/ISR reduced LCP from 4.2s to 1.8s.\n- Built 40+ design system components with Storybook and Chromatic visual regression.\nSKILLS\n- Next.js, Web Performance, TypeScript\nSUMMARY\nI am a Frontend Engineer with 3 years of experience, specializing in Next.js-based systems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "python-docx",
+  "ok": true,
+  "error": null
+}

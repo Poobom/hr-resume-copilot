@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0708",
+  "sha1": "d5ed903aaf000dcfc321b5b9185b40c0a12e9631",
+  "format": "pdf",
+  "raw_text_length": 978,
+  "masked_text": "RESUME  \nName: Kevin Davis  \nDOB: 1993 (age 33)  \nGender: Female  \nPhone: +1-[MASK_PHONE]  \nEmail: [MASK_EMAIL]  \nLocation: Seongnam-si, Bundang-gu  \n\nApplying for: Backend Engineer (JD001)  \n\nEDUCATION  \n- University of Toronto, B.S. in Electrical Engineering  \n(GPA 3.29/4.0)  \n\nEXPERIENCE  \n- Uber (2019.03 - 2020.02)  \nRole: Tech Lead  \n- Samsung Research America (2021.03 - 2022.02)  \nRole: Senior Engineer  \n- 비바리퍼블리카 (2023.03 - 2024.02)  \nRole: Software Engineer  \n\nPROJECTS  \n- Led MSA migration, split monolith into 8 domain services with gRPC.  \n- Introduced Redis cache layer achieving 94% hit rate, reduced DB load by 60%.  \n- Redesigned order API serving 30M DAU. Spring Boot + Kafka async pipeline reduced P95 latency from 420ms to 120ms.  \n\nSKILLS  \n- Kafka, AWS, Redis  \n\nSUMMARY  \nI am a Backend Engineer with 7 years of experience, specializing in Kafka-based systems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "vision",
+  "ok": true,
+  "error": null
+}

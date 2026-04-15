@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0428",
+  "sha1": "96a293ce4a03a580a5cb3f39bf7ddfe5ae54cfa1",
+  "format": "pdf",
+  "raw_text_length": 856,
+  "masked_text": "RESUME\nName: John Han\nDOB: 1988 (age 38)\nGender: Female\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seongnam-si, Bundang-gu\nApplying for: Game Client Programmer (JD006)\nEDUCATION\n- Cornell University, B.S. in Software Engineering (GPA 3.35/4.0)\nEXPERIENCE\n- nnnnn (2021.03 - 2023.02)\nRole: Senior Engineer\n- nn nnnn (2022.03 - 2024.02)\nRole: Tech Lead\n- 29CM (2023.03 - 2024.02)\nRole: Manager\nPROJECTS\n- Optimized mobile RPG client for low-end devices, from 28fps to 58fps.\n- Implemented server-authoritative multiplayer combat replication.\n- Developed UE5 open-world client, built character customization system.\nSKILLS\n- C++, Unreal Engine, Optimization\nSUMMARY\nI am a Game Client Programmer with 5 years of experience, specializing in C++-based system\ns. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

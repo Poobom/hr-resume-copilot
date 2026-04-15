@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0457",
+  "sha1": "5e384a52417834c1ab70d6735adafde0349a049c",
+  "format": "pdf",
+  "raw_text_length": 819,
+  "masked_text": "RESUME\nName: David Anderson\nDOB: 1997 (age 29)\nGender: Male\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: San Jose, CA\nApplying for: Product Manager (JD009)\nEDUCATION\n- Peking University, B.S. in Electrical Engineering (GPA 3.13/4.0)\nEXPERIENCE\n- nn (2022.03 - 2023.02)\nRole: Software Engineer\n- nnnnnnn (2023.03 - 2025.02)\nRole: Software Engineer\n- SAP (2024.03 - 2025.02)\nRole: Manager\nPROJECTS\n- Built A/B test framework, drove 40+ experiments annually.\n- Led checkout redesign, improved conversion from 62% to 74%.\n- Launched subscription product, reached 450k MAU in 3 months.\nSKILLS\n- A/B Test, Metrics, Scrum\nSUMMARY\nI am a Product Manager with 4 years of experience, specializing in A/B Test-based systems.\nI thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

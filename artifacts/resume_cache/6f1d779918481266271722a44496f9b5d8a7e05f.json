@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0491",
+  "sha1": "6f1d779918481266271722a44496f9b5d8a7e05f",
+  "format": "pdf",
+  "raw_text_length": 878,
+  "masked_text": "RESUME\nName: Noah Garcia\nDOB: 1998 (age 28)\nGender: Female\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: San Jose, CA\nApplying for: Frontend Engineer (JD002)\nEDUCATION\n- Carnegie Mellon University, B.S. in Mathematics (GPA 3.52/4.0)\nEXPERIENCE\n- nn (2021.03 - 2022.02)\nRole: Tech Lead\n- SKnnn (2022.03 - 2025.02)\nRole: Software Engineer\n- nnnnnn nnn (2023.03 - 2026.02)\nRole: Tech Lead\nPROJECTS\n- Migrated state management to React Query, reducing bundle size by 32%.\n- Built Next.js admin console from scratch. SSR/ISR reduced LCP from 4.2s to 1.8s.\n- Built 40+ design system components with Storybook and Chromatic visual regression.\nSKILLS\n- React, State Management, TypeScript\nSUMMARY\nI am a Frontend Engineer with 5 years of experience, specializing in React-based systems.\nI thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

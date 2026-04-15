@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0232",
+  "sha1": "c648e6c099d48c092a63cc46dffffe407281b4c3",
+  "format": "pdf",
+  "raw_text_length": 913,
+  "masked_text": "RESUME\nName: Noah Kim\nDOB: 2001 (age 25)\nGender: Male\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seattle, WA\nApplying for: Backend Engineer (JD001)\nEDUCATION\n- MIT, B.S. in Computer Science (GPA 3.9/4.0)\n- UC Berkeley, M.S. in Computer Science\nEXPERIENCE\n- KT (2019.03 - 2021.02)\nRole: Software Engineer\n- Nvidia (2021.03 - 2022.02)\nRole: Manager\n- nnnnnn (2023.03 - 2024.02)\nRole: Manager\nPROJECTS\n- Redesigned order API serving 30M DAU. Spring Boot + Kafka async pipeline reduced P95 lat\nency from 420ms to 120ms.\n- Introduced Redis cache layer achieving 94% hit rate, reduced DB load by 60%.\n- Led MSA migration, split monolith into 8 domain services with gRPC.\nSKILLS\n- Microservices, Spring Boot, Redis\nSUMMARY\nI am a Backend Engineer with 7 years of experience, specializing in Microservices-based sy\nstems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

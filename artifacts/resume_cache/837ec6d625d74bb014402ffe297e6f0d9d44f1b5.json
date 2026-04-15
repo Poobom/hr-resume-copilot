@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0691",
+  "sha1": "837ec6d625d74bb014402ffe297e6f0d9d44f1b5",
+  "format": "docx",
+  "raw_text_length": 945,
+  "masked_text": "RESUME\nName: Joseph Brown\nDOB: 1989 (age 37)\nGender: Female\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seattle, WA\nApplying for: QA Engineer (JD008)\nEDUCATION\n- University of Toronto, B.S. in Artificial Intelligence (GPA 3.32/4.0)\n- University of Michigan, M.S. in Artificial Intelligence\nEXPERIENCE\n- 라이엇게임즈 코리아 (2022.03 - 2024.02)\n  Role: Software Engineer\n- Apple (2023.03 - 2024.02)\n  Role: Tech Lead\n- 카카오 (2024.03 - 2026.02)\n  Role: Tech Lead\nPROJECTS\n- Automated performance testing with JMeter-based load pipeline.\n- Built Playwright E2E framework, reduced regression testing from 3 days manual to 2 hours automated.\n- Standardized game QA process with regression sheets and bug triage rules.\nSKILLS\n- Selenium, Bug Report, Test Automation\nSUMMARY\nI am a QA Engineer with 4 years of experience, specializing in Selenium-based systems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "python-docx",
+  "ok": true,
+  "error": null
+}

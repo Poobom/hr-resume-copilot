@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0047",
+  "sha1": "df375c5ba5f3f3252325315da47be7524f20b81e",
+  "format": "pdf",
+  "raw_text_length": 827,
+  "masked_text": "RESUME\nName: Sophia Kim\nDOB: 1993 (age 33)\nGender: Female\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seongnam-si, Bundang-gu\nApplying for: QA Engineer (JD008)\nEDUCATION\n- ETH Zurich, B.S. in Data Science (GPA 3.93/4.0)\nEXPERIENCE\n- nn (2024.03 - 2025.02)\nRole: Tech Lead\n- nnnnnn (2025.03 - 2026.02)\nRole: Senior Engineer\nPROJECTS\n- Standardized game QA process with regression sheets and bug triage rules.\n- Automated performance testing with JMeter-based load pipeline.\n- Built Playwright E2E framework, reduced regression testing from 3 days manual to 2 hours\nautomated.\nSKILLS\n- Selenium, Test Automation, Game QA, Bug Report\nSUMMARY\nI am a QA Engineer with 2 years of experience, specializing in Selenium-based systems. I t\nhrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

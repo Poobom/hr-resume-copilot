@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0631",
+  "sha1": "e46cc7cd0f58ea2b63afa7e06f7bd1d208553126",
+  "format": "hwp",
+  "raw_text_length": 820,
+  "masked_text": "RESUME\n\nName: Sophia Martinez\nDOB: 1987 (age 39)\nGender: Female\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seattle, WA\n\nApplying for: Backend Engineer (JD001)\n\nEDUCATION\n- University of Waterloo, B.S. in Business Administration (GPA 3.31/4.0)\n\nEXPERIENCE\n- 야놀자 (2025.03 - 2026.02)\n  Role: Senior Engineer\n\nPROJECTS\n- Introduced Redis cache layer achieving 94% hit rate, reduced DB load by 60%.\n- Redesigned order API serving 30M DAU. Spring Boot + Kafka async pipeline reduced P95 latency from 420ms to 120ms.\n- Led MSA migration, split monolith into 8 domain services with gRPC.\n\nSKILLS\n- Redis, Java, Microservices\n\nSUMMARY\nI am a Backend Engineer with 1 years of experience, specializing in Redis-based systems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "hwpx-zip",
+  "ok": true,
+  "error": null
+}

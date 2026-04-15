@@ -1,0 +1,23 @@
+{
+  "resume_id": "resume_0077",
+  "sha1": "183003fcfc201f3fd765379807658cddc54864be",
+  "format": "pdf",
+  "raw_text_length": 713,
+  "masked_text": "[MASK_NAME]\n이름: [MASK_NAME]  \n생년월일: 1990년생 ([FILTERED])  \n[FILTERED]  \n연락처: [MASK_PHONE]  \n이메일: 김재원2971@outlook.com  \n거주지: [MASK_ADDR]  \n\n지원 포지션: 프론트엔드 엔지니어 (JD002)  \n[MASK_NAME]\n- [FILTERED] 학사 (GPA 4.05/4.5)  \n[MASK_NAME]\n- LG CNS (2020.03 ~ 2022.02)  \n직책: 테크 리드  \n- 메타-시스트 (2022.03 ~ 2025.02)  \n직책: 매니저  \n- 카카오게임즈 (2024.03 ~ 2025.02)  \n직책: 시니어 엔지니어  \n\n주요 프로젝트  \n- Next.js 기반 관리 시스템 신규 구축. SSR-ISR 적용으로 LCP 4.2s → 1.8s 개선.  \n- 디자인 시스템 컴포넌트 40종 구축. Storybook 문서화 및 Chromatic 시각 회귀 테스트 도입.  \n- React Query 도입 및 상태관리 리팩토링. 번들 사이즈 32% 감소.  \n\n보유 기술  \n- 상태관리, TypeScript, 웹 성능, Next.js  \n[MASK_NAME]\n저는 6년차 프론트엔드 엔지니어로서 실무에 규준해 성과를 만들어왔습니다. 특히 상태관리 기반 시스템 설계와 운영에 강점이 있으며, 최근에는 대규모 트래픽 환경에서의 안정적 서비스 운영에 관심을 갖고 있습니다. 동료들과의 협업을 통해 더 나은 제품을 만드는 일에 보람을 느낍니다.",
+  "pii_fields_separated": {
+    "education": [
+      "서울대학교 컴퓨터소프트웨어학과"
+    ],
+    "age": [
+      "만 34세"
+    ],
+    "gender": [
+      "성별: 남"
+    ],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "vision",
+  "ok": true,
+  "error": null
+}

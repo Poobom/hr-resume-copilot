@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0330",
+  "sha1": "25dc6b1565d6e86873dca11cccfb759436b6461f",
+  "format": "docx",
+  "raw_text_length": 848,
+  "masked_text": "RESUME\nName: Daniel Wilson\nDOB: 1995 (age 31)\nGender: Female\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Singapore\nApplying for: Security Engineer (JD012)\nEDUCATION\n- UC Berkeley, B.S. in Economics (GPA 3.88/4.0)\nEXPERIENCE\n- 라인플러스 (2022.03 - 2023.02)\n  Role: Software Engineer\n- 젠지 이스포츠 (2023.03 - 2026.02)\n  Role: Senior Engineer\n- Adobe (2024.03 - 2026.02)\n  Role: Senior Engineer\nPROJECTS\n- Led ISMS certification project covering 102 controls.\n- Built SIEM system with 80 detection rules at 91% accuracy.\n- Conducted pentesting and vulnerability reporting across company services.\nSKILLS\n- Security Audit, Pentesting, Cloud Security\nSUMMARY\nI am a Security Engineer with 4 years of experience, specializing in Security Audit-based systems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "python-docx",
+  "ok": true,
+  "error": null
+}

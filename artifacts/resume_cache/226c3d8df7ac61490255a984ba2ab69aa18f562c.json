@@ -1,0 +1,24 @@
+{
+  "resume_id": "resume_0726",
+  "sha1": "226c3d8df7ac61490255a984ba2ab69aa18f562c",
+  "format": "pdf",
+  "raw_text_length": 615,
+  "masked_text": "[MASK_NAME]\n이름: [MASK_NAME]  \n생년월일: 1996년생 ([FILTERED])  \n[FILTERED]  \n연락처: [MASK_PHONE]  \n이메일: 하민재154@yahoo.com  \n거주지: [MASK_ADDR] 분당구  \n\n지원 포지션: 프로젝트 매니저 (JD009)  \n[MASK_NAME]\n- [FILTERED] 학사 (GPA 3.44/4.5)  \n- [FILTERED] 대학원 통계학과 석사  \n[MASK_NAME]\n- 토스 (2024.03 ~ 2026.02)  \n직책: 주니어 엔지니어  \n- KT (2023.03 ~ 2026.02)  \n직책: 시니어 엔지니어  \n\n주요 프로젝트  \n- 결제 흐름의 미디어 프로젝트 리드. 결제 전환율 62% → 74% 개선.  \n- A/B 테스트 프레임워크 구축 및 약 40건 이상 실험 주도.  \n- 신규 구독 상품 출시. 3개월 누적 MAU 45만 달성.  \n\n보유 기술  \n- 로드맵, PM, 지표 분석, A/B 테스트  \n[MASK_NAME]\n저는 2년차 프로젝트 매니저로서 실무에서 구조적 성과를 만들어왔습니다. 특히 로드맵 기반 시스템 설계와 운영에 강점이 있으며, 최근에는 대규모 프로젝트 환경에서의 안정적 운영에 관심을 갖고 있습니다. 동료들과의 협업을 통해 더 나은 제품을 만드는 일에 보람을 느낍니다.",
+  "pii_fields_separated": {
+    "education": [
+      "충남대학교 통계학과",
+      "서울대학교"
+    ],
+    "age": [
+      "만 30세"
+    ],
+    "gender": [
+      "성별: 남"
+    ],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "vision",
+  "ok": true,
+  "error": null
+}

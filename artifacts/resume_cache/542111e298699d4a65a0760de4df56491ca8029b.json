@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0159",
+  "sha1": "542111e298699d4a65a0760de4df56491ca8029b",
+  "format": "pdf",
+  "raw_text_length": 890,
+  "masked_text": "RESUME\nName: Charles Martin\nDOB: 1986 (age 40)\nGender: Female\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seongnam-si, Bundang-gu\nApplying for: Game Client Programmer (JD006)\nEDUCATION\n- Georgia Tech, B.S. in Industrial Engineering (GPA 3.61/4.0)\nEXPERIENCE\n- nnn (2022.03 - 2025.02)\nRole: Senior Engineer\n- nn nnnn (2023.03 - 2024.02)\nRole: Manager\n- nnn (2024.03 - 2026.02)\nRole: Senior Engineer\nPROJECTS\n- Developed UE5 open-world client, built character customization system.\n- Implemented server-authoritative multiplayer combat replication.\n- Optimized mobile RPG client for low-end devices, from 28fps to 58fps.\nSKILLS\n- Optimization, Game Client, Unreal Engine, C++\nSUMMARY\nI am a Game Client Programmer with 4 years of experience, specializing in Optimization-bas\ned systems. I thrive on delivering measurable impact through cross-functional collaboratio\nn.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

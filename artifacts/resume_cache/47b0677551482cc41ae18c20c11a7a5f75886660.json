@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0372",
+  "sha1": "47b0677551482cc41ae18c20c11a7a5f75886660",
+  "format": "docx",
+  "raw_text_length": 927,
+  "masked_text": "RESUME\nName: Amanda Taylor\nDOB: 1994 (age 32)\nGender: Male\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seoul, Mapo-gu\nApplying for: Backend Engineer (JD001)\nEDUCATION\n- ETH Zurich, B.S. in Artificial Intelligence (GPA 3.53/4.0)\nEXPERIENCE\n- LG유플러스 (2022.03 - 2023.02)\n  Role: Tech Lead\n- SAP (2023.03 - 2026.02)\n  Role: Senior Engineer\n- 라인플러스 (2024.03 - 2026.02)\n  Role: Software Engineer\nPROJECTS\n- Introduced Redis cache layer achieving 94% hit rate, reduced DB load by 60%.\n- Led MSA migration, split monolith into 8 domain services with gRPC.\n- Redesigned order API serving 30M DAU. Spring Boot + Kafka async pipeline reduced P95 latency from 420ms to 120ms.\nSKILLS\n- Spring Boot, Microservices, Redis, Kafka, MySQL\nSUMMARY\nI am a Backend Engineer with 4 years of experience, specializing in Spring Boot-based systems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "python-docx",
+  "ok": true,
+  "error": null
+}

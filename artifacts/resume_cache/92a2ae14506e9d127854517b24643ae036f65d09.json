@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0003",
+  "sha1": "92a2ae14506e9d127854517b24643ae036f65d09",
+  "format": "docx",
+  "raw_text_length": 783,
+  "masked_text": "RESUME\nName: Brian Davis\nDOB: 1991 (age 35)\nGender: Male\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Toronto, Canada\nApplying for: Data Engineer (JD003)\nEDUCATION\n- ETH Zurich, B.S. in Industrial Engineering (GPA 3.49/4.0)\nEXPERIENCE\n- 카카오 (2024.03 - 2025.02)\n  Role: Tech Lead\n- 라인플러스 (2025.03 - 2026.02)\n  Role: Manager\nPROJECTS\n- Designed Airflow pipeline processing 200GB/day with 99.5% SLA.\n- Built Spark Streaming real-time aggregation, reducing latency from 5min to 30s.\n- Led BigQuery migration, cut query cost from $27k to $9k monthly.\nSKILLS\n- Python, Airflow, BigQuery, Spark\nSUMMARY\nI am a Data Engineer with 2 years of experience, specializing in Python-based systems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "python-docx",
+  "ok": true,
+  "error": null
+}

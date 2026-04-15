@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0056",
+  "sha1": "f943828862500db7cef7fa2a2186a61782370d2b",
+  "format": "pdf",
+  "raw_text_length": 869,
+  "masked_text": "RESUME\nName: Olivia Brown\nDOB: 1996 (age 30)\nGender: Male\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seattle, WA\nApplying for: Machine Learning Engineer (JD004)\nEDUCATION\n- ETH Zurich, B.S. in Data Science (GPA 3.39/4.0)\n- ETH Zurich, M.S. in Data Science\nEXPERIENCE\n- SAP (2022.03 - 2025.02)\nRole: Software Engineer\n- nnnnnn (2023.03 - 2025.02)\nRole: Senior Engineer\n- nn (2024.03 - 2025.02)\nRole: Senior Engineer\nPROJECTS\n- Fine-tuned ViT image classifier to 92.4% accuracy.\n- Built internal RAG chatbot with LangChain + Pinecone, 84% answer accuracy.\n- Improved recommender CTR by 12% via feature engineering and A/B testing.\nSKILLS\n- RAG, Python, PyTorch\nSUMMARY\nI am a Machine Learning Engineer with 4 years of experience, specializing in RAG-based sys\ntems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

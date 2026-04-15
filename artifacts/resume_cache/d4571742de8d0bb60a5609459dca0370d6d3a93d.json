@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0431",
+  "sha1": "d4571742de8d0bb60a5609459dca0370d6d3a93d",
+  "format": "pdf",
+  "raw_text_length": 883,
+  "masked_text": "RESUME\nName: Joseph Brown\nDOB: 1986 (age 40)\nGender: Male\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seongnam-si, Bundang-gu\nApplying for: Business Development Manager (JD011)\nEDUCATION\n- NTU Singapore, B.S. in Computer Science (GPA 3.36/4.0)\nEXPERIENCE\n- Microsoft (2018.03 - 2020.02)\nRole: Tech Lead\n- Spotify (2020.03 - 2021.02)\nRole: Software Engineer\n- nnnn (2022.03 - 2025.02)\nRole: Software Engineer\nPROJECTS\n- Closed partnerships with 3 global publishers, contributing $10M annual revenue.\n- Developed market entry strategy, led SEA launch project.\n- Led new IP licensing negotiations, expanded to 8 countries.\nSKILLS\n- Negotiation, Strategy, Partnership\nSUMMARY\nI am a Business Development Manager with 8 years of experience, specializing in Negotiatio\nn-based systems. I thrive on delivering measurable impact through cross-functional collabo\nration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

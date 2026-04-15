@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0742",
+  "sha1": "65f60f9cb7a22731145e90772bc53b7b1fb69c2d",
+  "format": "docx",
+  "raw_text_length": 860,
+  "masked_text": "RESUME\nName: Emma Gonzalez\nDOB: 2001 (age 25)\nGender: Male\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Singapore\nApplying for: Game Client Programmer (JD006)\nEDUCATION\n- MIT, B.S. in Economics (GPA 3.72/4.0)\nEXPERIENCE\n- LG CNS (2022.03 - 2025.02)\n  Role: Software Engineer\n- Google (2023.03 - 2024.02)\n  Role: Tech Lead\n- Salesforce (2024.03 - 2026.02)\n  Role: Software Engineer\nPROJECTS\n- Optimized mobile RPG client for low-end devices, from 28fps to 58fps.\n- Developed UE5 open-world client, built character customization system.\n- Implemented server-authoritative multiplayer combat replication.\nSKILLS\n- C++, Optimization, Game Client, Unreal Engine\nSUMMARY\nI am a Game Client Programmer with 4 years of experience, specializing in C++-based systems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "python-docx",
+  "ok": true,
+  "error": null
+}

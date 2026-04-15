@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0719",
+  "sha1": "adaf6f578c84230c5654edf6bd13ab6d22fe1e3f",
+  "format": "pdf",
+  "raw_text_length": 893,
+  "masked_text": "RESUME\nName: Olivia Cho\nDOB: 1989 (age 37)\nGender: Female\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seoul, Mapo-gu\nApplying for: Backend Engineer (JD001)\nEDUCATION\n- UC Berkeley, B.S. in Mathematics (GPA 3.68/4.0)\n- UC Berkeley, M.S. in Mathematics\nEXPERIENCE\n- nnnnnn (2019.03 - 2020.02)\nRole: Manager\n- nnnnnn (2021.03 - 2022.02)\nRole: Manager\n- KT (2023.03 - 2026.02)\nRole: Tech Lead\nPROJECTS\n- Led MSA migration, split monolith into 8 domain services with gRPC.\n- Introduced Redis cache layer achieving 94% hit rate, reduced DB load by 60%.\n- Redesigned order API serving 30M DAU. Spring Boot + Kafka async pipeline reduced P95 lat\nency from 420ms to 120ms.\nSKILLS\n- Kafka, Spring Boot, Java\nSUMMARY\nI am a Backend Engineer with 7 years of experience, specializing in Kafka-based systems. I\nthrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0424",
+  "sha1": "0517bf6a9a157fc9facd702c49210200629d006f",
+  "format": "pdf",
+  "raw_text_length": 913,
+  "masked_text": "RESUME\nName: Joseph Jones\nDOB: 2001 (age 25)\nGender: Male\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seoul, Mapo-gu\nApplying for: Business Development Manager (JD011)\nEDUCATION\n- University of Illinois Urbana-Champaign, B.S. in Design (GPA 3.64/4.0)\nEXPERIENCE\n- Samsung Research America (2019.03 - 2022.02)\nRole: Software Engineer\n- Uber (2021.03 - 2024.02)\nRole: Senior Engineer\n- nnn (2023.03 - 2024.02)\nRole: Manager\nPROJECTS\n- Closed partnerships with 3 global publishers, contributing $10M annual revenue.\n- Led new IP licensing negotiations, expanded to 8 countries.\n- Developed market entry strategy, led SEA launch project.\nSKILLS\n- Partnership, Strategy, Market Analysis, Negotiation\nSUMMARY\nI am a Business Development Manager with 7 years of experience, specializing in Partnershi\np-based systems. I thrive on delivering measurable impact through cross-functional collabo\nration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

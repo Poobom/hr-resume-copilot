@@ -1,0 +1,24 @@
+{
+  "resume_id": "resume_0345",
+  "sha1": "1e920d67097bfd13de0d3ef7c7a352674dcb8160",
+  "format": "pdf",
+  "raw_text_length": 659,
+  "masked_text": "[MASK_NAME]\n이름: [MASK_NAME]  \n생년월일: 1986년생 ([FILTERED])  \n[FILTERED]  \n전화번호: [MASK_PHONE]  \n이메일: 오준서4734@gmail.com  \n지원 포지션: 백엔드 엔지니어 (JD001)  \n[MASK_NAME]\n- [FILTERED] (GPA 4.28/4.5)  \n- [FILTERED] 대학원 산업디자인학과 석사  \n[MASK_NAME]\n- 컴투스 (2025.03 ~ 2026.02)  \n직책: 테크 리드  \n\n주요 프로젝트  \n- 월 3000만 DAU 서비스의 주요 API 설계 및 Spring Boot + Kafka 기반 비동기 마이크로서비스 전환하여 응답 시간 P95 420ms → 120ms 개선.  \n- MSA 전환 프로젝트 리드. 오라클 서비스를 8개 도메인 서비스로 분리, gRPC 통신 도입.  \n- Redis 캐시 메모리 도입 이후 히트율 94% 달성. DB 부하 60% 감소.  \n\n보유 기술  \n- Spring Boot, Java, AWS  \n[MASK_NAME]\n저는 1년차 백엔드 엔지니어로서 실무에서 꾸준히 성과를 만들어왔습니다. 특히 Spring Boot 기반 시스템 설계와 운영에 강점이 있으며, 최근에는 대규모 트래픽 환경에서의 안정적 서비스 운영에 관심을 갖고 있습니다. 동료들과의 협업을 통해 더 나은 제품을 만드는 일에 보람을 느낍니다.",
+  "pii_fields_separated": {
+    "education": [
+      "서울시립대학교 산업디자인학과 졸업",
+      "전북대학교"
+    ],
+    "age": [
+      "만 40세"
+    ],
+    "gender": [
+      "성별: 남"
+    ],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "vision",
+  "ok": true,
+  "error": null
+}

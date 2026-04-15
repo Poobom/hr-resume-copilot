@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0725",
+  "sha1": "9b427a3bf5e953381a206b12d1168b5d1ae89142",
+  "format": "pdf",
+  "raw_text_length": 921,
+  "masked_text": "RESUME  \nName: Richard Martinez  \nDOB: 1989 (age 37)  \nGender: Female  \nPhone: +1-[MASK_PHONE]  \nEmail: [MASK_EMAIL]  \nLocation: Toronto, Canada  \n\nApplying for: UX Designer (JD010)  \n\nEDUCATION  \n- University of Illinois Urbana-Champaign, B.S. in Data Science (GPA 3.37/4.0)  \n\nEXPERIENCE  \n- Microsoft (2021.03 - 2024.02)  \nRole: Manager  \n- LG유플러스 (2022.03 - 2024.02)  \nRole: Manager  \n- 컴투스 (2023.03 - 2025.02)  \nRole: Tech Lead  \n\nPROJECTS  \n- Conducted 40+ UX research sessions, insights informed product roadmap.  \n- Led full app redesign, user NPS improved from 34 to 58.  \n- Redesigned design system with Atomic structure, cut design QA time by 70%.  \n\nSKILLS  \n- Figma, Interaction Design, Design System, UX Research  \n\nSUMMARY  \nI am a UX Designer with 5 years of experience, specializing in Figma-based systems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "vision",
+  "ok": true,
+  "error": null
+}

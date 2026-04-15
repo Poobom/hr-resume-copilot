@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0125",
+  "sha1": "2a2c687de75ded727f96bce8bd71247236cf7232",
+  "format": "docx",
+  "raw_text_length": 859,
+  "masked_text": "RESUME\nName: Chloe Johnson\nDOB: 1996 (age 30)\nGender: Male\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seoul, Mapo-gu\nApplying for: Security Engineer (JD012)\nEDUCATION\n- Peking University, B.S. in Data Science (GPA 3.4/4.0)\nEXPERIENCE\n- 카카오 (2018.03 - 2021.02)\n  Role: Senior Engineer\n- Intel (2020.03 - 2023.02)\n  Role: Senior Engineer\n- Tesla (2022.03 - 2025.02)\n  Role: Senior Engineer\nPROJECTS\n- Conducted pentesting and vulnerability reporting across company services.\n- Built SIEM system with 80 detection rules at 91% accuracy.\n- Led ISMS certification project covering 102 controls.\nSKILLS\n- Security Audit, Cloud Security, Pentesting, ISMS\nSUMMARY\nI am a Security Engineer with 8 years of experience, specializing in Security Audit-based systems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "python-docx",
+  "ok": true,
+  "error": null
+}

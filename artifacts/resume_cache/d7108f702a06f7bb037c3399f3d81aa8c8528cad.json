@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0515",
+  "sha1": "d7108f702a06f7bb037c3399f3d81aa8c8528cad",
+  "format": "pdf",
+  "raw_text_length": 847,
+  "masked_text": "RESUME\nName: Sarah Martin\nDOB: 1991 (age 35)\nGender: Female\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Toronto, Canada\nApplying for: Game Server Programmer (JD007)\nEDUCATION\n- Tsinghua University, B.S. in Industrial Engineering (GPA 3.6/4.0)\nEXPERIENCE\n- Amazon (2021.03 - 2024.02)\nRole: Senior Engineer\n- nn (2022.03 - 2025.02)\nRole: Manager\n- Intel (2023.03 - 2026.02)\nRole: Senior Engineer\nPROJECTS\n- Redesigned matchmaking with Elo-based algorithm, improved match quality by 18%.\n- Rebuilt game log pipeline on Kafka.\n- MMORPG server development, validated for 50k concurrent sessions.\nSKILLS\n- DB Optimization, C++, Network\nSUMMARY\nI am a Game Server Programmer with 5 years of experience, specializing in DB Optimization-\nbased systems. I thrive on delivering measurable impact through cross-functional collabora\ntion.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

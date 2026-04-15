@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0766",
+  "sha1": "a72c551a0a3ac62c8d590c7659c549933e0ef3c9",
+  "format": "pdf",
+  "raw_text_length": 914,
+  "masked_text": "RESUME\nName: Sophia Garcia\nDOB: 1987 (age 39)\nGender: Male\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: San Jose, CA\nApplying for: QA Engineer (JD008)\nEDUCATION\n- University of Illinois Urbana-Champaign, B.S. in Business Administration (GPA 3.12/4.0)\nEXPERIENCE\n- nn (2021.03 - 2024.02)\nRole: Software Engineer\n- LG CNS (2022.03 - 2023.02)\nRole: Manager\n- nnnnnn nnn (2023.03 - 2025.02)\nRole: Senior Engineer\nPROJECTS\n- Built Playwright E2E framework, reduced regression testing from 3 days manual to 2 hours\nautomated.\n- Standardized game QA process with regression sheets and bug triage rules.\n- Automated performance testing with JMeter-based load pipeline.\nSKILLS\n- Game QA, Test Automation, Selenium, Bug Report\nSUMMARY\nI am a QA Engineer with 5 years of experience, specializing in Game QA-based systems. I th\nrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

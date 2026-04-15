@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0301",
+  "sha1": "edd41d747e9f30b974fad15d7a5d162de04693ae",
+  "format": "pdf",
+  "raw_text_length": 911,
+  "masked_text": "RESUME\nName: Ethan Williams\nDOB: 2001 (age 25)\nGender: Male\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Singapore\nApplying for: Frontend Engineer (JD002)\nEDUCATION\n- University of Illinois Urbana-Champaign, B.S. in Statistics (GPA 3.99/4.0)\nEXPERIENCE\n- nn (2021.03 - 2023.02)\nRole: Senior Engineer\n- nnnn (2022.03 - 2023.02)\nRole: Manager\n- Microsoft (2023.03 - 2024.02)\nRole: Tech Lead\nPROJECTS\n- Migrated state management to React Query, reducing bundle size by 32%.\n- Built Next.js admin console from scratch. SSR/ISR reduced LCP from 4.2s to 1.8s.\n- Built 40+ design system components with Storybook and Chromatic visual regression.\nSKILLS\n- React, Web Performance, TypeScript, State Management, Next.js\nSUMMARY\nI am a Frontend Engineer with 5 years of experience, specializing in React-based systems.\nI thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

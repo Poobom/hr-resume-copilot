@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0722",
+  "sha1": "af2a1f50a3a77e95133e458ce356e7efcfb2e8fa",
+  "format": "pdf",
+  "raw_text_length": 785,
+  "masked_text": "RESUME\nName: Matthew Moore\nDOB: 1989 (age 37)\nGender: Male\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Toronto, Canada\nApplying for: Game Client Programmer (JD006)\nEDUCATION\n- University of Washington, B.S. in Design (GPA 3.23/4.0)\nEXPERIENCE\n- Spotify (2025.03 - 2026.02)\nRole: Senior Engineer\nPROJECTS\n- Implemented server-authoritative multiplayer combat replication.\n- Optimized mobile RPG client for low-end devices, from 28fps to 58fps.\n- Developed UE5 open-world client, built character customization system.\nSKILLS\n- Optimization, C++, Unreal Engine, Game Client\nSUMMARY\nI am a Game Client Programmer with 1 years of experience, specializing in Optimization-bas\ned systems. I thrive on delivering measurable impact through cross-functional collaboratio\nn.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

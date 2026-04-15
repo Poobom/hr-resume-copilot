@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0652",
+  "sha1": "b15267c4865a8bef298865964b18dc3f1ea68fed",
+  "format": "docx",
+  "raw_text_length": 830,
+  "masked_text": "RESUME\nName: Mason Choi\nDOB: 2001 (age 25)\nGender: Female\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Toronto, Canada\nApplying for: QA Engineer (JD008)\nEDUCATION\n- University of Michigan, B.S. in Economics (GPA 3.22/4.0)\nEXPERIENCE\n- Uber (2023.03 - 2026.02)\n  Role: Manager\n- Microsoft (2024.03 - 2026.02)\n  Role: Tech Lead\nPROJECTS\n- Automated performance testing with JMeter-based load pipeline.\n- Built Playwright E2E framework, reduced regression testing from 3 days manual to 2 hours automated.\n- Standardized game QA process with regression sheets and bug triage rules.\nSKILLS\n- Selenium, Bug Report, Game QA, Test Automation\nSUMMARY\nI am a QA Engineer with 3 years of experience, specializing in Selenium-based systems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "python-docx",
+  "ok": true,
+  "error": null
+}

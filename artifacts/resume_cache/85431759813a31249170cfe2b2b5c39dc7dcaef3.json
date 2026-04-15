@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0702",
+  "sha1": "85431759813a31249170cfe2b2b5c39dc7dcaef3",
+  "format": "docx",
+  "raw_text_length": 849,
+  "masked_text": "RESUME\nName: Daniel Cho\nDOB: 1992 (age 34)\nGender: Male\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seoul, Gangnam-gu\nApplying for: Game Server Programmer (JD007)\nEDUCATION\n- University of Tokyo, B.S. in Statistics (GPA 3.56/4.0)\nEXPERIENCE\n- Spotify (2019.03 - 2020.02)\n  Role: Tech Lead\n- Uber (2021.03 - 2023.02)\n  Role: Software Engineer\n- 현대자동차 (2023.03 - 2025.02)\n  Role: Senior Engineer\nPROJECTS\n- MMORPG server development, validated for 50k concurrent sessions.\n- Redesigned matchmaking with Elo-based algorithm, improved match quality by 18%.\n- Rebuilt game log pipeline on Kafka.\nSKILLS\n- Game Server, DB Optimization, Network\nSUMMARY\nI am a Game Server Programmer with 7 years of experience, specializing in Game Server-based systems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "python-docx",
+  "ok": true,
+  "error": null
+}

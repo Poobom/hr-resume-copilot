@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0630",
+  "sha1": "a9f8ec3147a50b844ee786390e95a33731d271e9",
+  "format": "pdf",
+  "raw_text_length": 847,
+  "masked_text": "RESUME\nName: Charles Yang\nDOB: 1986 (age 40)\nGender: Female\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seattle, WA\nApplying for: Security Engineer (JD012)\nEDUCATION\n- ETH Zurich, B.S. in Software Engineering (GPA 3.49/4.0)\nEXPERIENCE\n- Spotify (2019.03 - 2022.02)\nRole: Tech Lead\n- nnn (2021.03 - 2024.02)\nRole: Senior Engineer\n- SAP (2023.03 - 2025.02)\nRole: Software Engineer\nPROJECTS\n- Built SIEM system with 80 detection rules at 91% accuracy.\n- Conducted pentesting and vulnerability reporting across company services.\n- Led ISMS certification project covering 102 controls.\nSKILLS\n- Security Audit, Pentesting, Cloud Security, ISMS\nSUMMARY\nI am a Security Engineer with 7 years of experience, specializing in Security Audit-based\nsystems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

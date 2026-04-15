@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0298",
+  "sha1": "3cb2ac1d8a6ad508eb8e07e367477b12bf39c375",
+  "format": "docx",
+  "raw_text_length": 900,
+  "masked_text": "RESUME\nName: Chloe Miller\nDOB: 1998 (age 28)\nGender: Male\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seoul, Mapo-gu\nApplying for: Frontend Engineer (JD002)\nEDUCATION\n- NTU Singapore, B.S. in Artificial Intelligence (GPA 3.94/4.0)\nEXPERIENCE\n- 젠지 이스포츠 (2022.03 - 2023.02)\n  Role: Senior Engineer\n- 스마일게이트 (2023.03 - 2024.02)\n  Role: Senior Engineer\n- Dropbox (2024.03 - 2026.02)\n  Role: Software Engineer\nPROJECTS\n- Built 40+ design system components with Storybook and Chromatic visual regression.\n- Built Next.js admin console from scratch. SSR/ISR reduced LCP from 4.2s to 1.8s.\n- Migrated state management to React Query, reducing bundle size by 32%.\nSKILLS\n- React, TypeScript, State Management\nSUMMARY\nI am a Frontend Engineer with 4 years of experience, specializing in React-based systems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "python-docx",
+  "ok": true,
+  "error": null
+}

@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0690",
+  "sha1": "b6769f96cc515e0ec8dda2637202e3ded573775b",
+  "format": "pdf",
+  "raw_text_length": 888,
+  "masked_text": "RESUME\nName: Emma Han\nDOB: 1997 (age 29)\nGender: Male\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seattle, WA\nApplying for: Backend Engineer (JD001)\nEDUCATION\n- Peking University, B.S. in Mathematics (GPA 3.81/4.0)\nEXPERIENCE\n- nnn (2021.03 - 2024.02)\nRole: Tech Lead\n- nnnn (2022.03 - 2024.02)\nRole: Tech Lead\n- LGnnnn (2023.03 - 2026.02)\nRole: Software Engineer\nPROJECTS\n- Redesigned order API serving 30M DAU. Spring Boot + Kafka async pipeline reduced P95 lat\nency from 420ms to 120ms.\n- Introduced Redis cache layer achieving 94% hit rate, reduced DB load by 60%.\n- Led MSA migration, split monolith into 8 domain services with gRPC.\nSKILLS\n- Spring Boot, MySQL, Kafka, Redis, AWS\nSUMMARY\nI am a Backend Engineer with 5 years of experience, specializing in Spring Boot-based syst\nems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

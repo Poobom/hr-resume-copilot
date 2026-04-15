@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0315",
+  "sha1": "c8e2dfc48ff91deca4cfd083880785704c1d4202",
+  "format": "docx",
+  "raw_text_length": 800,
+  "masked_text": "RESUME\nName: Joseph Jung\nDOB: 2001 (age 25)\nGender: Male\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Toronto, Canada\nApplying for: QA Engineer (JD008)\nEDUCATION\n- University of Waterloo, B.S. in Artificial Intelligence (GPA 3.0/4.0)\nEXPERIENCE\n- 마켓컬리 (2025.03 - 2026.02)\n  Role: Software Engineer\nPROJECTS\n- Automated performance testing with JMeter-based load pipeline.\n- Standardized game QA process with regression sheets and bug triage rules.\n- Built Playwright E2E framework, reduced regression testing from 3 days manual to 2 hours automated.\nSKILLS\n- Game QA, Test Automation, Selenium, Bug Report\nSUMMARY\nI am a QA Engineer with 1 years of experience, specializing in Game QA-based systems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "python-docx",
+  "ok": true,
+  "error": null
+}

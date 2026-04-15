@@ -1,0 +1,23 @@
+{
+  "resume_id": "resume_0535",
+  "sha1": "31631157e1c75e0c6d8b5150247c5a9db1f016a0",
+  "format": "pdf",
+  "raw_text_length": 728,
+  "masked_text": "[MASK_NAME]\n이름: [MASK_NAME]  \n생년월일: 1995년생 ([FILTERED])  \n[FILTERED]  \n전화: [MASK_PHONE]  \n이메일: 홍조서5835@outlook.com  \n거주지: [MASK_ADDR]  \n\n지원 포지션: 백엔드 엔지니어 (JD001)  \n[MASK_NAME]\n- [FILTERED] 학사 (GPA 3.26/4.5)  \n[MASK_NAME]\n- NHN (2019.03 ~ 2020.02)  \n직책: 시니어 엔지니어  \n- 스마트러닝 (2021.03 ~ 2023.02)  \n직책: 주니어 엔지니어  \n- 리안테크 (2023.03 ~ 2026.02)  \n직책: 테크 리드  \n\n주요 프로젝트  \n- Redis 캐시 레이어 도입 및 히트율 94% 달성. DB 부하 60% 감소.  \n- 월 3000만 건 이상의 트래픽을 처리하는 시스템 재설계. Spring Boot + Kafka 기반 빅  \n동기 파이프라인으로 전환하여 응답 시간 P95 420ms → 120ms 개선.  \n- MSA 전환 프로젝트 리드. 모듈화된 서비스를 8개 도메인 서비스로 분리, gRPC 통신 도입.  \n\n보유 기술  \n- AWS, Spring Boot, Redis  \n[MASK_NAME]\n저는 7년차 백엔드 엔지니어로서 꾸준히 성과를 만들어왔습니다. 특히 AWS 기반 시스템 설계와 운영에 강점이 있으며, 최근에는 대규모 트래픽 환경에서의 안정적 서비스 운영에 관심을 갖고 있습니다. 동료들과의 협업을 통해 더 나은 제품을 만드는 일에 보람을 느낍니다.",
+  "pii_fields_separated": {
+    "education": [
+      "연세대학교 수학과"
+    ],
+    "age": [
+      "만 31세"
+    ],
+    "gender": [
+      "성별: 여"
+    ],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "vision",
+  "ok": true,
+  "error": null
+}

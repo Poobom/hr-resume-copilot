@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0606",
+  "sha1": "b58409e8b141b454ba6f2070f7cb578aaf3de4fb",
+  "format": "docx",
+  "raw_text_length": 862,
+  "masked_text": "RESUME\nName: Amanda Anderson\nDOB: 1999 (age 27)\nGender: Male\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seoul, Gangnam-gu\nApplying for: Frontend Engineer (JD002)\nEDUCATION\n- Peking University, B.S. in Industrial Engineering (GPA 3.43/4.0)\nEXPERIENCE\n- 넥슨 (2023.03 - 2025.02)\n  Role: Software Engineer\n- Oracle (2024.03 - 2025.02)\n  Role: Software Engineer\nPROJECTS\n- Built Next.js admin console from scratch. SSR/ISR reduced LCP from 4.2s to 1.8s.\n- Migrated state management to React Query, reducing bundle size by 32%.\n- Built 40+ design system components with Storybook and Chromatic visual regression.\nSKILLS\n- TypeScript, Next.js, State Management\nSUMMARY\nI am a Frontend Engineer with 3 years of experience, specializing in TypeScript-based systems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "python-docx",
+  "ok": true,
+  "error": null
+}

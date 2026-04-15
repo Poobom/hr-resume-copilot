@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0247",
+  "sha1": "efda8a0d9ad7ca228d0beffa638b667e9ebbf675",
+  "format": "pdf",
+  "raw_text_length": 863,
+  "masked_text": "RESUME\nName: Noah Kim\nDOB: 1997 (age 29)\nGender: Female\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: San Jose, CA\nApplying for: Product Manager (JD009)\nEDUCATION\n- University of Waterloo, B.S. in Computer Science (GPA 3.83/4.0)\n- Tsinghua University, M.S. in Computer Science\nEXPERIENCE\n- nnn (2022.03 - 2025.02)\nRole: Software Engineer\n- Netflix (2023.03 - 2026.02)\nRole: Software Engineer\n- LG CNS (2024.03 - 2025.02)\nRole: Manager\nPROJECTS\n- Built A/B test framework, drove 40+ experiments annually.\n- Led checkout redesign, improved conversion from 62% to 74%.\n- Launched subscription product, reached 450k MAU in 3 months.\nSKILLS\n- Roadmap, Metrics, A/B Test, PM\nSUMMARY\nI am a Product Manager with 4 years of experience, specializing in Roadmap-based systems.\nI thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

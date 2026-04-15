@@ -1,0 +1,23 @@
+{
+  "resume_id": "resume_0001",
+  "sha1": "997a4cff91dcc2428a35b706999530bf441e2698",
+  "format": "pdf",
+  "raw_text_length": 693,
+  "masked_text": "[MASK_NAME]\n이름: [MASK_NAME]  \n생년월일: 1997년생 ([FILTERED])  \n[FILTERED]  \n연락처: [MASK_PHONE]  \n이메일: 황수호5419@kakao.com  \n거주지: [MASK_ADDR]  \n\n지원 포지션: 게임 클라이언트 프로그래머 (JD006)  \n[MASK_NAME]\n- [FILTERED] 졸 (GPA 3.62/4.5)  \n[MASK_NAME]\n- 삼성SDS (2019.03 ~ 2021.02)  \n직책: 매니저  \n- 엔씨소프트 (2021.03 ~ 2024.02)  \n직책: 시니어 엔지니어  \n- 29CM (2023.03 ~ 2024.02)  \n직책: 시니어 엔지니어  \n\n주요 프로젝트  \n- 모바일 RPG 클라이언트 최적화, 로우엔드 기기 프레임 28fps → 58fps 개선.  \n- UE5 기반 오픈월드 프로젝트 클라이언트 개발, 캐릭터 커스터마이징 시스템 구현.  \n- 심사위원 리틀 시스템 구축, 서버 관리를 기반 리플리케이션 설계.  \n\n보유 기술  \n- 게임 클라이언트, Unreal Engine, 최적화, C++  \n[MASK_NAME]\n저는 기획자 게임 클라이언트 프로그래머로서 실무에서 구조화 성과를 만들어왔습니다. 특히 게임 클라이언트는 기본 시스템 설계와 운영에 강점이 있으며, 최근에는 대규모 트래픽 환경에서의 안정적 서비스 운영에 관심을 갖고 있습니다. 동료들과 협업을 통해 더 나은 제품을 만드는 일에 보람을 느낍니다.",
+  "pii_fields_separated": {
+    "education": [
+      "성균관대학교 컴퓨터공학과"
+    ],
+    "age": [
+      "만 29세"
+    ],
+    "gender": [
+      "성별: 남"
+    ],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "vision",
+  "ok": true,
+  "error": null
+}

@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0238",
+  "sha1": "6e2462fed12f4f92b8e0f49df0698894cc2680d3",
+  "format": "pdf",
+  "raw_text_length": 911,
+  "masked_text": "RESUME  \nName: Andrew Taylor  \nDOB: 1986 (age 40)  \nGender: Female  \nPhone: +1-[MASK_PHONE]  \nEmail: [MASK_EMAIL]  \nLocation: Singapore  \n\nApplying for: Backend Engineer (JD001)  \n\nEDUCATION  \n- Carnegie Mellon University, B.S. in Economics (GPA 3.52/4.0)  \n\nEXPERIENCE  \n- 라이엇게임즈 코리아 (2023.03 - 2026.02)  \nRole: Manager  \n- Oracle (2024.03 - 2026.02)  \nRole: Software Engineer  \n\nPROJECTS  \n- Introduced Redis cache layer achieving 94% hit rate, reduced DB load by 60%.  \n- Led MSA migration, split monolith into 8 domain services with gRPC.  \n- Redesigned order API serving 30M DAU. Spring Boot + Kafka async pipeline reduced P95 latency from 420ms to 20ms.  \n\nSKILLS  \n- Redis, Kafka, Microservices, Spring Boot  \n\nSUMMARY  \nI am a Backend Engineer with 3 years of experience, specializing in Redis-based systems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "vision",
+  "ok": true,
+  "error": null
+}

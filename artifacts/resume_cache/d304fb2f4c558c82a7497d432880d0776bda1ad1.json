@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0061",
+  "sha1": "d304fb2f4c558c82a7497d432880d0776bda1ad1",
+  "format": "docx",
+  "raw_text_length": 909,
+  "masked_text": "RESUME\nName: Andrew Lopez\nDOB: 1991 (age 35)\nGender: Female\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seoul, Mapo-gu\nApplying for: QA Engineer (JD008)\nEDUCATION\n- University of Washington, B.S. in Data Science (GPA 3.66/4.0)\nEXPERIENCE\n- 마켓컬리 (2021.03 - 2024.02)\n  Role: Senior Engineer\n- 하이퍼커넥트 (2022.03 - 2023.02)\n  Role: Software Engineer\n- Salesforce (2023.03 - 2024.02)\n  Role: Software Engineer\nPROJECTS\n- Automated performance testing with JMeter-based load pipeline.\n- Standardized game QA process with regression sheets and bug triage rules.\n- Built Playwright E2E framework, reduced regression testing from 3 days manual to 2 hours automated.\nSKILLS\n- Bug Report, Test Automation, Selenium, Game QA\nSUMMARY\nI am a QA Engineer with 5 years of experience, specializing in Bug Report-based systems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "python-docx",
+  "ok": true,
+  "error": null
+}

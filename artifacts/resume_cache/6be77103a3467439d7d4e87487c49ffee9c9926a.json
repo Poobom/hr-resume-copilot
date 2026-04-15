@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0265",
+  "sha1": "6be77103a3467439d7d4e87487c49ffee9c9926a",
+  "format": "docx",
+  "raw_text_length": 796,
+  "masked_text": "RESUME\nName: Brian Yang\nDOB: 1990 (age 36)\nGender: Female\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: San Jose, CA\nApplying for: Data Engineer (JD003)\nEDUCATION\n- Peking University, B.S. in Business Administration (GPA 3.3/4.0)\nEXPERIENCE\n- 삼성전자 (2023.03 - 2025.02)\n  Role: Manager\n- Adobe (2024.03 - 2026.02)\n  Role: Senior Engineer\nPROJECTS\n- Designed Airflow pipeline processing 200GB/day with 99.5% SLA.\n- Led BigQuery migration, cut query cost from $27k to $9k monthly.\n- Built Spark Streaming real-time aggregation, reducing latency from 5min to 30s.\nSKILLS\n- BigQuery, Spark, Python, Airflow\nSUMMARY\nI am a Data Engineer with 3 years of experience, specializing in BigQuery-based systems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "python-docx",
+  "ok": true,
+  "error": null
+}

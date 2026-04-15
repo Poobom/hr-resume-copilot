@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0616",
+  "sha1": "0f83d2825b8f3f0b7ede8c120d3dcf9837451235",
+  "format": "pdf",
+  "raw_text_length": 847,
+  "masked_text": "RESUME\nName: Matthew Anderson\nDOB: 2001 (age 25)\nGender: Male\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seattle, WA\nApplying for: Frontend Engineer (JD002)\nEDUCATION\n- University of Illinois Urbana-Champaign, B.S. in Business Administration (GPA 3.4/4.0)\nEXPERIENCE\n- Meta (2026.03 - 2026.02)\nRole: Senior Engineer\nPROJECTS\n- Migrated state management to React Query, reducing bundle size by 32%.\n- Built Next.js admin console from scratch. SSR/ISR reduced LCP from 4.2s to 1.8s.\n- Built 40+ design system components with Storybook and Chromatic visual regression.\nSKILLS\n- TypeScript, Web Performance, State Management, React, Next.js\nSUMMARY\nI am a Frontend Engineer with 0 years of experience, specializing in TypeScript-based syst\nems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

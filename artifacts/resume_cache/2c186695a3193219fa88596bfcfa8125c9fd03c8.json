@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0552",
+  "sha1": "2c186695a3193219fa88596bfcfa8125c9fd03c8",
+  "format": "pdf",
+  "raw_text_length": 840,
+  "masked_text": "RESUME\nName: Ashley Brown\nDOB: 1987 (age 39)\nGender: Female\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: San Jose, CA\nApplying for: Data Engineer (JD003)\nEDUCATION\n- University of Washington, B.S. in Software Engineering (GPA 3.49/4.0)\nEXPERIENCE\n- nnnn (2022.03 - 2024.02)\nRole: Senior Engineer\n- nn (2023.03 - 2025.02)\nRole: Manager\n- nn nnnn (2024.03 - 2026.02)\nRole: Manager\nPROJECTS\n- Built Spark Streaming real-time aggregation, reducing latency from 5min to 30s.\n- Led BigQuery migration, cut query cost from $27k to $9k monthly.\n- Designed Airflow pipeline processing 200GB/day with 99.5% SLA.\nSKILLS\n- Airflow, Python, Spark, BigQuery\nSUMMARY\nI am a Data Engineer with 4 years of experience, specializing in Airflow-based systems. I\nthrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

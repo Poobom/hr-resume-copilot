@@ -1,0 +1,21 @@
+{
+  "resume_id": "resume_0562",
+  "sha1": "0af17eb64c12d1c485584f8e0fa0871dfcf5138f",
+  "format": "pdf",
+  "raw_text_length": 692,
+  "masked_text": "[MASK_NAME]\n이름: [MASK_NAME]  \n생년월일: 1991년생 ([FILTERED])  \n[FILTERED]  \n전화: [MASK_PHONE]  \n이메일: 최태준9602@yahoo.com  \n거주지: 주식회사  \n\n지원 포지션: 백엔드 엔지니어 (JD001)  \n[MASK_NAME]\n- POSTECH 사각디자인학과 졸업 (GPA 3.2/4.5)  \n[MASK_NAME]\n- SK텔레콤 (2023.03 ~ 2025.02)  \n직책: 매니저  \n- 위메이드 (2020.04 ~ 2023.02)  \n직책: 테크 리드  \n\n주요 프로젝트  \n- Redis 캐시 레이드를 도입 및 히트율 94% 달성. DB 부하 60% 감소.  \n- MSA 전환 프로젝트 리드, 모놀리식 서비스를 8개 도메인 서비스로 분리, gRPC 통신 도입.  \n- 일 3000만 DAU 서비스의 주요 API 설계, Spring Boot + Kafka 기반 비  \n동기 미세프레임으로 처리한 응답 시간 P95 420ms → 120ms 개선.  \n\n보유 기술  \n- Java, MSA, AWS, Spring Boot, MySQL  \n[MASK_NAME]\n저는 3년차 백엔드 엔지니어로서 실무에서 규준의 성과를 만들어왔습니다. 특히 Java 기반 시스템 설계와 운영에 강점이 있으며, 최근에는 대규모 트래픽 환경에서의 안정적 서비스 운영에 관심을 갖고 있습니다. 동료들과의 협업을 통해 더 나은 제품을 만드는 일에 보람을 느낍니다.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [
+      "만 35세"
+    ],
+    "gender": [
+      "성별: 남"
+    ],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "vision",
+  "ok": true,
+  "error": null
+}

@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0108",
+  "sha1": "12a70f3043401af85be5745ee265b94fabdb8144",
+  "format": "pdf",
+  "raw_text_length": 868,
+  "masked_text": "RESUME\nName: Isabella Davis\nDOB: 2000 (age 26)\nGender: Male\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seongnam-si, Bundang-gu\nApplying for: Frontend Engineer (JD002)\nEDUCATION\n- University of Washington, B.S. in Electrical Engineering (GPA 3.6/4.0)\n- University of Tokyo, M.S. in Electrical Engineering\nEXPERIENCE\n- Amazon (2026.03 - 2026.02)\nRole: Manager\nPROJECTS\n- Built Next.js admin console from scratch. SSR/ISR reduced LCP from 4.2s to 1.8s.\n- Built 40+ design system components with Storybook and Chromatic visual regression.\n- Migrated state management to React Query, reducing bundle size by 32%.\nSKILLS\n- Next.js, React, TypeScript, State Management\nSUMMARY\nI am a Frontend Engineer with 0 years of experience, specializing in Next.js-based systems\n. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

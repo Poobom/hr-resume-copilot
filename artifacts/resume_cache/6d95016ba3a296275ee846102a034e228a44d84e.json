@@ -1,0 +1,21 @@
+{
+  "resume_id": "resume_0311",
+  "sha1": "6d95016ba3a296275ee846102a034e228a44d84e",
+  "format": "pdf",
+  "raw_text_length": 652,
+  "masked_text": "[MASK_NAME]\n이름: [MASK_NAME]\n생년월일: 1986년생 ([FILTERED])\n[FILTERED]\n연락처: [MASK_PHONE]\n이메일: 홍하준1545@outlook.com\n거주지: [MASK_ADDR]\n지원 포지션: 프론트엔드 엔지니어 (JD002)\n■ 학력\n- KAIST 통계학과 학사 (GPA 3.78/4.5)\n■ 경력\n- NHN (2020.03 ~ 2023.02)\n직책: 주니어 엔지니어\n- KT (2022.03 ~ 2024.02)\n직책: 매니저\n- 데브시스터즈 (2024.03 ~ 2026.02)\n직책: 주니어 엔지니어\n■ 주요 프로젝트\n- Next.js 기반 관리자 콘솔 신규 구축. SSR·ISR 적용으로 LCP 4.2s → 1.8s 개선.\n- React Query 도입 및 상태관리 리팩토링. 번들 사이즈 32% 감소.\n- 디자인 시스템 컴포넌트 40종 구축. Storybook 문서화 및 Chromatic 시각 회귀 테스트 도입.\n■ 보유 기술\n- 상태관리, 웹 성능, TypeScript\n■ 자기소개\n저는 6년차 프론트엔드 엔지니어로서 실무에서 꾸준히 성과를 만들어왔습니다. 특히 상태관리 기반 시스템 설계와 운영에 강점이 있으며, 최근에는 대규모 트래픽 환경에\n서의 안정적 서비스 운영에 관심을 갖고 있습니다. 동료들과의 협업을 통해 더 나은 제품을 만드는 일에 보람을 느낍니다.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [
+      "만 40세"
+    ],
+    "gender": [
+      "성별: 남"
+    ],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

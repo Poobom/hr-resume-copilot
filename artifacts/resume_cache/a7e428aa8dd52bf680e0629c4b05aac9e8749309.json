@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0294",
+  "sha1": "a7e428aa8dd52bf680e0629c4b05aac9e8749309",
+  "format": "pdf",
+  "raw_text_length": 863,
+  "masked_text": "RESUME\nName: Andrew Thomas\nDOB: 1996 (age 30)\nGender: Female\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seoul, Gangnam-gu\nApplying for: Security Engineer (JD012)\nEDUCATION\n- Peking University, B.S. in Economics (GPA 3.14/4.0)\nEXPERIENCE\n- nn (2022.03 - 2024.02)\nRole: Software Engineer\n- nnnnnn (2023.03 - 2026.02)\nRole: Software Engineer\n- Twitter (2024.03 - 2026.02)\nRole: Software Engineer\nPROJECTS\n- Conducted pentesting and vulnerability reporting across company services.\n- Led ISMS certification project covering 102 controls.\n- Built SIEM system with 80 detection rules at 91% accuracy.\nSKILLS\n- Pentesting, Security Audit, Cloud Security, ISMS\nSUMMARY\nI am a Security Engineer with 4 years of experience, specializing in Pentesting-based syst\nems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

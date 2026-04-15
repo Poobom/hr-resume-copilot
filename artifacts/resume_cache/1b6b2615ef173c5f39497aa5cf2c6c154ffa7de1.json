@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0141",
+  "sha1": "1b6b2615ef173c5f39497aa5cf2c6c154ffa7de1",
+  "format": "docx",
+  "raw_text_length": 884,
+  "masked_text": "RESUME\nName: Daniel Davis\nDOB: 1997 (age 29)\nGender: Female\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seattle, WA\nApplying for: QA Engineer (JD008)\nEDUCATION\n- ETH Zurich, B.S. in Data Science (GPA 3.22/4.0)\nEXPERIENCE\n- 넥슨 (2020.03 - 2021.02)\n  Role: Senior Engineer\n- 배달의민족 (2022.03 - 2023.02)\n  Role: Manager\n- Twitter (2024.03 - 2026.02)\n  Role: Software Engineer\nPROJECTS\n- Built Playwright E2E framework, reduced regression testing from 3 days manual to 2 hours automated.\n- Standardized game QA process with regression sheets and bug triage rules.\n- Automated performance testing with JMeter-based load pipeline.\nSKILLS\n- Test Automation, Bug Report, Selenium, Game QA\nSUMMARY\nI am a QA Engineer with 6 years of experience, specializing in Test Automation-based systems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "python-docx",
+  "ok": true,
+  "error": null
+}

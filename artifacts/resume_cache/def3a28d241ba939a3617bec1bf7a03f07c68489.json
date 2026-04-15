@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0102",
+  "sha1": "def3a28d241ba939a3617bec1bf7a03f07c68489",
+  "format": "pdf",
+  "raw_text_length": 820,
+  "masked_text": "RESUME\nName: Daniel Lee\nDOB: 1997 (age 29)\nGender: Female\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Singapore\nApplying for: Security Engineer (JD012)\nEDUCATION\n- Georgia Tech, B.S. in Industrial Engineering (GPA 3.61/4.0)\n- NUS, M.S. in Industrial Engineering\nEXPERIENCE\n- nn (2023.03 - 2025.02)\nRole: Software Engineer\n- 29CM (2024.03 - 2026.02)\nRole: Manager\nPROJECTS\n- Built SIEM system with 80 detection rules at 91% accuracy.\n- Conducted pentesting and vulnerability reporting across company services.\n- Led ISMS certification project covering 102 controls.\nSKILLS\n- ISMS, Pentesting, Security Audit, Cloud Security\nSUMMARY\nI am a Security Engineer with 3 years of experience, specializing in ISMS-based systems. I\nthrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

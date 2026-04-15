@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0523",
+  "sha1": "4470c8238f2ac199848face64f4cdcc87ce37aed",
+  "format": "pdf",
+  "raw_text_length": 785,
+  "masked_text": "RESUME\nName: Michael Brown\nDOB: 2001 (age 25)\nGender: Female\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seoul, Mapo-gu\nApplying for: QA Engineer (JD008)\nEDUCATION\n- Tsinghua University, B.S. in Economics (GPA 3.28/4.0)\nEXPERIENCE\n- nnnnnn nnn (2025.03 - 2026.02)\nRole: Manager\nPROJECTS\n- Automated performance testing with JMeter-based load pipeline.\n- Built Playwright E2E framework, reduced regression testing from 3 days manual to 2 hours\nautomated.\n- Standardized game QA process with regression sheets and bug triage rules.\nSKILLS\n- Selenium, Test Automation, Bug Report, Game QA\nSUMMARY\nI am a QA Engineer with 1 years of experience, specializing in Selenium-based systems. I t\nhrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

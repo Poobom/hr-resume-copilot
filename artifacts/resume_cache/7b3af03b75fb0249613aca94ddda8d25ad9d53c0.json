@@ -1,0 +1,23 @@
+{
+  "resume_id": "resume_0322",
+  "sha1": "7b3af03b75fb0249613aca94ddda8d25ad9d53c0",
+  "format": "pdf",
+  "raw_text_length": 734,
+  "masked_text": "[MASK_NAME]\n이름: [MASK_NAME]  \n생년월일: 2000년생 ([FILTERED])  \n[FILTERED]  \n연락처: [MASK_PHONE]  \n이메일: 서재원9478@gmail.com  \n거주지: [MASK_ADDR]  \n\n지원 포지션: 백엔드 엔지니어 (JD001)  \n[MASK_NAME]\n- [FILTERED] 학생 (GPA 3.06/4.5)  \n[MASK_NAME]\n- 카카오 (2021.03 ~ 2022.02)  \n직책: 데이터 엔지니어  \n- 스마트에이아이 (2022.03 ~ 2025.02)  \n직책: 시니어 엔지니어  \n- 배달의민족 (2023.03 ~ 2025.02)  \n직책: 데이터 엔지니어  \n\n주요 프로젝트  \n- MSA 재활 프로젝트: 레디스, 모놀리식 서비스 8개 도메인 서비스로 분리, gRPC 통신 도입.  \n- Redis 레이턴시 도입 시 평균 94% 감소, DB 부하 60% 감소.  \n- 일 3000건 API 서비스 주요 API 개선. Spring Boot + Kafka 기반 비동기 파이프라인으로 처리 시간 P95 420ms → 120ms 개선.  \n\n보유 기술  \n- MSA, AWS, Spring Boot, Kafka, Java  \n[MASK_NAME]\n저는 5년차 백엔드 엔지니어로서 실무에서 꾸준히 성과를 만들어왔습니다. 특히 MSA 기반 시스템 설계와 운영에 강점이 있으며, 최근에는 대규모 트래픽 환경에서의 안정적 서비스 운영에 관심을 갖고 있습니다. 동료들과의 협업을 통해 더 나은 제품을 만드는 일에 보람을 느낍니다.",
+  "pii_fields_separated": {
+    "education": [
+      "경희대학교 정보통신공학과"
+    ],
+    "age": [
+      "만 26세"
+    ],
+    "gender": [
+      "성별: 남"
+    ],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "vision",
+  "ok": true,
+  "error": null
+}

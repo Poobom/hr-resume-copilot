@@ -1,0 +1,23 @@
+{
+  "resume_id": "resume_0055",
+  "sha1": "45555f69acdc3af678da8619ab4c92e40cd7deca",
+  "format": "pdf",
+  "raw_text_length": 652,
+  "masked_text": "[MASK_NAME]\n이름: [MASK_NAME]  \n생년월일: 1993년생 ([FILTERED])  \n[FILTERED]  \n연락처: [MASK_PHONE]  \n이메일: 허지우9025@gmail.com  \n거주지: [MASK_ADDR] 분당구  \n\n지원 포지션: 기업 서버 프로그래머 (JD007)  \n[MASK_NAME]\n- [FILTERED] 학사 (GPA 3.5/4.5)  \n[MASK_NAME]\n- 펌웨어스 (2021.03 ~ 2024.02)  \n직책: 주니어 엔지니어  \n- 비바리퍼블리카 (2022.03 ~ 2023.02)  \n직책: 테크 리드  \n- 단모아 (2023.03 ~ 2026.02)  \n직책: 테크 리드  \n\n주요 프로젝트  \n- 마케팅 데이터 서버 설계. EIO 기반 알고리즘 도입으로 매출 품질 지표 18% 개선.  \n- MMORPG 서버 개발. 동시접속 수 5배 처리 검증.  \n- 게임 로그 수집 파이프라인 Kafka 기반으로 재구축.  \n\n보유 기술  \n게임 서버, DB 최적화, C++, 네트워크  \n[MASK_NAME]\n저는 5년차 개인 서버 프로그래밍으로 실무에서 꾸준히 성과를 만들어왔습니다. 특히 개인 서버 기반 시스템 설계와 운영에 강점이 있으며, 최근에는 대규모 트래픽 환경에서의 안정적 서비스 운영에 관심을 갖고 있습니다. 동료들과 협업을 통해 더 나은 제품을 만드는 일에 보람을 느낍니다.",
+  "pii_fields_separated": {
+    "education": [
+      "아주대학교 컴퓨터공학과"
+    ],
+    "age": [
+      "만 33세"
+    ],
+    "gender": [
+      "성별: 남"
+    ],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "vision",
+  "ok": true,
+  "error": null
+}

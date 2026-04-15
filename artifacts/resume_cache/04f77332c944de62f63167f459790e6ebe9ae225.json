@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0045",
+  "sha1": "04f77332c944de62f63167f459790e6ebe9ae225",
+  "format": "pdf",
+  "raw_text_length": 888,
+  "masked_text": "RESUME\nName: Mason Cho\nDOB: 1990 (age 36)\nGender: Female\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: San Jose, CA\nApplying for: Frontend Engineer (JD002)\nEDUCATION\n- University of Illinois Urbana-Champaign, B.S. in Data Science (GPA 3.47/4.0)\nEXPERIENCE\n- Salesforce (2022.03 - 2024.02)\nRole: Manager\n- Uber (2023.03 - 2026.02)\nRole: Software Engineer\n- nn nnnn (2024.03 - 2025.02)\nRole: Manager\nPROJECTS\n- Built Next.js admin console from scratch. SSR/ISR reduced LCP from 4.2s to 1.8s.\n- Built 40+ design system components with Storybook and Chromatic visual regression.\n- Migrated state management to React Query, reducing bundle size by 32%.\nSKILLS\n- Next.js, React, State Management\nSUMMARY\nI am a Frontend Engineer with 4 years of experience, specializing in Next.js-based systems\n. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

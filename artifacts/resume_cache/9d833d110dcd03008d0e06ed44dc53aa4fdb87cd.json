@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0677",
+  "sha1": "9d833d110dcd03008d0e06ed44dc53aa4fdb87cd",
+  "format": "pdf",
+  "raw_text_length": 847,
+  "masked_text": "RESUME\nName: Ashley Yang\nDOB: 1991 (age 35)\nGender: Female\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Singapore\nApplying for: Data Engineer (JD003)\nEDUCATION\n- NTU Singapore, B.S. in Mathematics (GPA 3.9/4.0)\n- Purdue University, M.S. in Mathematics\nEXPERIENCE\n- nn (2021.03 - 2023.02)\nRole: Manager\n- nnSDS (2022.03 - 2025.02)\nRole: Senior Engineer\n- nn (2023.03 - 2024.02)\nRole: Manager\nPROJECTS\n- Designed Airflow pipeline processing 200GB/day with 99.5% SLA.\n- Led BigQuery migration, cut query cost from $27k to $9k monthly.\n- Built Spark Streaming real-time aggregation, reducing latency from 5min to 30s.\nSKILLS\n- ETL, Airflow, BigQuery, Python\nSUMMARY\nI am a Data Engineer with 5 years of experience, specializing in ETL-based systems. I thri\nve on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

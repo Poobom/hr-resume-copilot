@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0208",
+  "sha1": "7a18a166ae7b629030874d855b59c3ab265e53b9",
+  "format": "pdf",
+  "raw_text_length": 801,
+  "masked_text": "RESUME\nName: Olivia Davis\nDOB: 1999 (age 27)\nGender: Female\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seongnam-si, Bundang-gu\nApplying for: Frontend Engineer (JD002)\nEDUCATION\n- Georgia Tech, B.S. in Electrical Engineering (GPA 3.29/4.0)\nEXPERIENCE\n- Google (2026.03 - 2026.02)\nRole: Tech Lead\nPROJECTS\n- Built Next.js admin console from scratch. SSR/ISR reduced LCP from 4.2s to 1.8s.\n- Built 40+ design system components with Storybook and Chromatic visual regression.\n- Migrated state management to React Query, reducing bundle size by 32%.\nSKILLS\n- Web Performance, Next.js, TypeScript\nSUMMARY\nI am a Frontend Engineer with 0 years of experience, specializing in Web Performance-based\nsystems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

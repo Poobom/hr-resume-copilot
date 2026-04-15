@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0749",
+  "sha1": "d2b18b396295af6e59d724572a188620b85bc17c",
+  "format": "pdf",
+  "raw_text_length": 882,
+  "masked_text": "RESUME\nName: William Cho\nDOB: 1998 (age 28)\nGender: Male\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seattle, WA\nApplying for: Backend Engineer (JD001)\nEDUCATION\n- Peking University, B.S. in Software Engineering (GPA 3.44/4.0)\nEXPERIENCE\n- nn (2020.03 - 2023.02)\nRole: Tech Lead\n- Meta (2022.03 - 2024.02)\nRole: Senior Engineer\n- nnnnn (2024.03 - 2025.02)\nRole: Manager\nPROJECTS\n- Redesigned order API serving 30M DAU. Spring Boot + Kafka async pipeline reduced P95 lat\nency from 420ms to 120ms.\n- Led MSA migration, split monolith into 8 domain services with gRPC.\n- Introduced Redis cache layer achieving 94% hit rate, reduced DB load by 60%.\nSKILLS\n- AWS, Redis, Kafka, MySQL, Java\nSUMMARY\nI am a Backend Engineer with 6 years of experience, specializing in AWS-based systems. I t\nhrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

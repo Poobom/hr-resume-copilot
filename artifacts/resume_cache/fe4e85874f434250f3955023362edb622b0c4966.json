@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0308",
+  "sha1": "fe4e85874f434250f3955023362edb622b0c4966",
+  "format": "pdf",
+  "raw_text_length": 951,
+  "masked_text": "RESUME\nName: James Martinez\nDOB: 1997 (age 29)\nGender: Male\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Toronto, Canada\nApplying for: Backend Engineer (JD001)\nEDUCATION\n- ETH Zurich, B.S. in Software Engineering (GPA 3.12/4.0)\n- Tsinghua University, M.S. in Software Engineering\nEXPERIENCE\n- 29CM (2019.03 - 2022.02)\nRole: Software Engineer\n- Dropbox (2021.03 - 2022.02)\nRole: Software Engineer\n- Amazon (2023.03 - 2025.02)\nRole: Tech Lead\nPROJECTS\n- Redesigned order API serving 30M DAU. Spring Boot + Kafka async pipeline reduced P95 lat\nency from 420ms to 120ms.\n- Led MSA migration, split monolith into 8 domain services with gRPC.\n- Introduced Redis cache layer achieving 94% hit rate, reduced DB load by 60%.\nSKILLS\n- Kafka, Spring Boot, MySQL\nSUMMARY\nI am a Backend Engineer with 7 years of experience, specializing in Kafka-based systems. I\nthrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

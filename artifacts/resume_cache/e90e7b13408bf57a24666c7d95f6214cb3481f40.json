@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0014",
+  "sha1": "e90e7b13408bf57a24666c7d95f6214cb3481f40",
+  "format": "pdf",
+  "raw_text_length": 761,
+  "masked_text": "RESUME\nName: Robert Brown\nDOB: 1998 (age 28)\nGender: Female\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Singapore\nApplying for: Game Client Programmer (JD006)\nEDUCATION\n- Purdue University, B.S. in Mathematics (GPA 3.27/4.0)\nEXPERIENCE\n- Spotify (2025.03 - 2026.02)\nRole: Tech Lead\nPROJECTS\n- Implemented server-authoritative multiplayer combat replication.\n- Optimized mobile RPG client for low-end devices, from 28fps to 58fps.\n- Developed UE5 open-world client, built character customization system.\nSKILLS\n- C++, Game Client, Unreal Engine, Optimization\nSUMMARY\nI am a Game Client Programmer with 1 years of experience, specializing in C++-based system\ns. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

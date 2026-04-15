@@ -1,0 +1,17 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
+
+# Raw resume files (PII) — never commit
+resumes_raw/
+../task02_data/resumes/
+
+# Local-only raw extractions (before masking)
+artifacts/**/raw_texts/
+
+# Scratch
+.tmp/
+*.log

@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0461",
+  "sha1": "63258d98aa4ad8b82da628d7a7eb06aa5f4651ab",
+  "format": "pdf",
+  "raw_text_length": 879,
+  "masked_text": "RESUME\nName: William Thomas\nDOB: 1996 (age 30)\nGender: Male\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Toronto, Canada\nApplying for: Frontend Engineer (JD002)\nEDUCATION\n- Tsinghua University, B.S. in Data Science (GPA 3.11/4.0)\nEXPERIENCE\n- Oracle (2022.03 - 2024.02)\nRole: Tech Lead\n- nnnnnn (2023.03 - 2024.02)\nRole: Manager\n- SKnnn (2024.03 - 2026.02)\nRole: Manager\nPROJECTS\n- Built Next.js admin console from scratch. SSR/ISR reduced LCP from 4.2s to 1.8s.\n- Built 40+ design system components with Storybook and Chromatic visual regression.\n- Migrated state management to React Query, reducing bundle size by 32%.\nSKILLS\n- State Management, React, Next.js\nSUMMARY\nI am a Frontend Engineer with 4 years of experience, specializing in State Management-base\nd systems. I thrive on delivering measurable impact through cross-functional collaboration\n.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

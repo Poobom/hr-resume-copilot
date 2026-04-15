@@ -1,0 +1,11 @@
+streamlit>=1.40
+openai>=1.50
+pandas>=2.2
+numpy>=1.26
+scikit-learn>=1.5
+python-dotenv>=1.0
+pdfplumber>=0.11
+python-docx>=1.1
+pymupdf>=1.24
+Pillow>=10.4
+plotly>=5.24

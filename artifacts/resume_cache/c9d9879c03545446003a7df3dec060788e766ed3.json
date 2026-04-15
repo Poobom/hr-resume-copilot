@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0453",
+  "sha1": "c9d9879c03545446003a7df3dec060788e766ed3",
+  "format": "pdf",
+  "raw_text_length": 927,
+  "masked_text": "RESUME\nName: William Johnson\nDOB: 1997 (age 29)\nGender: Female\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: San Jose, CA\nApplying for: Backend Engineer (JD001)\nEDUCATION\n- University of Tokyo, B.S. in Design (GPA 3.84/4.0)\n- UC Berkeley, M.S. in Design\nEXPERIENCE\n- Intel (2019.03 - 2020.02)\nRole: Tech Lead\n- Nvidia (2021.03 - 2024.02)\nRole: Tech Lead\n- Twitter (2023.03 - 2026.02)\nRole: Manager\nPROJECTS\n- Redesigned order API serving 30M DAU. Spring Boot + Kafka async pipeline reduced P95 lat\nency from 420ms to 120ms.\n- Led MSA migration, split monolith into 8 domain services with gRPC.\n- Introduced Redis cache layer achieving 94% hit rate, reduced DB load by 60%.\nSKILLS\n- Java, Redis, MySQL, Spring Boot, Microservices\nSUMMARY\nI am a Backend Engineer with 7 years of experience, specializing in Java-based systems. I\nthrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

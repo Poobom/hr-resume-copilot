@@ -1,0 +1,24 @@
+{
+  "resume_id": "resume_0789",
+  "sha1": "93da2996fc24d961fb9c7af046bec121cbfda9e2",
+  "format": "pdf",
+  "raw_text_length": 617,
+  "masked_text": "[MASK_NAME]\n이름: [MASK_NAME]  \n생년월일: 1995년생 ([FILTERED])  \n[FILTERED]  \n연락처: [MASK_PHONE]  \n이메일: [MASK_EMAIL]  \n거주지: [MASK_ADDR]  \n\n지원 포지션: 시스템개발 매니저 (JD011)  \n\n■ 학력  \n- [FILTERED] (GPA 3.74/4.5)  \n- [FILTERED] 대학원 산업디자인학과 석사  \n\n■ 경력  \n- 토스 (2023.03 ~ 2025.02)  \n직책: 테크 리드  \n- 카카오게임즈 (2024.03 ~ 2025.02)  \n직책: 시니어 엔지니어  \n\n■ 주요 프로젝트  \n- 마각 전환 접속 팀, 동남아 시장 린칭 프로젝트 리드.  \n- 신규 라이브 서비스 개발 현장 지원.  \n- 글로벌 퍼포먼스 3개사 파트너십 체결. 연간 매출 120억 기여.  \n\n■ 보유 기술  \n전략 기획, 파트너십, 제약 형성, 사업 분석  \n\n■ 자기소개  \n저는 3년차 시스템개발 매니저로서 구조적 성과를 만들어왔습니다. 특히 전략 기획 기반 시스템 설계와 운영에 강점이 있으며, 최근에는 대규모 트래픽 환경에서의 안정적 서비스 운영에 관심을 갖고 있습니다. 동료들과의 협업을 통해 더 나은 제품을 만드는 일에 보람을 느낍니다.",
+  "pii_fields_separated": {
+    "education": [
+      "경북대학교 산업디자인학과 졸업",
+      "인하대학교"
+    ],
+    "age": [
+      "만 31세"
+    ],
+    "gender": [
+      "성별: 남"
+    ],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "vision",
+  "ok": true,
+  "error": null
+}

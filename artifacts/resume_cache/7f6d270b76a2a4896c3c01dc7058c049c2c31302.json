@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0795",
+  "sha1": "7f6d270b76a2a4896c3c01dc7058c049c2c31302",
+  "format": "pdf",
+  "raw_text_length": 884,
+  "masked_text": "RESUME\nName: Richard Yang\nDOB: 1992 (age 34)\nGender: Female\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: San Jose, CA\nApplying for: Backend Engineer (JD001)\nEDUCATION\n- NTU Singapore, B.S. in Data Science (GPA 3.9/4.0)\nEXPERIENCE\n- nnn (2021.03 - 2022.02)\nRole: Manager\n- nn (2022.03 - 2025.02)\nRole: Manager\n- Meta (2023.03 - 2025.02)\nRole: Senior Engineer\nPROJECTS\n- Introduced Redis cache layer achieving 94% hit rate, reduced DB load by 60%.\n- Led MSA migration, split monolith into 8 domain services with gRPC.\n- Redesigned order API serving 30M DAU. Spring Boot + Kafka async pipeline reduced P95 lat\nency from 420ms to 120ms.\nSKILLS\n- Java, Microservices, Spring Boot, AWS, Kafka\nSUMMARY\nI am a Backend Engineer with 5 years of experience, specializing in Java-based systems. I\nthrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

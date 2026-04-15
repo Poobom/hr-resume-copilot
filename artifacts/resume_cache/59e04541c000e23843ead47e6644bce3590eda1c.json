@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0436",
+  "sha1": "59e04541c000e23843ead47e6644bce3590eda1c",
+  "format": "pdf",
+  "raw_text_length": 848,
+  "masked_text": "RESUME\nName: Matthew Taylor\nDOB: 1993 (age 33)\nGender: Male\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: San Jose, CA\nApplying for: Frontend Engineer (JD002)\nEDUCATION\n- Stanford University, B.S. in Computer Science (GPA 3.43/4.0)\n- Purdue University, M.S. in Computer Science\nEXPERIENCE\n- nnnnnn (2026.03 - 2026.02)\nRole: Software Engineer\nPROJECTS\n- Built Next.js admin console from scratch. SSR/ISR reduced LCP from 4.2s to 1.8s.\n- Migrated state management to React Query, reducing bundle size by 32%.\n- Built 40+ design system components with Storybook and Chromatic visual regression.\nSKILLS\n- Web Performance, Next.js, TypeScript\nSUMMARY\nI am a Frontend Engineer with 0 years of experience, specializing in Web Performance-based\nsystems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

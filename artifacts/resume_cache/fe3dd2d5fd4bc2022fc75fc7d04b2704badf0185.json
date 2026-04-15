@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0741",
+  "sha1": "fe3dd2d5fd4bc2022fc75fc7d04b2704badf0185",
+  "format": "pdf",
+  "raw_text_length": 807,
+  "masked_text": "RESUME\nName: Emma Brown\nDOB: 1990 (age 36)\nGender: Female\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seongnam-si, Bundang-gu\nApplying for: Security Engineer (JD012)\nEDUCATION\n- University of Tokyo, B.S. in Software Engineering (GPA 3.44/4.0)\nEXPERIENCE\n- 29CM (2024.03 - 2026.02)\nRole: Tech Lead\n- LGnnnn (2025.03 - 2026.02)\nRole: Manager\nPROJECTS\n- Led ISMS certification project covering 102 controls.\n- Conducted pentesting and vulnerability reporting across company services.\n- Built SIEM system with 80 detection rules at 91% accuracy.\nSKILLS\n- Security Audit, ISMS, Cloud Security, Pentesting\nSUMMARY\nI am a Security Engineer with 2 years of experience, specializing in Security Audit-based\nsystems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

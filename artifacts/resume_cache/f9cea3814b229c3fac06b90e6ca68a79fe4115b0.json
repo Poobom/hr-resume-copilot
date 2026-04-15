@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0468",
+  "sha1": "f9cea3814b229c3fac06b90e6ca68a79fe4115b0",
+  "format": "pdf",
+  "raw_text_length": 926,
+  "masked_text": "RESUME\nName: Lucas Rodriguez\nDOB: 1985 (age 41)\nGender: Female\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seoul, Mapo-gu\nApplying for: Game Client Programmer (JD006)\nEDUCATION\n- Stanford University, B.S. in Software Engineering (GPA 3.56/4.0)\n- Tsinghua University, M.S. in Software Engineering\nEXPERIENCE\n- nnn (2022.03 - 2024.02)\nRole: Software Engineer\n- nnnnn (2023.03 - 2025.02)\nRole: Manager\n- nnnn (2024.03 - 2026.02)\nRole: Senior Engineer\nPROJECTS\n- Developed UE5 open-world client, built character customization system.\n- Optimized mobile RPG client for low-end devices, from 28fps to 58fps.\n- Implemented server-authoritative multiplayer combat replication.\nSKILLS\n- Game Client, C++, Unreal Engine\nSUMMARY\nI am a Game Client Programmer with 4 years of experience, specializing in Game Client-base\nd systems. I thrive on delivering measurable impact through cross-functional collaboration\n.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

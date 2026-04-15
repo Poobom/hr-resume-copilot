@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0495",
+  "sha1": "4c97ad6f3e30da505777f73473a20063d613dcd9",
+  "format": "docx",
+  "raw_text_length": 842,
+  "masked_text": "RESUME\nName: Mason Brown\nDOB: 1989 (age 37)\nGender: Male\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Toronto, Canada\nApplying for: Backend Engineer (JD001)\nEDUCATION\n- University of Toronto, B.S. in Data Science (GPA 3.37/4.0)\nEXPERIENCE\n- Nvidia (2024.03 - 2026.02)\n  Role: Tech Lead\n- 삼성SDS (2025.03 - 2026.02)\n  Role: Senior Engineer\nPROJECTS\n- Introduced Redis cache layer achieving 94% hit rate, reduced DB load by 60%.\n- Led MSA migration, split monolith into 8 domain services with gRPC.\n- Redesigned order API serving 30M DAU. Spring Boot + Kafka async pipeline reduced P95 latency from 420ms to 120ms.\nSKILLS\n- Java, Redis, Spring Boot\nSUMMARY\nI am a Backend Engineer with 2 years of experience, specializing in Java-based systems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "python-docx",
+  "ok": true,
+  "error": null
+}

@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0620",
+  "sha1": "314122a57a6f7d559d0bb745eb47a2871a261dbb",
+  "format": "pdf",
+  "raw_text_length": 859,
+  "masked_text": "RESUME\nName: Lucas Taylor\nDOB: 2000 (age 26)\nGender: Female\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Toronto, Canada\nApplying for: Backend Engineer (JD001)\nEDUCATION\n- University of Tokyo, B.S. in Software Engineering (GPA 3.25/4.0)\nEXPERIENCE\n- nnnn (2024.03 - 2026.02)\nRole: Tech Lead\n- Tesla (2025.03 - 2026.02)\nRole: Software Engineer\nPROJECTS\n- Redesigned order API serving 30M DAU. Spring Boot + Kafka async pipeline reduced P95 lat\nency from 420ms to 120ms.\n- Led MSA migration, split monolith into 8 domain services with gRPC.\n- Introduced Redis cache layer achieving 94% hit rate, reduced DB load by 60%.\nSKILLS\n- Spring Boot, Kafka, Java\nSUMMARY\nI am a Backend Engineer with 2 years of experience, specializing in Spring Boot-based syst\nems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

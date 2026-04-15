@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0084",
+  "sha1": "e1dae0b8038706eefe70b14213683b34bf28d11b",
+  "format": "docx",
+  "raw_text_length": 889,
+  "masked_text": "RESUME\nName: David Jung\nDOB: 1992 (age 34)\nGender: Male\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seattle, WA\nApplying for: QA Engineer (JD008)\nEDUCATION\n- University of Tokyo, B.S. in Design (GPA 3.33/4.0)\n- UC Berkeley, M.S. in Design\nEXPERIENCE\n- 엔씨소프트 (2020.03 - 2021.02)\n  Role: Tech Lead\n- 젠지 이스포츠 (2022.03 - 2024.02)\n  Role: Manager\n- LG CNS (2024.03 - 2025.02)\n  Role: Manager\nPROJECTS\n- Standardized game QA process with regression sheets and bug triage rules.\n- Automated performance testing with JMeter-based load pipeline.\n- Built Playwright E2E framework, reduced regression testing from 3 days manual to 2 hours automated.\nSKILLS\n- Game QA, Test Automation, Bug Report, Selenium\nSUMMARY\nI am a QA Engineer with 6 years of experience, specializing in Game QA-based systems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "python-docx",
+  "ok": true,
+  "error": null
+}

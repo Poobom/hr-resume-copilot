@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0139",
+  "sha1": "eb4a48deee79b220155d983a232ff984655b8834",
+  "format": "docx",
+  "raw_text_length": 883,
+  "masked_text": "RESUME\nName: Jessica Kim\nDOB: 1988 (age 38)\nGender: Male\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seattle, WA\nApplying for: Frontend Engineer (JD002)\nEDUCATION\n- University of Waterloo, B.S. in Data Science (GPA 3.55/4.0)\nEXPERIENCE\n- 마켓컬리 (2021.03 - 2022.02)\n  Role: Tech Lead\n- 무신사 (2022.03 - 2025.02)\n  Role: Senior Engineer\n- 현대자동차 (2023.03 - 2026.02)\n  Role: Software Engineer\nPROJECTS\n- Migrated state management to React Query, reducing bundle size by 32%.\n- Built 40+ design system components with Storybook and Chromatic visual regression.\n- Built Next.js admin console from scratch. SSR/ISR reduced LCP from 4.2s to 1.8s.\nSKILLS\n- React, Web Performance, State Management\nSUMMARY\nI am a Frontend Engineer with 5 years of experience, specializing in React-based systems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "python-docx",
+  "ok": true,
+  "error": null
+}

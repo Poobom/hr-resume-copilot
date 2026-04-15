@@ -1,0 +1,23 @@
+{
+  "resume_id": "resume_0044",
+  "sha1": "4adbd2c1098b9ebffefba0dc92fd782e557a5ef9",
+  "format": "pdf",
+  "raw_text_length": 579,
+  "masked_text": "[MASK_NAME]\n이름: [MASK_NAME]  \n생년월일: 1987년생 ([FILTERED])  \n[FILTERED]  \n연락처: [MASK_PHONE]  \n이메일: [MASK_EMAIL]  \n거주지: [MASK_ADDR]  \n\n지원 포지션: UX 디자이너 (JD010)  \n\n■ 학력  \n- [FILTERED] 학사 (GPA 3.51/4.5)  \n\n■ 경력  \n- 김투스 (2025.03 ~ 2026.02)  \n직책: 시니어 엔지니어  \n\n■ 주요 프로젝트  \n- 디자인 시스템 Atomic 구조로 재설계, 디자인 QA 시간 70% 단축.  \n- UX 리서치 40개 진행 및 인사이트를 제품 로드맵에 반영.  \n- B2C 웹 전체 리뉴얼 디자인 리드, 사용자 NPS 34 → 58 상승.  \n\n■ 보유 기술  \n- Figma, 인터랙션 디자인, 디자인 시스템  \n\n■ 자기소개  \n저는 1년차 UX 디자이너로서 실무에 성과를 만들어왔습니다. 특히 Figma 기반 시스템 설계와 운영에 강점을 가지고 있으며, 현재는 대규모 트래픽 환경에서 안정적 서비스 운영에 관심을 갖고 있습니다. 홍보와의 협업을 통해 더 나은 제품을 만드는 일에 보람을 느낍니다.",
+  "pii_fields_separated": {
+    "education": [
+      "한국국제대학교 공공정책학과"
+    ],
+    "age": [
+      "만 34세"
+    ],
+    "gender": [
+      "성별: 남"
+    ],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "vision",
+  "ok": true,
+  "error": null
+}

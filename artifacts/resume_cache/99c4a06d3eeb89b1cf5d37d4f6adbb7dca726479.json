@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0216",
+  "sha1": "99c4a06d3eeb89b1cf5d37d4f6adbb7dca726479",
+  "format": "pdf",
+  "raw_text_length": 932,
+  "masked_text": "RESUME\nName: Olivia Gonzalez\nDOB: 1994 (age 32)\nGender: Female\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seongnam-si, Bundang-gu\nApplying for: Backend Engineer (JD001)\nEDUCATION\n- UC Berkeley, B.S. in Mathematics (GPA 3.46/4.0)\n- MIT, M.S. in Mathematics\nEXPERIENCE\n- Nvidia (2019.03 - 2021.02)\nRole: Manager\n- nnnn (2021.03 - 2022.02)\nRole: Tech Lead\n- nnnnnn (2023.03 - 2026.02)\nRole: Software Engineer\nPROJECTS\n- Redesigned order API serving 30M DAU. Spring Boot + Kafka async pipeline reduced P95 lat\nency from 420ms to 120ms.\n- Led MSA migration, split monolith into 8 domain services with gRPC.\n- Introduced Redis cache layer achieving 94% hit rate, reduced DB load by 60%.\nSKILLS\n- Redis, Spring Boot, AWS, Java, MySQL\nSUMMARY\nI am a Backend Engineer with 7 years of experience, specializing in Redis-based systems. I\nthrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

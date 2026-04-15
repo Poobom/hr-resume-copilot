@@ -1,0 +1,23 @@
+{
+  "resume_id": "resume_0304",
+  "sha1": "00b3f624bc823fe379ebe299e8a77a966258482e",
+  "format": "pdf",
+  "raw_text_length": 644,
+  "masked_text": "[MASK_NAME]\n이름: [MASK_NAME]\n생년월일: 1988년생 ([FILTERED])\n[FILTERED]\n연락처: [MASK_PHONE]\n이메일: 조서준9048@naver.com\n거주지: [MASK_ADDR]\n지원 포지션: DevOps 엔지니어 (JD005)\n■ 학력\n- [FILTERED] 학사 (GPA 3.24/4.5)\n■ 경력\n- 삼성SDS (2019.03 ~ 2021.02)\n직책: 시니어 엔지니어\n- 현대자동차 (2021.03 ~ 2022.02)\n직책: 테크 리드\n- 29CM (2023.03 ~ 2024.02)\n직책: 시니어 엔지니어\n■ 주요 프로젝트\n- EKS 기반 멀티 클러스터 운영. ArgoCD GitOps 파이프라인 구축.\n- Terraform으로 AWS 인프라 IaC화. 신규 서비스 세팅 시간 3일 → 2시간.\n- Prometheus + Grafana 모니터링 스택 구축. MTTR 45분 → 8분 개선.\n■ 보유 기술\n- AWS, Terraform, Kubernetes\n■ 자기소개\n저는 7년차 DevOps 엔지니어로서 실무에서 꾸준히 성과를 만들어왔습니다. 특히 AWS 기반 시스템 설계와 운영에 강점이 있으며, 최근에는 대규모 트래픽 환경에\n서의 안정적 서비스 운영에 관심을 갖고 있습니다. 동료들과의 협업을 통해 더 나은 제품을 만드는 일에 보람을 느낍니다.",
+  "pii_fields_separated": {
+    "education": [
+      "동국대학교 소프트웨어학과"
+    ],
+    "age": [
+      "만 38세"
+    ],
+    "gender": [
+      "성별: 여"
+    ],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

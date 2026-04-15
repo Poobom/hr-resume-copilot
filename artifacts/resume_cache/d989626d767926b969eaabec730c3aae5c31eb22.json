@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0737",
+  "sha1": "d989626d767926b969eaabec730c3aae5c31eb22",
+  "format": "docx",
+  "raw_text_length": 818,
+  "masked_text": "RESUME\nName: Ethan Johnson\nDOB: 1991 (age 35)\nGender: Male\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Singapore\nApplying for: Product Manager (JD009)\nEDUCATION\n- University of Toronto, B.S. in Industrial Engineering (GPA 3.6/4.0)\nEXPERIENCE\n- 토스 (2018.03 - 2019.02)\n  Role: Software Engineer\n- 무신사 (2020.03 - 2021.02)\n  Role: Manager\n- 카카오게임즈 (2022.03 - 2024.02)\n  Role: Manager\nPROJECTS\n- Built A/B test framework, drove 40+ experiments annually.\n- Launched subscription product, reached 450k MAU in 3 months.\n- Led checkout redesign, improved conversion from 62% to 74%.\nSKILLS\n- Scrum, Roadmap, PM, Metrics, A/B Test\nSUMMARY\nI am a Product Manager with 8 years of experience, specializing in Scrum-based systems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "python-docx",
+  "ok": true,
+  "error": null
+}

@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0788",
+  "sha1": "3c45e7da25720d387eaa0466552245d873121922",
+  "format": "docx",
+  "raw_text_length": 868,
+  "masked_text": "RESUME\nName: Sarah Park\nDOB: 1995 (age 31)\nGender: Male\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seattle, WA\nApplying for: Backend Engineer (JD001)\nEDUCATION\n- Peking University, B.S. in Economics (GPA 3.54/4.0)\nEXPERIENCE\n- 위메이드 (2022.03 - 2025.02)\n  Role: Manager\n- 하이퍼커넥트 (2023.03 - 2025.02)\n  Role: Tech Lead\n- 넷마블 (2024.03 - 2026.02)\n  Role: Senior Engineer\nPROJECTS\n- Redesigned order API serving 30M DAU. Spring Boot + Kafka async pipeline reduced P95 latency from 420ms to 120ms.\n- Led MSA migration, split monolith into 8 domain services with gRPC.\n- Introduced Redis cache layer achieving 94% hit rate, reduced DB load by 60%.\nSKILLS\n- AWS, MySQL, Java, Kafka\nSUMMARY\nI am a Backend Engineer with 4 years of experience, specializing in AWS-based systems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "python-docx",
+  "ok": true,
+  "error": null
+}

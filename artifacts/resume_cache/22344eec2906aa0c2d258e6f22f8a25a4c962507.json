@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0704",
+  "sha1": "22344eec2906aa0c2d258e6f22f8a25a4c962507",
+  "format": "pdf",
+  "raw_text_length": 895,
+  "masked_text": "RESUME\nName: Charles Lopez\nDOB: 1998 (age 28)\nGender: Female\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seattle, WA\nApplying for: Backend Engineer (JD001)\nEDUCATION\n- NUS, B.S. in Statistics (GPA 3.25/4.0)\nEXPERIENCE\n- Dropbox (2020.03 - 2021.02)\nRole: Tech Lead\n- nnnnn (2022.03 - 2025.02)\nRole: Tech Lead\n- nnnnnn (2024.03 - 2025.02)\nRole: Software Engineer\nPROJECTS\n- Introduced Redis cache layer achieving 94% hit rate, reduced DB load by 60%.\n- Led MSA migration, split monolith into 8 domain services with gRPC.\n- Redesigned order API serving 30M DAU. Spring Boot + Kafka async pipeline reduced P95 lat\nency from 420ms to 120ms.\nSKILLS\n- Microservices, Java, MySQL, Redis, Kafka\nSUMMARY\nI am a Backend Engineer with 6 years of experience, specializing in Microservices-based sy\nstems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0591",
+  "sha1": "e2757498b4f4e136b1d10d6bcded7ea573ee192c",
+  "format": "pdf",
+  "raw_text_length": 897,
+  "masked_text": "RESUME\nName: Richard Martin\nDOB: 1996 (age 30)\nGender: Female\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Singapore\nApplying for: Game Server Programmer (JD007)\nEDUCATION\n- Purdue University, B.S. in Business Administration (GPA 3.32/4.0)\n- Peking University, M.S. in Business Administration\nEXPERIENCE\n- nnn (2021.03 - 2022.02)\nRole: Manager\n- nnnnn (2022.03 - 2025.02)\nRole: Tech Lead\n- Intel (2023.03 - 2026.02)\nRole: Software Engineer\nPROJECTS\n- MMORPG server development, validated for 50k concurrent sessions.\n- Rebuilt game log pipeline on Kafka.\n- Redesigned matchmaking with Elo-based algorithm, improved match quality by 18%.\nSKILLS\n- Network, C++, DB Optimization, Game Server\nSUMMARY\nI am a Game Server Programmer with 5 years of experience, specializing in Network-based sy\nstems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

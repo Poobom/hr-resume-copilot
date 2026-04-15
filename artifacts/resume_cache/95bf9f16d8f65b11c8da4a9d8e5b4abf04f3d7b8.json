@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0059",
+  "sha1": "95bf9f16d8f65b11c8da4a9d8e5b4abf04f3d7b8",
+  "format": "pdf",
+  "raw_text_length": 811,
+  "masked_text": "RESUME\nName: James Park\nDOB: 1989 (age 37)\nGender: Male\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: San Jose, CA\nApplying for: Backend Engineer (JD001)\nEDUCATION\n- MIT, B.S. in Economics (GPA 3.62/4.0)\nEXPERIENCE\n- Twitter (2024.03 - 2026.02)\nRole: Manager\n- Intel (2025.03 - 2026.02)\nRole: Manager\nPROJECTS\n- Led MSA migration, split monolith into 8 domain services with gRPC.\n- Redesigned order API serving 30M DAU. Spring Boot + Kafka async pipeline reduced P95 lat\nency from 420ms to 120ms.\n- Introduced Redis cache layer achieving 94% hit rate, reduced DB load by 60%.\nSKILLS\n- Java, Kafka, MySQL, Spring Boot\nSUMMARY\nI am a Backend Engineer with 2 years of experience, specializing in Java-based systems. I\nthrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

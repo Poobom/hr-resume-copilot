@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0648",
+  "sha1": "a8cdfde6ef592553a75e8f4f2af830d544f17cb3",
+  "format": "hwp",
+  "raw_text_length": 874,
+  "masked_text": "RESUME\n\nName: Isabella Choi\nDOB: 1997 (age 29)\nGender: Female\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seongnam-si, Bundang-gu\n\nApplying for: Data Engineer (JD003)\n\nEDUCATION\n- University of Michigan, B.S. in Industrial Engineering (GPA 3.42/4.0)\n\nEXPERIENCE\n- Tesla (2019.03 - 2021.02)\n  Role: Senior Engineer\n- 현대자동차 (2021.03 - 2022.02)\n  Role: Senior Engineer\n- Oracle (2023.03 - 2024.02)\n  Role: Tech Lead\n\nPROJECTS\n- Built Spark Streaming real-time aggregation, reducing latency from 5min to 30s.\n- Led BigQuery migration, cut query cost from $27k to $9k monthly.\n- Designed Airflow pipeline processing 200GB/day with 99.5% SLA.\n\nSKILLS\n- BigQuery, Python, Spark\n\nSUMMARY\nI am a Data Engineer with 7 years of experience, specializing in BigQuery-based systems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "hwpx-zip",
+  "ok": true,
+  "error": null
+}

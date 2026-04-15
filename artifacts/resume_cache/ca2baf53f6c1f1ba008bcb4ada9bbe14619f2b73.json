@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0116",
+  "sha1": "ca2baf53f6c1f1ba008bcb4ada9bbe14619f2b73",
+  "format": "pdf",
+  "raw_text_length": 885,
+  "masked_text": "RESUME\nName: Isabella Jung\nDOB: 1988 (age 38)\nGender: Male\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Singapore\nApplying for: Frontend Engineer (JD002)\nEDUCATION\n- Peking University, B.S. in Electrical Engineering (GPA 3.76/4.0)\nEXPERIENCE\n- Nvidia (2020.03 - 2023.02)\nRole: Senior Engineer\n- nnn (2022.03 - 2023.02)\nRole: Manager\n- nnnnn (2024.03 - 2026.02)\nRole: Tech Lead\nPROJECTS\n- Built Next.js admin console from scratch. SSR/ISR reduced LCP from 4.2s to 1.8s.\n- Built 40+ design system components with Storybook and Chromatic visual regression.\n- Migrated state management to React Query, reducing bundle size by 32%.\nSKILLS\n- TypeScript, Web Performance, Next.js, React\nSUMMARY\nI am a Frontend Engineer with 6 years of experience, specializing in TypeScript-based syst\nems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0575",
+  "sha1": "e7e30ca3090dfc644f30756807fcf566b28f6870",
+  "format": "docx",
+  "raw_text_length": 925,
+  "masked_text": "RESUME\nName: Isabella Lopez\nDOB: 1995 (age 31)\nGender: Female\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seoul, Mapo-gu\nApplying for: Backend Engineer (JD001)\nEDUCATION\n- University of Toronto, B.S. in Industrial Engineering (GPA 3.63/4.0)\nEXPERIENCE\n- Salesforce (2022.03 - 2025.02)\n  Role: Senior Engineer\n- 스마일게이트 (2023.03 - 2024.02)\n  Role: Tech Lead\n- Microsoft (2024.03 - 2025.02)\n  Role: Manager\nPROJECTS\n- Redesigned order API serving 30M DAU. Spring Boot + Kafka async pipeline reduced P95 latency from 420ms to 120ms.\n- Led MSA migration, split monolith into 8 domain services with gRPC.\n- Introduced Redis cache layer achieving 94% hit rate, reduced DB load by 60%.\nSKILLS\n- Spring Boot, MySQL, Redis, AWS\nSUMMARY\nI am a Backend Engineer with 4 years of experience, specializing in Spring Boot-based systems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "python-docx",
+  "ok": true,
+  "error": null
+}

@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0676",
+  "sha1": "b9dfad01d8e3ea0d4ffad08c09b25c710eb647bc",
+  "format": "docx",
+  "raw_text_length": 893,
+  "masked_text": "RESUME\nName: Kevin Garcia\nDOB: 1989 (age 37)\nGender: Female\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seoul, Mapo-gu\nApplying for: Backend Engineer (JD001)\nEDUCATION\n- Tsinghua University, B.S. in Design (GPA 3.87/4.0)\nEXPERIENCE\n- Uber (2021.03 - 2023.02)\n  Role: Software Engineer\n- 기아 (2022.03 - 2023.02)\n  Role: Senior Engineer\n- 넷마블 (2023.03 - 2026.02)\n  Role: Software Engineer\nPROJECTS\n- Introduced Redis cache layer achieving 94% hit rate, reduced DB load by 60%.\n- Redesigned order API serving 30M DAU. Spring Boot + Kafka async pipeline reduced P95 latency from 420ms to 120ms.\n- Led MSA migration, split monolith into 8 domain services with gRPC.\nSKILLS\n- Kafka, AWS, Java, Redis\nSUMMARY\nI am a Backend Engineer with 5 years of experience, specializing in Kafka-based systems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "python-docx",
+  "ok": true,
+  "error": null
+}

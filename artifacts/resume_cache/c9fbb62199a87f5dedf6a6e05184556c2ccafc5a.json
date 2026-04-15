@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0449",
+  "sha1": "c9fbb62199a87f5dedf6a6e05184556c2ccafc5a",
+  "format": "pdf",
+  "raw_text_length": 947,
+  "masked_text": "RESUME\nName: Olivia Wilson\nDOB: 1987 (age 39)\nGender: Male\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seoul, Gangnam-gu\nApplying for: Backend Engineer (JD001)\nEDUCATION\n- University of Washington, B.S. in Mathematics (GPA 3.02/4.0)\n- ETH Zurich, M.S. in Mathematics\nEXPERIENCE\n- nnn (2019.03 - 2021.02)\nRole: Software Engineer\n- nnnnn (2021.03 - 2024.02)\nRole: Tech Lead\n- LG CNS (2023.03 - 2026.02)\nRole: Software Engineer\nPROJECTS\n- Led MSA migration, split monolith into 8 domain services with gRPC.\n- Introduced Redis cache layer achieving 94% hit rate, reduced DB load by 60%.\n- Redesigned order API serving 30M DAU. Spring Boot + Kafka async pipeline reduced P95 lat\nency from 420ms to 120ms.\nSKILLS\n- Java, Redis, Microservices, AWS, MySQL\nSUMMARY\nI am a Backend Engineer with 7 years of experience, specializing in Java-based systems. I\nthrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0202",
+  "sha1": "86033ee24c4519e57a73d5edc6c48e61264f0a5a",
+  "format": "pdf",
+  "raw_text_length": 851,
+  "masked_text": "RESUME\nName: Andrew Thomas\nDOB: 1999 (age 27)\nGender: Female\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seattle, WA\nApplying for: Backend Engineer (JD001)\nEDUCATION\n- University of Tokyo, B.S. in Statistics (GPA 3.69/4.0)\nEXPERIENCE\n- nnnnn (2024.03 - 2026.02)\nRole: Manager\n- nnn (2025.03 - 2026.02)\nRole: Manager\nPROJECTS\n- Led MSA migration, split monolith into 8 domain services with gRPC.\n- Introduced Redis cache layer achieving 94% hit rate, reduced DB load by 60%.\n- Redesigned order API serving 30M DAU. Spring Boot + Kafka async pipeline reduced P95 lat\nency from 420ms to 120ms.\nSKILLS\n- Microservices, Kafka, Java, Spring Boot\nSUMMARY\nI am a Backend Engineer with 2 years of experience, specializing in Microservices-based sy\nstems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

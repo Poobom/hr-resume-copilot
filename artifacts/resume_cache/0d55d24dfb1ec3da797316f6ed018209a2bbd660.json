@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0236",
+  "sha1": "0d55d24dfb1ec3da797316f6ed018209a2bbd660",
+  "format": "docx",
+  "raw_text_length": 806,
+  "masked_text": "RESUME\nName: Joseph Lee\nDOB: 1996 (age 30)\nGender: Female\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Singapore\nApplying for: Backend Engineer (JD001)\nEDUCATION\n- University of Michigan, B.S. in Electrical Engineering (GPA 3.19/4.0)\nEXPERIENCE\n- 배달의민족 (2025.03 - 2026.02)\n  Role: Tech Lead\nPROJECTS\n- Redesigned order API serving 30M DAU. Spring Boot + Kafka async pipeline reduced P95 latency from 420ms to 120ms.\n- Led MSA migration, split monolith into 8 domain services with gRPC.\n- Introduced Redis cache layer achieving 94% hit rate, reduced DB load by 60%.\nSKILLS\n- Microservices, Kafka, Redis\nSUMMARY\nI am a Backend Engineer with 1 years of experience, specializing in Microservices-based systems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "python-docx",
+  "ok": true,
+  "error": null
+}

@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0484",
+  "sha1": "b20728b999c827203b05a78fab9f7aa3a091b05a",
+  "format": "pdf",
+  "raw_text_length": 831,
+  "masked_text": "RESUME\nName: Brian Martinez\nDOB: 1998 (age 28)\nGender: Male\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seoul, Mapo-gu\nApplying for: Security Engineer (JD012)\nEDUCATION\n- UC Berkeley, B.S. in Design (GPA 3.65/4.0)\nEXPERIENCE\n- 29CM (2018.03 - 2019.02)\nRole: Software Engineer\n- Google (2020.03 - 2023.02)\nRole: Senior Engineer\n- LGnnnn (2022.03 - 2023.02)\nRole: Tech Lead\nPROJECTS\n- Built SIEM system with 80 detection rules at 91% accuracy.\n- Conducted pentesting and vulnerability reporting across company services.\n- Led ISMS certification project covering 102 controls.\nSKILLS\n- Security Audit, ISMS, Cloud Security\nSUMMARY\nI am a Security Engineer with 8 years of experience, specializing in Security Audit-based\nsystems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

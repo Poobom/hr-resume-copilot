@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0341",
+  "sha1": "a1b8172d1c3b6cd55e7e6cbb8fd99f5592d495a5",
+  "format": "pdf",
+  "raw_text_length": 837,
+  "masked_text": "RESUME\nName: Daniel Cho\nDOB: 1995 (age 31)\nGender: Male\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seoul, Gangnam-gu\nApplying for: Machine Learning Engineer (JD004)\nEDUCATION\n- Georgia Tech, B.S. in Computer Science (GPA 3.55/4.0)\nEXPERIENCE\n- Twitter (2022.03 - 2024.02)\nRole: Tech Lead\n- LGnnnn (2023.03 - 2026.02)\nRole: Tech Lead\n- Oracle (2024.03 - 2026.02)\nRole: Senior Engineer\nPROJECTS\n- Built internal RAG chatbot with LangChain + Pinecone, 84% answer accuracy.\n- Improved recommender CTR by 12% via feature engineering and A/B testing.\n- Fine-tuned ViT image classifier to 92.4% accuracy.\nSKILLS\n- RAG, LLM, MLOps, Python\nSUMMARY\nI am a Machine Learning Engineer with 4 years of experience, specializing in RAG-based sys\ntems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

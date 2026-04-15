@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0570",
+  "sha1": "3bc7b1587df72bcbdb9a8bfec2deee9218b9a96d",
+  "format": "docx",
+  "raw_text_length": 799,
+  "masked_text": "RESUME\nName: Charles Jackson\nDOB: 1993 (age 33)\nGender: Male\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Singapore\nApplying for: Game Client Programmer (JD006)\nEDUCATION\n- MIT, B.S. in Data Science (GPA 3.2/4.0)\n- Carnegie Mellon University, M.S. in Data Science\nEXPERIENCE\n- 토스 (2025.03 - 2026.02)\n  Role: Manager\nPROJECTS\n- Implemented server-authoritative multiplayer combat replication.\n- Developed UE5 open-world client, built character customization system.\n- Optimized mobile RPG client for low-end devices, from 28fps to 58fps.\nSKILLS\n- C++, Optimization, Game Client, Unreal Engine\nSUMMARY\nI am a Game Client Programmer with 1 years of experience, specializing in C++-based systems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "python-docx",
+  "ok": true,
+  "error": null
+}

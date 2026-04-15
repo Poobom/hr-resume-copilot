@@ -1,0 +1,23 @@
+{
+  "resume_id": "resume_0608",
+  "sha1": "7d677695f89ecbe343be585a5b027212d4fcad07",
+  "format": "pdf",
+  "raw_text_length": 646,
+  "masked_text": "[MASK_NAME]\n이름: [MASK_NAME]\n생년월일: 1991년생 ([FILTERED])\n[FILTERED]\n연락처: [MASK_PHONE]\n이메일: 허선우215@naver.com\n거주지: [MASK_ADDR]\n지원 포지션: QA 엔지니어 (JD008)\n■ 학력\n- POSTECH 경제학과 학사 (GPA 3.23/4.5)\n- [FILTERED] 대학원 경제학과 석사\n■ 경력\n- 배달의민족 (2021.03 ~ 2023.02)\n직책: 시니어 엔지니어\n- 젠지 이스포츠 (2022.03 ~ 2025.02)\n직책: 시니어 엔지니어\n- 쿠팡 (2023.03 ~ 2025.02)\n직책: 주니어 엔지니어\n■ 주요 프로젝트\n- Playwright 기반 E2E 테스트 프레임워크 구축. 회귀 테스트 수동 3일 → 자동 2시간.\n- 성능 테스트 자동화. JMeter 기반 부하 테스트 파이프라인 구축.\n- 게임 QA 프로세스 표준화. 리그레션 시트 및 버그 트리아지 룰 수립.\n■ 보유 기술\n- 게임 QA, Selenium, 버그 리포트\n■ 자기소개\n저는 5년차 QA 엔지니어로서 실무에서 꾸준히 성과를 만들어왔습니다. 특히 게임 QA 기반 시스템 설계와 운영에 강점이 있으며, 최근에는 대규모 트래픽 환경에서의\n안정적 서비스 운영에 관심을 갖고 있습니다. 동료들과의 협업을 통해 더 나은 제품을 만드는 일에 보람을 느낍니다.",
+  "pii_fields_separated": {
+    "education": [
+      "충남대학교"
+    ],
+    "age": [
+      "만 35세"
+    ],
+    "gender": [
+      "성별: 여"
+    ],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

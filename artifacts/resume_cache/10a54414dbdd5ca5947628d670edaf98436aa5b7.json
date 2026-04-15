@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0155",
+  "sha1": "10a54414dbdd5ca5947628d670edaf98436aa5b7",
+  "format": "pdf",
+  "raw_text_length": 808,
+  "masked_text": "RESUME\nName: William Rodriguez\nDOB: 2000 (age 26)\nGender: Female\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seoul, Gangnam-gu\nApplying for: Backend Engineer (JD001)\nEDUCATION\n- UC Berkeley, B.S. in Economics (GPA 3.31/4.0)\nEXPERIENCE\n- nnn (2025.03 - 2026.02)\nRole: Senior Engineer\nPROJECTS\n- Led MSA migration, split monolith into 8 domain services with gRPC.\n- Introduced Redis cache layer achieving 94% hit rate, reduced DB load by 60%.\n- Redesigned order API serving 30M DAU. Spring Boot + Kafka async pipeline reduced P95 lat\nency from 420ms to 120ms.\nSKILLS\n- Spring Boot, AWS, Java, MySQL\nSUMMARY\nI am a Backend Engineer with 1 years of experience, specializing in Spring Boot-based syst\nems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

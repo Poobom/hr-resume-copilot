@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0716",
+  "sha1": "a33616cdcafdb20a2297a374fbd4015c42c7d0f3",
+  "format": "pdf",
+  "raw_text_length": 921,
+  "masked_text": "RESUME\nName: Daniel Cho\nDOB: 1989 (age 37)\nGender: Male\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seongnam-si, Bundang-gu\nApplying for: Security Engineer (JD012)\nEDUCATION\n- Peking University, B.S. in Electrical Engineering (GPA 3.19/4.0)\n- University of Washington, M.S. in Electrical Engineering\nEXPERIENCE\n- Twitter (2020.03 - 2022.02)\nRole: Senior Engineer\n- Airbnb (2022.03 - 2023.02)\nRole: Senior Engineer\n- nn nnnn (2024.03 - 2026.02)\nRole: Tech Lead\nPROJECTS\n- Led ISMS certification project covering 102 controls.\n- Built SIEM system with 80 detection rules at 91% accuracy.\n- Conducted pentesting and vulnerability reporting across company services.\nSKILLS\n- Security Audit, Pentesting, Cloud Security\nSUMMARY\nI am a Security Engineer with 6 years of experience, specializing in Security Audit-based\nsystems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

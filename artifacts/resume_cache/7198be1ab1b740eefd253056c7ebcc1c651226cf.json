@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0296",
+  "sha1": "7198be1ab1b740eefd253056c7ebcc1c651226cf",
+  "format": "pdf",
+  "raw_text_length": 860,
+  "masked_text": "RESUME\nName: Mia Moore\nDOB: 1996 (age 30)\nGender: Female\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Singapore\nApplying for: Machine Learning Engineer (JD004)\nEDUCATION\n- University of Illinois Urbana-Champaign, B.S. in Mathematics (GPA 3.86/4.0)\nEXPERIENCE\n- nn (2022.03 - 2025.02)\nRole: Tech Lead\n- nn (2023.03 - 2026.02)\nRole: Software Engineer\n- nnnn (2024.03 - 2026.02)\nRole: Software Engineer\nPROJECTS\n- Fine-tuned ViT image classifier to 92.4% accuracy.\n- Built internal RAG chatbot with LangChain + Pinecone, 84% answer accuracy.\n- Improved recommender CTR by 12% via feature engineering and A/B testing.\nSKILLS\n- MLOps, Python, LLM, PyTorch, RAG\nSUMMARY\nI am a Machine Learning Engineer with 4 years of experience, specializing in MLOps-based s\nystems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

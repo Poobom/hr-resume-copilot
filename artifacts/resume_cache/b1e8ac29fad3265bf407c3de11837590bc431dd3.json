@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0730",
+  "sha1": "b1e8ac29fad3265bf407c3de11837590bc431dd3",
+  "format": "pdf",
+  "raw_text_length": 938,
+  "masked_text": "RESUME\nName: William Choi\nDOB: 1985 (age 41)\nGender: Female\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Toronto, Canada\nApplying for: Frontend Engineer (JD002)\nEDUCATION\n- Stanford University, B.S. in Software Engineering (GPA 3.68/4.0)\n- NTU Singapore, M.S. in Software Engineering\nEXPERIENCE\n- nn (2021.03 - 2023.02)\nRole: Senior Engineer\n- nnnnnn (2022.03 - 2025.02)\nRole: Software Engineer\n- nnnn (2023.03 - 2024.02)\nRole: Manager\nPROJECTS\n- Built 40+ design system components with Storybook and Chromatic visual regression.\n- Migrated state management to React Query, reducing bundle size by 32%.\n- Built Next.js admin console from scratch. SSR/ISR reduced LCP from 4.2s to 1.8s.\nSKILLS\n- TypeScript, Next.js, State Management\nSUMMARY\nI am a Frontend Engineer with 5 years of experience, specializing in TypeScript-based syst\nems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0408",
+  "sha1": "12352b1587e0ad71e1dfc693f3cdf984d7ca5e31",
+  "format": "pdf",
+  "raw_text_length": 762,
+  "masked_text": "RESUME\nName: Michael Kim\nDOB: 1999 (age 27)\nGender: Male\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seattle, WA\nApplying for: UX Designer (JD010)\nEDUCATION\n- Carnegie Mellon University, B.S. in Economics (GPA 3.32/4.0)\nEXPERIENCE\n- nnnn (2025.03 - 2026.02)\nRole: Software Engineer\nPROJECTS\n- Redesigned design system with Atomic structure, cut design QA time by 70%.\n- Conducted 40+ UX research sessions, insights informed product roadmap.\n- Led full app redesign, user NPS improved from 34 to 58.\nSKILLS\n- Interaction Design, Design System, UX Research\nSUMMARY\nI am a UX Designer with 1 years of experience, specializing in Interaction Design-based sy\nstems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

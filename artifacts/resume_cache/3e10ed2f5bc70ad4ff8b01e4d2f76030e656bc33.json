@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0325",
+  "sha1": "3e10ed2f5bc70ad4ff8b01e4d2f76030e656bc33",
+  "format": "docx",
+  "raw_text_length": 843,
+  "masked_text": "RESUME\nName: Olivia Davis\nDOB: 1999 (age 27)\nGender: Male\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Toronto, Canada\nApplying for: UX Designer (JD010)\nEDUCATION\n- University of Washington, B.S. in Economics (GPA 3.16/4.0)\nEXPERIENCE\n- 당근마켓 (2019.03 - 2022.02)\n  Role: Manager\n- 라인플러스 (2021.03 - 2023.02)\n  Role: Software Engineer\n- 직방 (2023.03 - 2024.02)\n  Role: Tech Lead\nPROJECTS\n- Redesigned design system with Atomic structure, cut design QA time by 70%.\n- Conducted 40+ UX research sessions, insights informed product roadmap.\n- Led full app redesign, user NPS improved from 34 to 58.\nSKILLS\n- Design System, Interaction Design, Figma\nSUMMARY\nI am a UX Designer with 7 years of experience, specializing in Design System-based systems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "python-docx",
+  "ok": true,
+  "error": null
+}

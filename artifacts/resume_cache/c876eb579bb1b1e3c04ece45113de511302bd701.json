@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0567",
+  "sha1": "c876eb579bb1b1e3c04ece45113de511302bd701",
+  "format": "pdf",
+  "raw_text_length": 939,
+  "masked_text": "RESUME\nName: William Martin\nDOB: 1987 (age 39)\nGender: Female\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seongnam-si, Bundang-gu\nApplying for: Backend Engineer (JD001)\nEDUCATION\n- Cornell University, B.S. in Industrial Engineering (GPA 3.92/4.0)\nEXPERIENCE\n- nnnnn (2022.03 - 2025.02)\nRole: Software Engineer\n- nn (2023.03 - 2025.02)\nRole: Senior Engineer\n- Salesforce (2024.03 - 2025.02)\nRole: Manager\nPROJECTS\n- Introduced Redis cache layer achieving 94% hit rate, reduced DB load by 60%.\n- Redesigned order API serving 30M DAU. Spring Boot + Kafka async pipeline reduced P95 lat\nency from 420ms to 120ms.\n- Led MSA migration, split monolith into 8 domain services with gRPC.\nSKILLS\n- Microservices, Redis, Java, Kafka, MySQL\nSUMMARY\nI am a Backend Engineer with 4 years of experience, specializing in Microservices-based sy\nstems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

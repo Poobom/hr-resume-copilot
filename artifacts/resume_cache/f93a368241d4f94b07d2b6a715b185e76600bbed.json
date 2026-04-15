@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0507",
+  "sha1": "f93a368241d4f94b07d2b6a715b185e76600bbed",
+  "format": "pdf",
+  "raw_text_length": 806,
+  "masked_text": "RESUME\nName: William Han\nDOB: 1988 (age 38)\nGender: Male\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: San Jose, CA\nApplying for: Game Client Programmer (JD006)\nEDUCATION\n- University of Waterloo, B.S. in Design (GPA 3.34/4.0)\n- Stanford University, M.S. in Design\nEXPERIENCE\n- Uber (2025.03 - 2026.02)\nRole: Tech Lead\nPROJECTS\n- Developed UE5 open-world client, built character customization system.\n- Implemented server-authoritative multiplayer combat replication.\n- Optimized mobile RPG client for low-end devices, from 28fps to 58fps.\nSKILLS\n- Optimization, C++, Game Client, Unreal Engine\nSUMMARY\nI am a Game Client Programmer with 1 years of experience, specializing in Optimization-bas\ned systems. I thrive on delivering measurable impact through cross-functional collaboratio\nn.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

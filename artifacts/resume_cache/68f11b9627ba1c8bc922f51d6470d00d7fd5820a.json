@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0476",
+  "sha1": "68f11b9627ba1c8bc922f51d6470d00d7fd5820a",
+  "format": "pdf",
+  "raw_text_length": 776,
+  "masked_text": "RESUME\nName: Jessica Taylor\nDOB: 1996 (age 30)\nGender: Male\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seoul, Mapo-gu\nApplying for: QA Engineer (JD008)\nEDUCATION\n- Peking University, B.S. in Mathematics (GPA 3.59/4.0)\nEXPERIENCE\n- Salesforce (2025.03 - 2026.02)\nRole: Senior Engineer\nPROJECTS\n- Automated performance testing with JMeter-based load pipeline.\n- Built Playwright E2E framework, reduced regression testing from 3 days manual to 2 hours\nautomated.\n- Standardized game QA process with regression sheets and bug triage rules.\nSKILLS\n- Selenium, Bug Report, Game QA\nSUMMARY\nI am a QA Engineer with 1 years of experience, specializing in Selenium-based systems. I t\nhrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0305",
+  "sha1": "52e416a1fa031472a6d5c3123a0817e06c39991f",
+  "format": "pdf",
+  "raw_text_length": 863,
+  "masked_text": "RESUME\nName: Charles Park\nDOB: 1997 (age 29)\nGender: Female\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Toronto, Canada\nApplying for: QA Engineer (JD008)\nEDUCATION\n- University of Illinois Urbana-Champaign, B.S. in Economics (GPA 3.32/4.0)\nEXPERIENCE\n- nn nnnn (2024.03 - 2025.02)\nRole: Tech Lead\n- Airbnb (2025.03 - 2026.02)\nRole: Software Engineer\nPROJECTS\n- Built Playwright E2E framework, reduced regression testing from 3 days manual to 2 hours\nautomated.\n- Automated performance testing with JMeter-based load pipeline.\n- Standardized game QA process with regression sheets and bug triage rules.\nSKILLS\n- Test Automation, Bug Report, Selenium, Game QA\nSUMMARY\nI am a QA Engineer with 2 years of experience, specializing in Test Automation-based syste\nms. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

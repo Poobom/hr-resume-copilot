@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0387",
+  "sha1": "50c0dfdd4863a3e5daa00ce36e28f430e4ce7edf",
+  "format": "pdf",
+  "raw_text_length": 889,
+  "masked_text": "RESUME\nName: Olivia Thomas\nDOB: 1985 (age 41)\nGender: Female\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: San Jose, CA\nApplying for: QA Engineer (JD008)\nEDUCATION\n- NUS, B.S. in Design (GPA 3.8/4.0)\n- Carnegie Mellon University, M.S. in Design\nEXPERIENCE\n- Oracle (2020.03 - 2021.02)\nRole: Tech Lead\n- nnnnn (2022.03 - 2024.02)\nRole: Manager\n- SAP (2024.03 - 2026.02)\nRole: Software Engineer\nPROJECTS\n- Automated performance testing with JMeter-based load pipeline.\n- Standardized game QA process with regression sheets and bug triage rules.\n- Built Playwright E2E framework, reduced regression testing from 3 days manual to 2 hours\nautomated.\nSKILLS\n- Bug Report, Game QA, Test Automation\nSUMMARY\nI am a QA Engineer with 6 years of experience, specializing in Bug Report-based systems. I\nthrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

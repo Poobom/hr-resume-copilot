@@ -1,0 +1,21 @@
+{
+  "resume_id": "resume_0559",
+  "sha1": "4b24ce058c349da4e0069a63b3fa34524ad5de57",
+  "format": "hwp",
+  "raw_text_length": 654,
+  "masked_text": "[MASK_NAME]\n이름: [MASK_NAME]\n생년월일: 1998년생 ([FILTERED])\n[FILTERED]\n연락처: [MASK_PHONE]\n이메일: 김시현6541@yahoo.com\n거주지: [MASK_ADDR]\n\n지원 포지션: 백엔드 엔지니어 (JD001)\n\n■ 학력\n- KAIST 컴퓨터공학과 학사 (GPA 3.77/4.5)\n\n■ 경력\n- KT (2024.03 ~ 2026.02)\n  직책: 매니저\n- 삼성전자 (2025.03 ~ 2026.02)\n  직책: 테크 리드\n\n■ 주요 프로젝트\n- MSA 전환 프로젝트 리드. 모놀리스 서비스를 8개 도메인 서비스로 분리, gRPC 통신 도입.\n- 일 3000만 DAU 서비스의 주문 API 재설계. Spring Boot + Kafka 기반 비동기 파이프라인으로 전환하여 응답 시간 P95 420ms → 120ms 개선.\n- Redis 캐시 레이어 도입 및 히트율 94% 달성. DB 부하 60% 감소.\n\n■ 보유 기술\n- Java, Spring Boot, Redis, MSA\n\n■ 자기소개\n저는 2년차 백엔드 엔지니어로서 실무에서 꾸준히 성과를 만들어왔습니다. 특히 Java 기반 시스템 설계와 운영에 강점이 있으며, 최근에는 대규모 트래픽 환경에서의 안정적 서비스 운영에 관심을 갖고 있습니다. 동료들과의 협업을 통해 더 나은 제품을 만드는 일에 보람을 느낍니다.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [
+      "만 28세"
+    ],
+    "gender": [
+      "성별: 여"
+    ],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "hwpx-zip",
+  "ok": true,
+  "error": null
+}

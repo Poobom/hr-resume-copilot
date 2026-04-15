@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0761",
+  "sha1": "6a66849ba0aba1fd46cf0d8f3ee159f33dbedee7",
+  "format": "pdf",
+  "raw_text_length": 842,
+  "masked_text": "RESUME\nName: Daniel Moore\nDOB: 1993 (age 33)\nGender: Male\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: San Jose, CA\nApplying for: Security Engineer (JD012)\nEDUCATION\n- NUS, B.S. in Electrical Engineering (GPA 3.24/4.0)\nEXPERIENCE\n- nn (2020.03 - 2022.02)\nRole: Software Engineer\n- nnnn (2022.03 - 2023.02)\nRole: Software Engineer\n- nnnnn (2024.03 - 2026.02)\nRole: Manager\nPROJECTS\n- Built SIEM system with 80 detection rules at 91% accuracy.\n- Led ISMS certification project covering 102 controls.\n- Conducted pentesting and vulnerability reporting across company services.\nSKILLS\n- Cloud Security, Pentesting, ISMS, Security Audit\nSUMMARY\nI am a Security Engineer with 6 years of experience, specializing in Cloud Security-based\nsystems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

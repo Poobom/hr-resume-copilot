@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0746",
+  "sha1": "3ec81e9be69d5911830dc299b6604c70d39209be",
+  "format": "docx",
+  "raw_text_length": 750,
+  "masked_text": "RESUME\nName: William Martinez\nDOB: 1995 (age 31)\nGender: Female\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Toronto, Canada\nApplying for: Data Engineer (JD003)\nEDUCATION\n- NTU Singapore, B.S. in Data Science (GPA 3.72/4.0)\nEXPERIENCE\n- Spotify (2025.03 - 2026.02)\n  Role: Tech Lead\nPROJECTS\n- Designed Airflow pipeline processing 200GB/day with 99.5% SLA.\n- Built Spark Streaming real-time aggregation, reducing latency from 5min to 30s.\n- Led BigQuery migration, cut query cost from $27k to $9k monthly.\nSKILLS\n- BigQuery, Airflow, Python, ETL\nSUMMARY\nI am a Data Engineer with 1 years of experience, specializing in BigQuery-based systems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "python-docx",
+  "ok": true,
+  "error": null
+}

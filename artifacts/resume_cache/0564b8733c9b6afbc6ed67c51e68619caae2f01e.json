@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0451",
+  "sha1": "0564b8733c9b6afbc6ed67c51e68619caae2f01e",
+  "format": "docx",
+  "raw_text_length": 909,
+  "masked_text": "RESUME\nName: Lucas Martin\nDOB: 1994 (age 32)\nGender: Male\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: San Jose, CA\nApplying for: Backend Engineer (JD001)\nEDUCATION\n- MIT, B.S. in Artificial Intelligence (GPA 3.68/4.0)\nEXPERIENCE\n- 카카오게임즈 (2022.03 - 2025.02)\n  Role: Senior Engineer\n- LG유플러스 (2023.03 - 2026.02)\n  Role: Tech Lead\n- Samsung Research America (2024.03 - 2026.02)\n  Role: Software Engineer\nPROJECTS\n- Introduced Redis cache layer achieving 94% hit rate, reduced DB load by 60%.\n- Led MSA migration, split monolith into 8 domain services with gRPC.\n- Redesigned order API serving 30M DAU. Spring Boot + Kafka async pipeline reduced P95 latency from 420ms to 120ms.\nSKILLS\n- Kafka, Spring Boot, MySQL\nSUMMARY\nI am a Backend Engineer with 4 years of experience, specializing in Kafka-based systems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "python-docx",
+  "ok": true,
+  "error": null
+}

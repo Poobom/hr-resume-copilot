@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0081",
+  "sha1": "bbe06d2979099ccc6941266a731a69f3a6e90e23",
+  "format": "pdf",
+  "raw_text_length": 911,
+  "masked_text": "RESUME\nName: Amanda Cho\nDOB: 1989 (age 37)\nGender: Male\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seattle, WA\nApplying for: QA Engineer (JD008)\nEDUCATION\n- University of Washington, B.S. in Software Engineering (GPA 3.1/4.0)\n- University of Illinois Urbana-Champaign, M.S. in Software Engineering\nEXPERIENCE\n- Oracle (2023.03 - 2026.02)\nRole: Manager\n- Intel (2024.03 - 2026.02)\nRole: Software Engineer\nPROJECTS\n- Standardized game QA process with regression sheets and bug triage rules.\n- Automated performance testing with JMeter-based load pipeline.\n- Built Playwright E2E framework, reduced regression testing from 3 days manual to 2 hours\nautomated.\nSKILLS\n- Selenium, Bug Report, Test Automation, Game QA\nSUMMARY\nI am a QA Engineer with 3 years of experience, specializing in Selenium-based systems. I t\nhrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

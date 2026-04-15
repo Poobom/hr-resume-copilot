@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0215",
+  "sha1": "e1bc43eda1c710c4b2049eff24f2d98bfc5c4479",
+  "format": "pdf",
+  "raw_text_length": 854,
+  "masked_text": "RESUME\nName: Sophia Brown\nDOB: 1996 (age 30)\nGender: Male\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seongnam-si, Bundang-gu\nApplying for: Game Server Programmer (JD007)\nEDUCATION\n- Carnegie Mellon University, B.S. in Data Science (GPA 3.72/4.0)\nEXPERIENCE\n- SAP (2022.03 - 2024.02)\nRole: Software Engineer\n- nn (2023.03 - 2024.02)\nRole: Software Engineer\n- Spotify (2024.03 - 2026.02)\nRole: Manager\nPROJECTS\n- Rebuilt game log pipeline on Kafka.\n- MMORPG server development, validated for 50k concurrent sessions.\n- Redesigned matchmaking with Elo-based algorithm, improved match quality by 18%.\nSKILLS\n- C++, Network, Game Server, DB Optimization\nSUMMARY\nI am a Game Server Programmer with 4 years of experience, specializing in C++-based system\ns. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

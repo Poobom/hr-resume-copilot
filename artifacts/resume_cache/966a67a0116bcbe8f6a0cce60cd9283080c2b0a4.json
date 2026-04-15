@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0368",
+  "sha1": "966a67a0116bcbe8f6a0cce60cd9283080c2b0a4",
+  "format": "pdf",
+  "raw_text_length": 850,
+  "masked_text": "RESUME  \nName: John Thomas  \nDOB: 1997 (age 29)  \nGender: Female  \nPhone: +1-[MASK_PHONE]  \nEmail: [MASK_EMAIL]  \nLocation: Singapore  \n\nApplying for: QA Engineer (JD008)  \n\nEDUCATION  \n- NUS, B.S. in Design (GPA 3.92/4.0)  \n\nEXPERIENCE  \n- Tesla (2023.03 - 2025.02)  \nRole: Tech Lead  \n- 삼성전자 (2024.03 - 2026.02)  \nRole: Tech Lead  \n\nPROJECTS  \n- Built Playwright E2E framework, reduced regression testing from 3 days manual to 2 hours automated.  \n- Automated performance testing with JMeter-based load pipeline.  \n- Standardized game QA process with regression sheets and bug triage rules.  \n\nSKILLS  \n- Bug Report, Game QA, Test Automation, Selenium  \n\nSUMMARY  \nI am a QA Engineer with 3 years of experience, specializing in Bug Report-based systems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "vision",
+  "ok": true,
+  "error": null
+}

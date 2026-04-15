@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0574",
+  "sha1": "769f8838117314a87cf872607fdb58938bc8bef0",
+  "format": "pdf",
+  "raw_text_length": 894,
+  "masked_text": "RESUME\nName: Sarah Lee\nDOB: 1986 (age 40)\nGender: Female\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seoul, Gangnam-gu\nApplying for: Machine Learning Engineer (JD004)\nEDUCATION\n- University of Tokyo, B.S. in Electrical Engineering (GPA 3.05/4.0)\n- ETH Zurich, M.S. in Electrical Engineering\nEXPERIENCE\n- nnnn (2020.03 - 2022.02)\nRole: Senior Engineer\n- nnnnnn (2022.03 - 2025.02)\nRole: Manager\n- Tesla (2024.03 - 2026.02)\nRole: Software Engineer\nPROJECTS\n- Fine-tuned ViT image classifier to 92.4% accuracy.\n- Improved recommender CTR by 12% via feature engineering and A/B testing.\n- Built internal RAG chatbot with LangChain + Pinecone, 84% answer accuracy.\nSKILLS\n- LLM, Python, PyTorch\nSUMMARY\nI am a Machine Learning Engineer with 6 years of experience, specializing in LLM-based sys\ntems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

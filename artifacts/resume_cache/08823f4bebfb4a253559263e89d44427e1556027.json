@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0738",
+  "sha1": "08823f4bebfb4a253559263e89d44427e1556027",
+  "format": "pdf",
+  "raw_text_length": 852,
+  "masked_text": "RESUME\nName: Olivia Rodriguez\nDOB: 1994 (age 32)\nGender: Male\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seongnam-si, Bundang-gu\nApplying for: Backend Engineer (JD001)\nEDUCATION\n- Peking University, B.S. in Design (GPA 3.55/4.0)\nEXPERIENCE\n- Samsung Research America (2023.03 - 2026.02)\nRole: Manager\n- nnnnnn (2024.03 - 2026.02)\nRole: Manager\nPROJECTS\n- Redesigned order API serving 30M DAU. Spring Boot + Kafka async pipeline reduced P95 lat\nency from 420ms to 120ms.\n- Introduced Redis cache layer achieving 94% hit rate, reduced DB load by 60%.\n- Led MSA migration, split monolith into 8 domain services with gRPC.\nSKILLS\n- Kafka, MySQL, Redis\nSUMMARY\nI am a Backend Engineer with 3 years of experience, specializing in Kafka-based systems. I\nthrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

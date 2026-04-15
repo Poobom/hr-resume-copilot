@@ -1,0 +1,23 @@
+{
+  "resume_id": "resume_0150",
+  "sha1": "ae03de0f383229eb386b03a57665f3a9a617e4fe",
+  "format": "pdf",
+  "raw_text_length": 647,
+  "masked_text": "[MASK_NAME]\n이름: [MASK_NAME]  \n생년월일: 1997년생 ([FILTERED])  \n[FILTERED]  \n연락처: [MASK_PHONE]  \n이메일: 백우진1817@gmail.com  \n거주지: [MASK_ADDR]  \n\n지원 포지션: 게임 서버 프로그래머 (JD007)  \n[MASK_NAME]\n- [FILTERED] 학사 (GPA 3.93/4.5)  \n[MASK_NAME]\n- 스마트게이트 (2021.03 ~ 2022.02)  \n직책: 테크 리드  \n- 기아 (2022.03 ~ 2024.02)  \n직책: 매니저  \n- NHN (2023.03 ~ 2025.02)  \n직책: 시니어 엔지니어  \n\n주요 프로젝트  \n- 메타데이타 서비스 재설계. Tio 기반 알고리즘 도입으로 매장 품질 지표 18% 개선.  \n- MMORPG 서버 개발. 동시접속 5만 세션 처리 검증.  \n- 게임 로그 수집 파이프라인 Kafka 기반으로 재구축.  \n\n보유 기술  \n- DB 최적화, C++, 게임 서버, 네트워크  \n[MASK_NAME]\n저는 5년차 개인 서버 프로그래머로서 실무에서 꾸준히 성과를 만들어왔습니다. 특히 DB 최적화 기반 시스템 설계와 운영에 강점이 있으며, 최근에는 대규모 트래픽 환경에서의 안정적 서비스 운영에 관심을 갖고 있습니다. 동료들과의 협업을 통해 더 나은 제품을 만드는 일에 보람을 느낍니다.",
+  "pii_fields_separated": {
+    "education": [
+      "홍익대학교 컴퓨터학과"
+    ],
+    "age": [
+      "만 29세"
+    ],
+    "gender": [
+      "성별: 남"
+    ],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "vision",
+  "ok": true,
+  "error": null
+}

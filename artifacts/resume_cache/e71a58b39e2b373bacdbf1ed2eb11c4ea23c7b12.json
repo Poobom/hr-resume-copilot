@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0577",
+  "sha1": "e71a58b39e2b373bacdbf1ed2eb11c4ea23c7b12",
+  "format": "pdf",
+  "raw_text_length": 986,
+  "masked_text": "RESUME\nName: Matthew Williams\nDOB: 1987 (age 39)\nGender: Female\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Seongnam-si, Bundang-gu\nApplying for: Frontend Engineer (JD002)\nEDUCATION\n- Peking University, B.S. in Electrical Engineering (GPA 3.59/4.0)\n- University of Toronto, M.S. in Electrical Engineering\nEXPERIENCE\n- Dropbox (2021.03 - 2022.02)\nRole: Senior Engineer\n- Amazon (2022.03 - 2025.02)\nRole: Manager\n- nnnnn (2023.03 - 2026.02)\nRole: Tech Lead\nPROJECTS\n- Built 40+ design system components with Storybook and Chromatic visual regression.\n- Migrated state management to React Query, reducing bundle size by 32%.\n- Built Next.js admin console from scratch. SSR/ISR reduced LCP from 4.2s to 1.8s.\nSKILLS\n- TypeScript, State Management, Next.js, Web Performance, React\nSUMMARY\nI am a Frontend Engineer with 5 years of experience, specializing in TypeScript-based syst\nems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}

@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0459",
+  "sha1": "f00cc5512f50f378f329030f3768d1b5a5b7e229",
+  "format": "docx",
+  "raw_text_length": 920,
+  "masked_text": "RESUME\nName: Charles Johnson\nDOB: 1995 (age 31)\nGender: Male\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Toronto, Canada\nApplying for: Business Development Manager (JD011)\nEDUCATION\n- Georgia Tech, B.S. in Software Engineering (GPA 3.37/4.0)\n- University of Washington, M.S. in Software Engineering\nEXPERIENCE\n- 넥슨 (2017.03 - 2019.02)\n  Role: Tech Lead\n- 비바리퍼블리카 (2020.03 - 2022.02)\n  Role: Tech Lead\n- KT (2023.03 - 2024.02)\n  Role: Tech Lead\nPROJECTS\n- Led new IP licensing negotiations, expanded to 8 countries.\n- Closed partnerships with 3 global publishers, contributing $10M annual revenue.\n- Developed market entry strategy, led SEA launch project.\nSKILLS\n- Partnership, Negotiation, Strategy\nSUMMARY\nI am a Business Development Manager with 9 years of experience, specializing in Partnership-based systems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "python-docx",
+  "ok": true,
+  "error": null
+}

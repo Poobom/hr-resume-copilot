@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0566",
+  "sha1": "b801ad477d0e5d40a3a369f4c889bec94559f973",
+  "format": "docx",
+  "raw_text_length": 872,
+  "masked_text": "RESUME\nName: Lucas Brown\nDOB: 1990 (age 36)\nGender: Female\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Toronto, Canada\nApplying for: Backend Engineer (JD001)\nEDUCATION\n- University of Michigan, B.S. in Industrial Engineering (GPA 3.89/4.0)\nEXPERIENCE\n- 29CM (2024.03 - 2026.02)\n  Role: Tech Lead\n- 컴투스 (2025.03 - 2026.02)\n  Role: Tech Lead\nPROJECTS\n- Redesigned order API serving 30M DAU. Spring Boot + Kafka async pipeline reduced P95 latency from 420ms to 120ms.\n- Led MSA migration, split monolith into 8 domain services with gRPC.\n- Introduced Redis cache layer achieving 94% hit rate, reduced DB load by 60%.\nSKILLS\n- Spring Boot, Kafka, Microservices, Redis, AWS\nSUMMARY\nI am a Backend Engineer with 2 years of experience, specializing in Spring Boot-based systems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "python-docx",
+  "ok": true,
+  "error": null
+}

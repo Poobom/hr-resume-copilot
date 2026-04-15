@@ -1,0 +1,17 @@
+{
+  "resume_id": "resume_0682",
+  "sha1": "1d91baae9795c1ebb855d56e59f3ec79ba9516d3",
+  "format": "pdf",
+  "raw_text_length": 778,
+  "masked_text": "RESUME\nName: Thomas Choi\nDOB: 1986 (age 40)\nGender: Female\nPhone: +1-[MASK_PHONE]\nEmail: [MASK_EMAIL]\nLocation: Singapore\nApplying for: Frontend Engineer (JD002)\nEDUCATION\n- NUS, B.S. in Data Science (GPA 3.47/4.0)\nEXPERIENCE\n- nnnnn (2025.03 - 2026.02)\nRole: Manager\nPROJECTS\n- Built Next.js admin console from scratch. SSR/ISR reduced LCP from 4.2s to 1.8s.\n- Migrated state management to React Query, reducing bundle size by 32%.\n- Built 40+ design system components with Storybook and Chromatic visual regression.\nSKILLS\n- TypeScript, Next.js, Web Performance, State Management\nSUMMARY\nI am a Frontend Engineer with 1 years of experience, specializing in TypeScript-based syst\nems. I thrive on delivering measurable impact through cross-functional collaboration.",
+  "pii_fields_separated": {
+    "education": [],
+    "age": [],
+    "gender": [],
+    "photo": [],
+    "hometown": []
+  },
+  "extraction_method": "pdfplumber",
+  "ok": true,
+  "error": null
+}
