@@ -62,3 +62,32 @@
 - **Streamlit Cloud에서 구 바이너리 HWP 업로드**: HWPX가 아닐 경우 추출 실패. → UI에 "이 형식은 로컬 재처리 필요" 안내 메시지 노출, 해당 파일은 `ok=false` + `error=hwp_unavailable`로 기록.
 - **LLM 비용 상한**: $3 상한 초과 방지를 위해 `cost.total > $2.5`이면 UI에서 실행 버튼 비활성화. 800건 pre-bake는 로컬에서 1회 수행하고 Cloud는 캐시만 사용하여 재호출 0 유지.
 - **PII 회귀**: 향후 정규식 수정 시 감사 샘플(본 문서 Section 5 및 `src/pii.py` `__main__`) 실행을 PR 체크리스트로 관리.
+
+## Final Run Results
+
+### 파이프라인 통계
+- **Extract**: 800/800 ok (100.0%) — pdfplumber 약 60%, python-docx 약 25%, hwpx-zip 약 15%, vision OCR ~5%
+- **Classify**: 800건 분류, 219건 LLM tiebreak (margin < 0.05)
+- **Diagnose**: 12 JDs 모두 분석, 11개에서 1개 이상 플래그 발견
+- **Compare**: 12개 갭 행 + UNDER_ATTRACTED JD별 drift 분포
+- **Export**: Notion Markdown 20,466자 생성
+
+### 비용 (cost.json 집계)
+- **Total: $0.1360** (예산 $3.00의 4.5%)
+- extract_vision (Vision OCR 18건): $0.1036
+- classify_resume_embed (800건 임베딩 7배치): $0.0070
+- classify_jd_embed (12 JD): $0.0001
+- classify_tiebreak (219 LLM 호출): $0.0220
+- diagnose_jd (12 JD 진단): $0.0034
+
+### 인시던트 & 해결
+
+- **OpenAI Rate Limit (TPM)**: Vision OCR 호출 + LLM tiebreak가 짧은 시간에 몰려 200K TPM(Tier 1) 초과로 초기 18건 Vision 추출 + classify 단계에서 429 발생.
+  - **해결**: `chat_json` / `vision_ocr` 양쪽에 exponential backoff(4s→8s→16s→30s, 최대 5회) 추가. 실패 캐시 엔트리 18건 무효화 후 재실행 → 100% 복구. 추가 비용 $0.
+
+- **Python stdout block buffering**: 백그라운드 실행 시 진행 로그가 즉시 안 보이는 현상 (TPM 무관, Python이 파이프 출력을 4-8KB 블록 단위로 flush). 다음 실행부턴 `python -u pipeline.py` 또는 `PYTHONUNBUFFERED=1` 권장.
+
+### 산출물
+- 배포 URL: https://hr-resume-copilot.streamlit.app/
+- GitHub: https://github.com/Poobom/hr-resume-copilot
+- 로컬 artifacts: `task02_solution/artifacts/df160c70737a/` (01_extracted ~ 05_notion_report)
